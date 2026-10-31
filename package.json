@@ -20,7 +20,7 @@
     "zod": "4.6.5"
   },
   "devDependencies": {
-    "mapshaper": "0.7.80"
+    "mapshaper": "0.7.101"
   },
   "engines": {
     "node": ">=20"
