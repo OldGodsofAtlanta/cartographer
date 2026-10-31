@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cartographer</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="app/style.css">
+</head>
+<body>
+  <aside id="panel"></aside>
+  <main id="stage-wrap">
+    <div id="stage">
+      <svg id="sheet" role="img" aria-label="Map sheet"></svg>
+    </div>
+    <footer id="bar">
+      <span id="status">Loading…</span>
+      <label>Display
+        <select id="display-scale">
+          <option value="fit">Fit</option>
+          <option value="1">Printed size</option>
+          <option value="2">200%</option>
+          <option value="4">400%</option>
+        </select>
+      </label>
+    </footer>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js" integrity="sha512-4UKI/XKm3xrvJ6pZS5oTRvIQGIzZFoXR71rRBb1y2N+PbwAsKa5tPl2J6WvbEvwN3TxQCm8hMzsl/pO+82iRlg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="app/main.js"></script>
+</body>
+</html>

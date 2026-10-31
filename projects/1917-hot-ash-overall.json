@@ -1,0 +1,75 @@
+{
+  "name": "1917-hot-ash-overall",
+  "chapter": "1917-hot-ash",
+  "year": 1917,
+  "month": 5,
+  "day": 21,
+  "title": "Old Fourth Ward",
+  "subtitle": "Hot Ash",
+  "dateline": "May 21, 1917",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 200
+  },
+  "view": {
+    "bounds": [
+      -84.383,
+      33.749,
+      -84.3585,
+      33.7775
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": false
+    },
+    "atlanta-blocks-1878": {
+      "visible": false
+    },
+    "atlanta-horsecars-1878": {
+      "visible": false
+    }
+  },
+  "hidden": []
+}

@@ -1,0 +1,127 @@
+{
+  "about": "Period names for Atlanta streets whose names changed before 1945, with the year each old name ended (exclusive: the old name is used for years before it). Applied to the 1878, 1911 and 1928 street layers by scripts/apply-street-renames.js, which adds a `names` list to each matching feature; the layer's labels then use the old name for years before `end`. Only changes a source dates, or places on a dated map, are here. date_quality: documented = a source gives the year of the change; approximate = the only evidence is that the old name was on a dated map ('last seen'), so `end` is the year after that map and the real change may have been later. Names in the 1928 layer are the names of 1928.",
+  "renames": [
+    {
+      "id": "wheat-street",
+      "match": "^Auburn Ave",
+      "layers": [
+        "1878",
+        "1911",
+        "1928"
+      ],
+      "names": [
+        {
+          "name": "Wheat Street",
+          "end": 1893
+        }
+      ],
+      "date_quality": "documented",
+      "source": "Wheat Street renamed Auburn Avenue at white petitioners' request, as of April 17, 1893 (Georgia Encyclopedia, 'Auburn Avenue'; Wikipedia 'List of former Atlanta street names', citing Garrett, Atlanta and Environs; canon/timeline.yml)"
+    },
+    {
+      "id": "north-collins-street",
+      "match": "^Courtland St( NE)?$",
+      "layers": [
+        "1878",
+        "1911",
+        "1928"
+      ],
+      "names": [
+        {
+          "name": "North Collins Street",
+          "end": 1886
+        }
+      ],
+      "date_quality": "documented",
+      "source": "North Collins Street renamed Courtland Street, as of September 20, 1886 (Wikipedia 'List of former Atlanta street names', citing Garrett). South Collins Street became Washington Street (no date given); Courtland St SE is left alone because it is not known to be the same street."
+    },
+    {
+      "id": "mcdonough-boulevard",
+      "match": "^Capitol Ave",
+      "layers": [
+        "1878",
+        "1911",
+        "1928"
+      ],
+      "names": [
+        {
+          "name": "McDonough Boulevard",
+          "end": 1885
+        }
+      ],
+      "date_quality": "documented",
+      "source": "McDonough Boulevard renamed Capitol Avenue; the page dates the current name to 1885 (Wikipedia 'List of former Atlanta street names', no citation). Not independently checked."
+    },
+    {
+      "id": "foster-street",
+      "match": "^Edgewood Ave",
+      "layers": [
+        "1878"
+      ],
+      "names": [
+        {
+          "name": "Foster Street",
+          "end": 1879
+        }
+      ],
+      "date_quality": "approximate",
+      "source": "'Foster St.' is the name marked on the 1878 map (Hopkins, Griffith and Morgan; Wikipedia 'List of former Atlanta street names'). When it became Edgewood Avenue is not given, so 1879 is 'the year after the map'. Which stretch of Edgewood was Foster Street is not stated; the whole street is relabelled."
+    },
+    {
+      "id": "mayson-avenue",
+      "match": "^Lindbergh Dr",
+      "layers": [
+        "1911",
+        "1928"
+      ],
+      "names": [
+        {
+          "name": "Mayson Avenue",
+          "end": 1927
+        }
+      ],
+      "date_quality": "documented",
+      "source": "Mayson Avenue renamed Lindbergh Drive, as of 1927 (Wikipedia 'List of former Atlanta street names', citing Garrett p. 833)"
+    },
+    {
+      "id": "carolina-avenue",
+      "match": "^Camilla St",
+      "layers": [
+        "1911",
+        "1928"
+      ],
+      "names": [
+        {
+          "name": "Carolina Avenue",
+          "end": 1912
+        }
+      ],
+      "date_quality": "approximate",
+      "source": "Carolina Avenue is the name on the 1911 Sanborn map (Wikipedia 'List of former Atlanta street names'); also lettered on the 1911 atlas page. When it became Camilla Street is not given, so 1912 is 'the year after the map'."
+    },
+    {
+      "id": "grove-street",
+      "match": "^Maiden Ln",
+      "layers": [
+        "1911",
+        "1928"
+      ],
+      "names": [
+        {
+          "name": "Grove Street",
+          "end": 1918
+        }
+      ],
+      "date_quality": "approximate",
+      "source": "Grove Street is the name on the 1917 Sanborn map (Wikipedia 'List of former Atlanta street names'). When it became Maiden Lane is not given, so 1918 is 'the year after the map'."
+    }
+  ],
+  "not_applied": [
+    "Entries Wikipedia dates only to 'the 1890s' or an 1895/1906 map without saying which name was where (Bleckley, Harrison, Downe, Center and Wilson to 10th-14th Streets; Atwood to West Peachtree; Centre to Peachtree Walk; Augusta to Cleburne and Seminole; Factory to Carroll): the 1878 layer has none of these streets and by 1911 all are renamed, so no map year needs them. The 1895 Exposition plan already letters Twelfth, Thirteenth and Fourteenth Streets.",
+    "Streets whose old names Wikipedia gives with no year (Peters to Trinity, Whitehall to Peachtree, Foundry and Luckie to Park Avenue West, the Collins/Haynes/Maple lists as of 1903): a year is needed to say which name a map year should use.",
+    "Boulevard (called Jefferson Street on the 1878 map and Rolling Mill Street from the late 1860s to about 1880, per Garrett): two names for overlapping spans, and which stretch was which is not given.",
+    "Kearsarge Avenue to Barnett and Williams Mill Road/Stillwood Avenue to Briarcliff Road: it is not clear which 1928 street names correspond.",
+    "Renamings after 1945 (Hunter to Martin Luther King Jr. Drive, Houston to John Wesley Dobbs Avenue, Butler to Jesse Hill Jr. Drive and the rest): the 1928 layer already carries the 1928 names.",
+    "The 1903 Atlanta Constitution list (data/street-names-1903.json): about 225 streets with former names but no years; used as `former_names_1903` on the street features, not for labels."
+  ]
+}

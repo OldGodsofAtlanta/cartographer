@@ -1,0 +1,72 @@
+{
+  "name": "1911-coal-oil-overall",
+  "chapter": "1911-coal-oil",
+  "year": 1911,
+  "month": 7,
+  "day": 1,
+  "title": "Coal Oil",
+  "subtitle": "",
+  "dateline": "1911",
+  "paper": {
+    "preset": "page",
+    "width": 10.875,
+    "height": 8.375,
+    "margin": 0.45,
+    "dpi": 200
+  },
+  "view": {
+    "bounds": [
+      -84.4224,
+      33.7207,
+      -84.3491,
+      33.7676
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "hidden": [
+    "black-neighborhoods:darktown",
+    "black-neighborhoods:pittsburg"
+  ]
+}

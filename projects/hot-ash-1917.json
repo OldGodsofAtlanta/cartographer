@@ -1,0 +1,34 @@
+{
+  "name": "hot-ash-1917",
+  "year": 1917,
+  "month": 5,
+  "day": 21,
+  "chapter": "1917-hot-ash",
+  "title": "The Fire of 1917",
+  "subtitle": "Old Fourth Ward",
+  "dateline": "May 21, 1917",
+  "view": {
+    "center": [
+      -84.379,
+      33.7625
+    ],
+    "denominator": 16000,
+    "projection": "local"
+  },
+  "backdrops": [
+    {
+      "id": "sanborn-key-plan-1917",
+      "opacity": 0.85,
+      "guide": false
+    }
+  ],
+  "layers": {
+    "atlanta-blocks-1878": {
+      "visible": false
+    },
+    "atlanta-streets": {
+      "visible": false
+    }
+  },
+  "theme": "survey"
+}

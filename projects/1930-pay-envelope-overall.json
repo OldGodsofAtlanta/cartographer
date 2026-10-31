@@ -1,0 +1,75 @@
+{
+  "name": "1930-pay-envelope-overall",
+  "chapter": "1930-pay-envelope",
+  "year": 1930,
+  "month": 9,
+  "day": 26,
+  "title": "Pay Envelope",
+  "subtitle": "",
+  "dateline": "September 1930",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -84.4089,
+      33.7222,
+      -84.3699,
+      33.7643
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": false
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-blocks-1878": {
+      "visible": false
+    },
+    "atlanta-horsecars-1878": {
+      "visible": false
+    }
+  },
+  "hidden": []
+}

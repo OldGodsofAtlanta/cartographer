@@ -1,0 +1,120 @@
+{
+ "name": "setting-guide-gulch",
+ "chapter": "0003-atlanta-setting-guide",
+ "year": 1911,
+ "title": "",
+ "subtitle": "",
+ "dateline": "",
+ "paper": {
+  "preset": "page",
+  "width": 3.6,
+  "height": 3.0,
+  "margin": 0,
+  "dpi": 300
+ },
+ "view": {
+  "center": [
+   -84.391,
+   33.753
+  ],
+  "denominator": 11000,
+  "projection": "local"
+ },
+ "theme": "survey",
+ "furniture": {
+  "title": {
+   "show": false
+  },
+  "legend": {
+   "show": false
+  },
+  "scalebar": {
+   "show": false
+  },
+  "compass": {
+   "show": false
+  },
+  "border": "none",
+  "graticule": "none",
+  "credits": false
+ },
+ "layers": {
+  "atlanta-streets": {
+   "visible": true,
+   "labels": false
+  },
+  "railroads-atlanta": {
+   "visible": true,
+   "labels": false
+  },
+  "waterways-atlanta": {
+   "visible": false
+  },
+  "atlanta-limits": {
+   "visible": false
+  },
+  "terrain-city": {
+   "visible": false
+  },
+  "canon-sites": {
+   "visible": false
+  }
+ },
+ "annotations": [
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.39,
+    33.755
+   ],
+   "text": "Five Points",
+   "style": "building",
+   "symbol": "dot",
+   "halo": true
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.389,
+    33.753
+   ],
+   "text": "Union Depot",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.396,
+    33.752
+   ],
+   "text": "Terminal Station",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.3906,
+    33.7538
+   ],
+   "text": "the gulch",
+   "style": "water",
+   "halo": true,
+   "size": 7
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.389,
+    33.749
+   ],
+   "text": "Capitol",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  }
+ ]
+}

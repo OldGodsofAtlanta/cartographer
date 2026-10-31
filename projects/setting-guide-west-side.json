@@ -1,0 +1,117 @@
+{
+ "name": "setting-guide-west-side",
+ "chapter": "0003-atlanta-setting-guide",
+ "year": 1911,
+ "title": "",
+ "subtitle": "",
+ "dateline": "",
+ "paper": {
+  "preset": "page",
+  "width": 3.6,
+  "height": 2.9,
+  "margin": 0,
+  "dpi": 300
+ },
+ "view": {
+  "center": [
+   -84.415,
+   33.748
+  ],
+  "denominator": 40000,
+  "projection": "local"
+ },
+ "theme": "survey",
+ "furniture": {
+  "title": {
+   "show": false
+  },
+  "legend": {
+   "show": false
+  },
+  "scalebar": {
+   "show": false
+  },
+  "compass": {
+   "show": false
+  },
+  "border": "none",
+  "graticule": "none",
+  "credits": false
+ },
+ "layers": {
+  "atlanta-streets": {
+   "visible": true,
+   "labels": false
+  },
+  "railroads-atlanta": {
+   "visible": true,
+   "labels": false
+  },
+  "waterways-atlanta": {
+   "visible": true
+  },
+  "atlanta-limits": {
+   "visible": false
+  },
+  "canon-sites": {
+   "visible": false
+  }
+ },
+ "annotations": [
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.413,
+    33.749
+   ],
+   "text": "Atlanta University",
+   "style": "building",
+   "symbol": "cross",
+   "halo": true
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.411,
+    33.759
+   ],
+   "text": "Zion Hill Baptist",
+   "style": "building",
+   "symbol": "cross",
+   "halo": true
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.41,
+    33.7605
+   ],
+   "text": "Vine City",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.416,
+    33.738
+   ],
+   "text": "West End",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.428,
+    33.753
+   ],
+   "text": "Washington Park",
+   "style": "place",
+   "halo": true,
+   "size": 5
+  }
+ ]
+}

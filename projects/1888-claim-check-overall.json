@@ -1,0 +1,68 @@
+{
+  "name": "1888-claim-check-overall",
+  "chapter": "1888-claim-check",
+  "year": 1888,
+  "month": 10,
+  "day": 8,
+  "title": "Claim Check",
+  "subtitle": "",
+  "dateline": "October 1888",
+  "paper": {
+    "preset": "custom",
+    "width": 10.875,
+    "height": 8.375,
+    "margin": 0.45,
+    "dpi": 200
+  },
+  "view": {
+    "bounds": [
+      -84.39424,
+      33.74851,
+      -84.36655,
+      33.76624
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-blocks-1878": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "hidden": [
+    "canon-sites:decatur-street",
+    "canon-sites:five-points",
+    "canon-sites:marietta-street",
+    "canon-sites:oakland-cemetery"
+  ]
+}

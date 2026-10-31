@@ -1,0 +1,63 @@
+{
+  "name": "1939-false-front-overall",
+  "chapter": "1939-false-front",
+  "year": 1939,
+  "month": 12,
+  "day": 13,
+  "title": "False Front",
+  "subtitle": "",
+  "dateline": "December 1939",
+  "paper": {
+    "preset": "page",
+    "width": 10.875,
+    "height": 8.375,
+    "margin": 0.45,
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -84.39518,
+      33.75066,
+      -84.37146,
+      33.76595
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "hidden": [
+    "black-neighborhoods:auburn",
+    "black-neighborhoods:darktown"
+  ]
+}

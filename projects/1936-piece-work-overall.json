@@ -1,0 +1,89 @@
+{
+  "name": "1936-piece-work-overall",
+  "chapter": "1936-piece-work",
+  "year": 1936,
+  "month": 4,
+  "day": 6,
+  "title": "Gainesville",
+  "subtitle": "Piece Work",
+  "dateline": "April 1936",
+  "paper": {
+    "preset": "page",
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -83.84207,
+      34.27886,
+      -83.81411,
+      34.30886
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "town-streets": {
+      "visible": true,
+      "undated": true,
+      "labels": false
+    },
+    "town-railroads": {
+      "visible": true
+    },
+    "town-waterways": {
+      "visible": true
+    },
+    "terrain-gainesville": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "ga-places": {
+      "visible": false
+    },
+    "lakes": {
+      "visible": false
+    },
+    "atlanta-streets": {
+      "visible": false
+    },
+    "atlanta-blocks-1878": {
+      "visible": false
+    },
+    "atlanta-horsecars-1878": {
+      "visible": false
+    },
+    "railroads-atlanta": {
+      "visible": false
+    },
+    "waterways-atlanta": {
+      "visible": false
+    },
+    "atlanta-limits": {
+      "visible": false
+    }
+  },
+  "hidden": []
+}

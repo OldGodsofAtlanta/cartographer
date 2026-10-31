@@ -1,0 +1,64 @@
+{
+  "name": "1895-fair-ground-overall",
+  "chapter": "1895-fair-ground",
+  "year": 1895,
+  "month": 10,
+  "day": 31,
+  "title": "The Exposition Grounds",
+  "subtitle": "Fair Ground",
+  "dateline": "October 31, 1895",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 200
+  },
+  "view": {
+    "bounds": [
+      -84.378,
+      33.7825,
+      -84.3685,
+      33.793
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "lakes": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true,
+      "snapshot": 1928
+    }
+  },
+  "hidden": []
+}

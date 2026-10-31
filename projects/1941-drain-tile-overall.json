@@ -1,0 +1,96 @@
+{
+  "name": "1941-drain-tile-overall",
+  "chapter": "1941-drain-tile",
+  "year": 1941,
+  "month": 12,
+  "day": 5,
+  "title": "Candler Field",
+  "subtitle": "Drain Tile",
+  "dateline": "December 1941",
+  "paper": {
+    "preset": "page",
+    "width": 10.875,
+    "height": 8.375,
+    "margin": 0.45,
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -84.45813,
+      33.63903,
+      -84.41617,
+      33.66597
+    ]
+  },
+  "theme": "survey",
+  "layers": {
+    "canon-sites": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "terrain-city": {
+      "visible": true,
+      "anyScale": true
+    },
+    "town-streets": {
+      "visible": false
+    },
+    "town-railroads": {
+      "visible": false
+    },
+    "town-waterways": {
+      "visible": false
+    },
+    "atlanta-blocks-1878": {
+      "visible": false
+    },
+    "atlanta-horsecars-1878": {
+      "visible": false
+    },
+    "atlanta-streetcars-1924": {
+      "visible": false
+    },
+    "atlanta-streets-osm": {
+      "visible": false
+    },
+    "railroads-historical": {
+      "visible": false
+    },
+    "black-neighborhoods": {
+      "visible": false
+    }
+  },
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 16
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "hidden": []
+}

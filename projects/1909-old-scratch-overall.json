@@ -1,0 +1,66 @@
+{
+  "name": "1909-old-scratch-overall",
+  "chapter": "1909-old-scratch",
+  "year": 1909,
+  "month": 12,
+  "day": 30,
+  "title": "Old Scratch",
+  "subtitle": "",
+  "dateline": "December 1909",
+  "paper": {
+    "preset": "page",
+    "width": 10.875,
+    "height": 8.375
+  },
+  "view": {
+    "bounds": [
+      -84.3979,
+      33.7297,
+      -84.3574,
+      33.7557
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": true
+    }
+  },
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-right",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-left"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "hidden": [
+    "black-neighborhoods:darktown"
+  ]
+}

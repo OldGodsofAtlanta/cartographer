@@ -1,0 +1,58 @@
+{
+  "name": "1897-sad-iron-overall",
+  "chapter": "1897-sad-iron",
+  "year": 1897,
+  "month": 8,
+  "day": 4,
+  "title": "Sad Iron",
+  "subtitle": "",
+  "dateline": "August 1897",
+  "paper": {
+    "preset": "page"
+  },
+  "view": {
+    "bounds": [
+      -84.376,
+      33.743,
+      -84.364,
+      33.756
+    ],
+    "projection": "local"
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "hidden": []
+}

@@ -1,0 +1,67 @@
+{
+  "name": "high-water-1900",
+  "chapter": "1900-high-water",
+  "year": 1900,
+  "month": 6,
+  "day": 24,
+  "title": "McDonough and Camp Creek",
+  "subtitle": "Henry County, Georgia",
+  "dateline": "June 1900",
+  "paper": {
+    "preset": "page"
+  },
+  "view": {
+    "center": [
+      -84.1525,
+      33.4555
+    ],
+    "denominator": 22000,
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "town-streets": {
+      "visible": true,
+      "undated": true
+    },
+    "town-railroads": {
+      "visible": true
+    },
+    "town-waterways": {
+      "visible": true
+    },
+    "terrain-mcdonough": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": false
+    },
+    "railroads-atlanta": {
+      "visible": false
+    },
+    "waterways-atlanta": {
+      "visible": false
+    },
+    "atlanta-limits": {
+      "visible": false
+    },
+    "railroads-historical": {
+      "visible": true,
+      "anyScale": true,
+      "labels": false
+    }
+  },
+  "furniture": {
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    }
+  }
+}

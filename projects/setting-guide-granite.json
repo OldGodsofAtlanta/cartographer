@@ -1,0 +1,91 @@
+{
+ "name": "setting-guide-granite",
+ "chapter": "0003-atlanta-setting-guide",
+ "year": 1911,
+ "title": "",
+ "subtitle": "",
+ "dateline": "",
+ "paper": {
+  "preset": "page",
+  "width": 3.6,
+  "height": 3.5,
+  "margin": 0,
+  "dpi": 300
+ },
+ "view": {
+  "center": [
+   -84.14,
+   33.757
+  ],
+  "denominator": 130000,
+  "projection": "local"
+ },
+ "theme": "survey",
+ "furniture": {
+  "title": {
+   "show": false
+  },
+  "legend": {
+   "show": false
+  },
+  "scalebar": {
+   "show": false
+  },
+  "compass": {
+   "show": false
+  },
+  "border": "none",
+  "graticule": "none",
+  "credits": false
+ },
+ "layers": {
+  "atlanta-streets": {
+   "visible": false
+  },
+  "railroads-atlanta": {
+   "visible": true,
+   "labels": false
+  },
+  "waterways-atlanta": {
+   "visible": true
+  },
+  "terrain-atlanta": {
+   "visible": true
+  },
+  "canon-sites": {
+   "visible": false
+  },
+  "ga-places": {
+   "visible": true
+  },
+  "terrain-lithonia": {
+   "visible": true,
+   "anyScale": true
+  }
+ },
+ "annotations": [
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.146,
+    33.801
+   ],
+   "text": "The mountain",
+   "style": "place",
+   "symbol": "triangle",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.15,
+    33.745
+   ],
+   "text": "the Georgia Railroad",
+   "style": "note",
+   "halo": true,
+   "size": 6
+  }
+ ]
+}

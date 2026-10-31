@@ -1,0 +1,106 @@
+{
+ "name": "setting-guide-ponce-piedmont",
+ "chapter": "0003-atlanta-setting-guide",
+ "year": 1911,
+ "title": "",
+ "subtitle": "",
+ "dateline": "",
+ "paper": {
+  "preset": "page",
+  "width": 3.6,
+  "height": 3.0,
+  "margin": 0,
+  "dpi": 300
+ },
+ "view": {
+  "center": [
+   -84.373,
+   33.782
+  ],
+  "denominator": 36000,
+  "projection": "local"
+ },
+ "theme": "survey",
+ "furniture": {
+  "title": {
+   "show": false
+  },
+  "legend": {
+   "show": false
+  },
+  "scalebar": {
+   "show": false
+  },
+  "compass": {
+   "show": false
+  },
+  "border": "none",
+  "graticule": "none",
+  "credits": false
+ },
+ "layers": {
+  "atlanta-streets": {
+   "visible": true,
+   "labels": false
+  },
+  "railroads-atlanta": {
+   "visible": true,
+   "labels": false
+  },
+  "waterways-atlanta": {
+   "visible": true
+  },
+  "atlanta-limits": {
+   "visible": false
+  },
+  "canon-sites": {
+   "visible": false
+  }
+ },
+ "annotations": [
+  {
+   "type": "label",
+   "lonlat": [
+    -84.373,
+    33.7895
+   ],
+   "text": "Piedmont Park",
+   "style": "place",
+   "halo": true,
+   "size": 7
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.375,
+    33.785
+   ],
+   "text": "Lake Clara Meer",
+   "style": "water",
+   "symbol": "dot",
+   "halo": true
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.366,
+    33.774
+   ],
+   "text": "Ponce de Leon",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.386,
+    33.773
+   ],
+   "text": "Fox Theatre",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  }
+ ]
+}

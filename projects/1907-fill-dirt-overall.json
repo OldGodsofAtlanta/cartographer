@@ -1,0 +1,80 @@
+{
+  "name": "1907-fill-dirt-overall",
+  "chapter": "1907-fill-dirt",
+  "year": 1907,
+  "month": 5,
+  "day": 21,
+  "title": "Fill Dirt",
+  "subtitle": "",
+  "dateline": "1907",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 200
+  },
+  "view": {
+    "center": [
+      -84.37655,
+      33.76253
+    ],
+    "denominator": 13500,
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "bottom-right",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-left"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "top-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true,
+      "anyScale": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": true
+    },
+    "atlanta-streets-osm": {
+      "visible": false
+    },
+    "terrain-city": {
+      "visible": false
+    },
+    "terrain-atlanta": {
+      "visible": false
+    }
+  },
+  "hidden": [
+    "black-neighborhoods:darktown"
+  ]
+}

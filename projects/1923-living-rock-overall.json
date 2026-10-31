@@ -1,0 +1,61 @@
+{
+  "name": "1923-living-rock-overall",
+  "chapter": "1923-living-rock",
+  "year": 1923,
+  "month": 10,
+  "day": 31,
+  "title": "Stone Mountain",
+  "subtitle": "Living Rock",
+  "dateline": "October 1923",
+  "paper": {
+    "preset": "custom",
+    "width": 10.875,
+    "height": 8.375,
+    "margin": 0.45
+  },
+  "view": {
+    "bounds": [
+      -84.19,
+      33.778,
+      -84.102,
+      33.827
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "terrain-atlanta": {
+      "visible": true,
+      "anyScale": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": false
+    },
+    "atlanta-limits": {
+      "visible": false
+    },
+    "lakes": {
+      "visible": false
+    }
+  },
+  "furniture": {
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    }
+  },
+  "hidden": []
+}

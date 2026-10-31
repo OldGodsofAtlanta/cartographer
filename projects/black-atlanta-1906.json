@@ -1,0 +1,17 @@
+{
+  "name": "black-atlanta-1906",
+  "year": 1906,
+  "title": "Black Atlanta",
+  "subtitle": "Its Neighborhoods, Colleges and Churches",
+  "dateline": "1906",
+  "paper": { "preset": "page" },
+  "view": { "center": [-84.395, 33.742], "denominator": 42000, "projection": "local" },
+  "layers": {
+    "black-neighborhoods": { "visible": true },
+    "atlanta-streets": { "visible": false },
+    "atlanta-streets-osm": { "visible": false },
+    "canon-sites": { "visible": false },
+    "atlanta-limits": { "visible": true }
+  },
+  "furniture": { "legend": { "show": false } }
+}

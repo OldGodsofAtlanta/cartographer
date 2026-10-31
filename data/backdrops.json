@@ -1,0 +1,1119 @@
+{
+  "about": "Georeferenced period maps (scans) that can be laid under a map or used for tracing. src is relative to chapters/ (1917-hot-ash/art/x.jpg means chapters/1917-hot-ash/art/x.jpg) or starts with backdrops/. points are control points: px is [x, y] in the image's own pixels, lonlat is where that spot is. Give three or more, spread across the sheet; an affine fit handles a turned or skewed sheet. Each backdrop's credit says who holds the original and why it may be used.",
+  "backdrops": [
+    {
+      "id": "sanborn-key-plan-1917",
+      "title": "Sanborn key plan, 1917 (burned district)",
+      "src": "1917-hot-ash/art/sanborn-key-plan-1917.jpg",
+      "year": 1917,
+      "credit": "Sanborn Map Co., key plan of volumes 2 and 4 'showing territory destroyed by fire, May 21st, 1917' (May 31, 1917), University of Georgia Libraries, Digital Library of Georgia (dlg_sanb_atlanta-1917). Public domain: published in 1917. Rights basis recorded in chapters/1917-hot-ash/ sources.",
+      "scale_note": "1000 feet to one inch on the sheet; about 2.3 m per pixel as scanned.",
+      "georeferenced": "2026-10-27, by eye from 8 street crossings matched to the 1928 street layer (an 11-year gap); RMS 17 m, worst 23 m.",
+      "points": [
+        {
+          "px": [
+            806,
+            576
+          ],
+          "lonlat": [
+            -84.38305,
+            33.78653
+          ],
+          "at": "14th St x Peachtree St"
+        },
+        {
+          "px": [
+            715,
+            1332
+          ],
+          "lonlat": [
+            -84.385,
+            33.77129
+          ],
+          "at": "North Ave x Peachtree St"
+        },
+        {
+          "px": [
+            1265,
+            1210
+          ],
+          "lonlat": [
+            -84.3709,
+            33.77367
+          ],
+          "at": "Ponce de Leon Ave x Boulevard"
+        },
+        {
+          "px": [
+            505,
+            2162
+          ],
+          "lonlat": [
+            -84.3896,
+            33.75454
+          ],
+          "at": "Edgewood Ave x Peachtree St (Five Points)"
+        },
+        {
+          "px": [
+            2130,
+            1632
+          ],
+          "lonlat": [
+            -84.34921,
+            33.76496
+          ],
+          "at": "Moreland Ave x McLendon Ave"
+        },
+        {
+          "px": [
+            2130,
+            2107
+          ],
+          "lonlat": [
+            -84.34915,
+            33.75542
+          ],
+          "at": "Moreland Ave x Hardee St"
+        },
+        {
+          "px": [
+            430,
+            2532
+          ],
+          "lonlat": [
+            -84.39085,
+            33.74693
+          ],
+          "at": "Fair St x Washington St"
+        },
+        {
+          "px": [
+            1105,
+            2172
+          ],
+          "lonlat": [
+            -84.37438,
+            33.75434
+          ],
+          "at": "Edgewood Ave x Jackson St"
+        }
+      ],
+      "size": [
+        2600,
+        3276
+      ]
+    },
+    {
+      "id": "sanborn-ponce-de-leon-park-1911",
+      "title": "Sanborn sheet 231, Ponce de Leon Park, 1911",
+      "src": "1907-fill-dirt/art/sanborn-ponce-de-leon-park-1911.jpg",
+      "year": 1911,
+      "size": [
+        1713,
+        2000
+      ],
+      "credit": "Sanborn Map Company, sheet 231 of the Sanborn Fire Insurance Map from Atlanta, Fulton County, Georgia, 1911, vol. 2, Library of Congress, Geography and Map Division (loc.gov/item/sanborn01378_007). Public domain: published in 1911. Rights basis in chapters/1907-fill-dirt/ sources.",
+      "scale_note": "50 feet to the inch on the sheet. Printed scale bar read as 232 px for 150 ft, so 1.547 px per foot, 0.197 m per pixel.",
+      "georeferenced": "2026-10-27. The north arrow points straight up, so the fit fixes rotation and scale (from the printed bar) and sets only the position, from two crossings on Ponce de Leon Avenue: Lakeview Avenue (1928 and OSM street layers agree to 5 m) and the Belt Line track (OSM, start 1898). The two crossings are 1,194 px apart on the scan and 228 m apart in the data (0.191 m/px against the bar's 0.197, 3% less).",
+      "fit": {
+        "northUp": true,
+        "metresPerPixel": 0.197
+      },
+      "points": [
+        {
+          "px": [
+            243,
+            645
+          ],
+          "lonlat": [
+            -84.36707,
+            33.77346
+          ],
+          "at": "Ponce de Leon Ave x Lake View Ave"
+        },
+        {
+          "px": [
+            1437,
+            645
+          ],
+          "lonlat": [
+            -84.364605,
+            33.773405
+          ],
+          "at": "Ponce de Leon Ave x the Southern Ry. (Belt Line) tracks"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-national-pencil-company-1911",
+      "title": "Sanborn sheet 9, South Forsyth and Hunter, 1911 (National Pencil Co.)",
+      "src": "1915-second-hearing/art/sanborn-national-pencil-company-1911.jpg",
+      "year": 1911,
+      "size": [
+        1931,
+        2200
+      ],
+      "credit": "Sanborn Map Company, sheet 9 of the Sanborn Fire Insurance Map from Atlanta, Fulton County, Georgia, 1911, vol. 1, Library of Congress, Geography and Map Division (loc.gov/item/sanborn01378_006). Public domain: published in 1911. Rights basis in chapters/1915-second-hearing/ sources.",
+      "scale_note": "The sheet is turned: West Hunter runs up and down the page and South Forsyth across it. About 0.0657 m per pixel, from the sheet's own 56 ft street width (260 px).",
+      "georeferenced": "2026-10-27. One crossing, West Hunter Street x South Forsyth Street, at the middle of both streets as drawn. Orientation: the house numbers on Forsyth fall away from Hunter (45 to 23) and Atlanta's numbers rise southward, so Hunter is on the south and north is to the right of the page; Forsyth runs at 33 deg and Hunter at 122.8 deg in the 1928 layer, perpendicular to within 0.2 deg, as on the sheet. Scale from the 56 ft street width; it agrees with the pencil block's depth of about 212 ft (985 px) between Forsyth and the 17 ft alley. With one anchor there is no residual to report: position is good to the 1928 centerline's accuracy (5-10 m) plus 5% of distance from the crossing.",
+      "fit": {
+        "bearingRight": 33,
+        "metresPerPixel": 0.0657
+      },
+      "points": [
+        {
+          "px": [
+            223,
+            1540
+          ],
+          "lonlat": [
+            -84.39343,
+            33.75281
+          ],
+          "at": "West Hunter St x South Forsyth St (street centres)"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-fulton-bag-mills-1899",
+      "title": "Sanborn sheet 61, Fulton Bag and Cotton Mills, 1899",
+      "src": "1897-sad-iron/art/sanborn-fulton-bag-mills-1899.jpg",
+      "year": 1899,
+      "size": [
+        1696,
+        2000
+      ],
+      "credit": "Sanborn Map Company, sheet 61 of the Sanborn Fire Insurance Map from Atlanta, Fulton County, Georgia (1899), Library of Congress, Geography and Map Division (loc.gov/item/sanborn01378_005). Public domain: published in 1899. Rights basis in chapters/1897-sad-iron/ sources.",
+      "scale_note": "50 feet to the inch. Printed scale bar read as 226 px for 150 ft: 1.507 px per foot, 0.202 m per pixel.",
+      "georeferenced": "2026-10-27. North-up (the compass is vertical; S. Boulevard runs at about 161 deg on the sheet and 160 deg in the 1928 layer). One anchor, Decatur Street x Boulevard, read at the crossing of the 6-inch water pipe in Decatur's middle and Boulevard's centre line. Scale from the printed bar. No residual to report with one anchor: position is good to the 1928 centreline's accuracy (5-10 m) plus a few percent of distance from the anchor.",
+      "fit": {
+        "northUp": true,
+        "metresPerPixel": 0.202
+      },
+      "points": [
+        {
+          "px": [
+            186,
+            247
+          ],
+          "lonlat": [
+            -84.37107,
+            33.75149
+          ],
+          "at": "Decatur St x Boulevard (street centres)"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-auburn-avenue-1899",
+      "title": "Sanborn sheet 46, Auburn Avenue and the Fourth Ward, 1899",
+      "src": "1898-pest-wagon/art/sanborn-auburn-avenue-1899.jpg",
+      "year": 1899,
+      "size": [
+        1701,
+        2000
+      ],
+      "credit": "Sanborn Map Company, sheet 46 of the Sanborn Fire Insurance Map from Atlanta, Fulton County, Georgia (1899), Library of Congress, Geography and Map Division (loc.gov/item/sanborn01378_005). Public domain: published in 1899. Rights basis in chapters/1898-pest-wagon/ sources.",
+      "scale_note": "50 feet to the inch; about 0.20 m per pixel, north-up.",
+      "georeferenced": "2026-10-27. Affine fit to seven street crossings (Auburn, Edgewood, Irwin by Bell, Fort and Hilliard) read off the scan and matched to the 1928 layer; RMS 2.6 m, worst 4.3 m; the fit's rotation is -0.8 deg.",
+      "points": [
+        {
+          "px": [
+            100,
+            1296
+          ],
+          "lonlat": [
+            -84.37942,
+            33.75553
+          ],
+          "at": "Auburn Ave x Bell St"
+        },
+        {
+          "px": [
+            795,
+            1296
+          ],
+          "lonlat": [
+            -84.37797,
+            33.75552
+          ],
+          "at": "Auburn Ave x Fort St"
+        },
+        {
+          "px": [
+            1428,
+            1292
+          ],
+          "lonlat": [
+            -84.3766,
+            33.75551
+          ],
+          "at": "Auburn Ave x Hilliard St"
+        },
+        {
+          "px": [
+            795,
+            1972
+          ],
+          "lonlat": [
+            -84.37797,
+            33.75436
+          ],
+          "at": "Edgewood Ave x Fort St"
+        },
+        {
+          "px": [
+            100,
+            1972
+          ],
+          "lonlat": [
+            -84.37946,
+            33.7544
+          ],
+          "at": "Edgewood Ave x Bell St"
+        },
+        {
+          "px": [
+            795,
+            65
+          ],
+          "lonlat": [
+            -84.37792,
+            33.75774
+          ],
+          "at": "Irwin St x Fort St"
+        },
+        {
+          "px": [
+            1428,
+            65
+          ],
+          "lonlat": [
+            -84.37657,
+            33.7577
+          ],
+          "at": "Irwin St x Hilliard St"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-depot-courthouse-1886",
+      "title": "Sanborn sheet, Union Depot shed and the courthouse block, 1886",
+      "src": "1888-claim-check/art/sanborn-depot-courthouse-1886.jpg",
+      "year": 1886,
+      "size": [
+        1217,
+        1900
+      ],
+      "credit": "Sanborn Map Company, Atlanta, Georgia, 1886 (the sheet with the Union Depot's iron shed at the top and the courthouse below), Library of Congress, Geography and Map Division. Public domain: published in 1886. Rights basis in chapters/1888-claim-check/ sources.",
+      "scale_note": "About 0.15 m per pixel. The sheet is turned: image-up points about 33 deg west of north (the compass rose is drawn that way).",
+      "georeferenced": "2026-10-27. Affine fit to four crossings (S. Pryor and Loyd/Central Avenue with Alabama and Hunter) read off the scan and matched to the 1928 layer; residual 0.6 m, rotation -33.1 deg, which agrees with the compass rose. Four corners of a rectangle fix rotation and scale but cannot show distortion, so there is no independent check inside the block.",
+      "points": [
+        {
+          "px": [
+            300,
+            1440
+          ],
+          "lonlat": [
+            -84.39096,
+            33.75142
+          ],
+          "at": "S. Pryor St x Hunter St"
+        },
+        {
+          "px": [
+            300,
+            498
+          ],
+          "lonlat": [
+            -84.3901,
+            33.75251
+          ],
+          "at": "S. Pryor St x Alabama St"
+        },
+        {
+          "px": [
+            1125,
+            1440
+          ],
+          "lonlat": [
+            -84.38986,
+            33.7508
+          ],
+          "at": "Loyd St (Central Ave) x Hunter St"
+        },
+        {
+          "px": [
+            1125,
+            498
+          ],
+          "lonlat": [
+            -84.38901,
+            33.75191
+          ],
+          "at": "Loyd St (Central Ave) x Alabama St"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-fulton-cotton-spinning-1886",
+      "title": "Sanborn sheet 29, Fulton Cotton Spinning Co., 1886",
+      "src": "1885-bell-wire/art/sanborn-fulton-cotton-spinning-1886.jpg",
+      "year": 1886,
+      "size": [
+        1522,
+        1800
+      ],
+      "credit": "Sanborn Map Company, sheet 29 of the Sanborn Fire Insurance Map from Atlanta, Fulton County, Georgia (1886), Library of Congress, Geography and Map Division, Sanborn Maps Collection (loc.gov/item/sanborn01378_003). Public domain: published in 1886. Rights basis in chapters/1885-bell-wire/ sources.",
+      "scale_note": "About 0.22 m per pixel. The sheet is turned: Decatur Street runs level across the top, so image-right points about 70 deg (east-northeast) and north is up and to the right, as the compass rose is drawn.",
+      "georeferenced": "2026-10-27. Rotation fixed at the 1928 bearing of Decatur Street (70.0 deg between Boulevard and Bradley) and scale fitted from four crossings along Decatur (Boulevard, Daniel, Howell, Bradley); RMS 2.2 m along the street. The four anchors lie on one line, so position across the sheet rests on the assumed rotation: the one off-line check, Tennelle x Savannah, is 16 m off, which may reflect streets laid out differently in 1886 as much as the fit. Treat positions away from Decatur Street as good to about 20 m. Daniel and Howell streets appear closer together on the sheet than in the 1928 layer.",
+      "fit": {
+        "bearingRight": 70.0
+      },
+      "points": [
+        {
+          "px": [
+            47,
+            216
+          ],
+          "lonlat": [
+            -84.37107,
+            33.75149
+          ],
+          "at": "Boulevard x Decatur St"
+        },
+        {
+          "px": [
+            450,
+            216
+          ],
+          "lonlat": [
+            -84.37018,
+            33.75176
+          ],
+          "at": "Daniel St x Decatur St"
+        },
+        {
+          "px": [
+            613,
+            216
+          ],
+          "lonlat": [
+            -84.36976,
+            33.75189
+          ],
+          "at": "Howell St x Decatur St"
+        },
+        {
+          "px": [
+            1033,
+            216
+          ],
+          "lonlat": [
+            -84.36887,
+            33.75216
+          ],
+          "at": "Bradley St x Decatur St"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-marietta-square-1885",
+      "title": "Sanborn sheet 1, Marietta public square, 1885",
+      "src": "1879-dead-freight/art/sanborn-marietta-square-1885.jpg",
+      "year": 1885,
+      "size": [
+        1900,
+        1408
+      ],
+      "credit": "Sanborn Map Company, sheet 1 of the Sanborn Fire Insurance Map from Marietta, Cobb County, Georgia, January 1885, Library of Congress, Geography and Map Division, Sanborn Maps Collection (loc.gov/item/sanborn01471_001). Public domain: published in 1885. Rights basis in chapters/1879-dead-freight/ sources.",
+      "scale_note": "North-up (the compass rose on the square is vertical); about 0.14 m per pixel. The streets are the road around the square (Mill and Lawrence on the north, Church on the west, Cherokee and Atlanta on the east, Paulding and Cemetery on the south).",
+      "georeferenced": "2026-10-27. Three corners of the square's ring road matched to OpenStreetMap (Marietta is outside the Atlanta street layers, so its streets were fetched with scripts/queries/marietta-streets.ql): Church x North Park Square, Cherokee x Lawrence, East x South Park Square; the fourth corner (SW) was left out and checked: predicted within 3 m of the data. North-up with scale fitted; RMS 1.5 m. OpenStreetMap's ring is the 1885 square's ring road; the courthouse stands outside it on the sheet's east side (Court Ho.).",
+      "fit": {
+        "bearingRight": 90
+      },
+      "points": [
+        {
+          "px": [
+            750,
+            446
+          ],
+          "lonlat": [
+            -84.55017,
+            33.95322
+          ],
+          "at": "Church St x Mill St (ring NW corner)"
+        },
+        {
+          "px": [
+            1490,
+            446
+          ],
+          "lonlat": [
+            -84.54905,
+            33.9532
+          ],
+          "at": "Cherokee St x Lawrence St (ring NE corner)"
+        },
+        {
+          "px": [
+            1490,
+            1205
+          ],
+          "lonlat": [
+            -84.54907,
+            33.95228
+          ],
+          "at": "Cherokee/Atlanta St, ring SE corner"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-expo-plan-1895",
+      "title": "Sanborn-Perris plan of Piedmont Park for the Cotton States Exposition, 1895",
+      "src": "1895-fair-ground/art/sanborn-expo-plan-1895.jpg",
+      "year": 1895,
+      "size": [
+        1855,
+        2200
+      ],
+      "credit": "Sanborn-Perris Map Co., Plan of Piedmont Park, 189 acres, made by Grant Wilkins, C.E., for the Cotton States International Exposition Co. (July 1895), sheet 1 of 7 in the Sanborn Fire Insurance Map from Atlanta, Fulton County, Georgia, 1895-07, Library of Congress, Geography and Map Division, Sanborn Maps Collection (loc.gov/item/sanborn01378_001). Public domain: published in 1895. Rights basis in chapters/1895-fair-ground/ sources.",
+      "scale_note": "North-up (the compass rose is vertical); about 0.69 m per pixel, from the spacing of the Twelfth, Thirteenth and Fourteenth Street gates on Piedmont Avenue. The printed title says 50 ft to an inch, which does not fit the sheet's size, so the scale comes from the streets.",
+      "georeferenced": "2026-10-27. North-up with scale fitted from three crossings on Piedmont Avenue (12th, 13th and 14th Streets, matched to the 1928 layer). The three lie along one street, so rotation is assumed, not measured; Piedmont's bearing on the sheet agrees with the data within 2.3 deg. Positions across the park (the lake, the Midway) rest on that assumption and on the 1928 street lines: expect 20-40 m. Check Lake Clara Meer's outline against the lakes layer before relying on it.",
+      "fit": {
+        "bearingRight": 90
+      },
+      "points": [
+        {
+          "px": [
+            568,
+            1323
+          ],
+          "lonlat": [
+            -84.37814,
+            33.78648
+          ],
+          "at": "14th St x Piedmont Ave (gate)"
+        },
+        {
+          "px": [
+            533,
+            1510
+          ],
+          "lonlat": [
+            -84.37843,
+            33.78529
+          ],
+          "at": "13th St x Piedmont Ave"
+        },
+        {
+          "px": [
+            480,
+            1681
+          ],
+          "lonlat": [
+            -84.37891,
+            33.78426
+          ],
+          "at": "12th St x Piedmont Ave"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-decatur-jail-1911",
+      "title": "Sanborn sheet 5, Decatur (the jail), 1911",
+      "src": "1908-brick-dust/art/sanborn-decatur-jail-1911.jpg",
+      "year": 1911,
+      "size": [
+        1602,
+        1900
+      ],
+      "credit": "Sanborn Map Company, sheet 5 of the Sanborn Fire Insurance Map from Decatur, De Kalb County, Georgia, July 1911, Library of Congress, Geography and Map Division, Sanborn Maps Collection (loc.gov/item/sanborn01419_001). Public domain: published in 1911. Rights basis in chapters/1908-brick-dust/ sources.",
+      "scale_note": "North-up; about 0.21 m per pixel. 1911 street names differ from the 1928 layer's: Atlanta is now Ponce de Leon Avenue, Herring Street is Trinity Place's west end, and Trinity Place is the diagonal.",
+      "georeferenced": "2026-10-27. North-up with scale fitted from five crossings matched to the 1928 layer (McDonough, Church, Marshall with Cooper, Sycamore, Trinity). See the RMS in list_backdrops.",
+      "fit": {
+        "bearingRight": 90
+      },
+      "points": [
+        {
+          "px": [
+            785,
+            977
+          ],
+          "lonlat": [
+            -84.29653,
+            33.77294
+          ],
+          "at": "N McDonough St x Cooper St"
+        },
+        {
+          "px": [
+            785,
+            72
+          ],
+          "lonlat": [
+            -84.29652,
+            33.7746
+          ],
+          "at": "N McDonough St x Sycamore St"
+        },
+        {
+          "px": [
+            1490,
+            72
+          ],
+          "lonlat": [
+            -84.29484,
+            33.77459
+          ],
+          "at": "Church St x Sycamore St"
+        },
+        {
+          "px": [
+            1465,
+            990
+          ],
+          "lonlat": [
+            -84.29491,
+            33.77278
+          ],
+          "at": "Church St x Trinity Pl"
+        },
+        {
+          "px": [
+            100,
+            955
+          ],
+          "lonlat": [
+            -84.29807,
+            33.77296
+          ],
+          "at": "Marshall St x Cooper St"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-decatur-courthouse-1911",
+      "title": "Sanborn sheet 2, Decatur courthouse square, 1911",
+      "src": "1916-still-pending/art/sanborn-decatur-courthouse-1911.jpg",
+      "year": 1911,
+      "size": [
+        1602,
+        1900
+      ],
+      "credit": "Sanborn Map Company, sheet 2 of the Sanborn Fire Insurance Map from Decatur, De Kalb County, Georgia, July 1911, Library of Congress, Geography and Map Division, Sanborn Maps Collection (loc.gov/item/sanborn01419_001). Public domain: published in 1911. Rights basis in chapters/1916-still-pending/ sources.",
+      "scale_note": "North-up; about 0.21 m per pixel. The courthouse (blue) is the 1898 building that burned in 1916.",
+      "georeferenced": "2026-10-27. North-up with scale fitted from four crossings matched to the 1928 layer (Marshall x Ponce de Leon, Church x Ponce de Leon, Church x Sycamore, Marshall x Atlanta).",
+      "fit": {
+        "bearingRight": 90
+      },
+      "points": [
+        {
+          "px": [
+            148,
+            1304
+          ],
+          "lonlat": [
+            -84.29804,
+            33.77557
+          ],
+          "at": "Marshall St x Ponce de Leon Ave"
+        },
+        {
+          "px": [
+            1560,
+            1295
+          ],
+          "lonlat": [
+            -84.29485,
+            33.7756
+          ],
+          "at": "Church St x Ponce de Leon Ave"
+        },
+        {
+          "px": [
+            1560,
+            1845
+          ],
+          "lonlat": [
+            -84.29484,
+            33.77459
+          ],
+          "at": "Church St x Sycamore St"
+        },
+        {
+          "px": [
+            148,
+            1840
+          ],
+          "lonlat": [
+            -84.29811,
+            33.77455
+          ],
+          "at": "Marshall St x Atlanta Ave"
+        }
+      ]
+    },
+    {
+      "id": "atlas-atlanta-1911",
+      "title": "Atlas map of Atlanta, 1911 (city scale)",
+      "src": "1911-coal-oil/art/atlas-atlanta-1911.jpg",
+      "year": 1911,
+      "size": [
+        2200,
+        1651
+      ],
+      "credit": "Map of Atlanta from an atlas published in 1911 (the atlas, mapmaker and page are not recorded), Wikimedia Commons, File:Atlanta-1911.jpg, tagged public domain (U.S. publication before 1931). Provenance is thinner than for the Library of Congress sheets: see chapters/1911-coal-oil/ sources before print.",
+      "scale_note": "North-up; about 4.4 m per pixel (the whole city on one sheet). Suitable for context and for locating creek bottoms and railroads at city scale, not for placing a building.",
+      "georeferenced": "2026-10-27. Affine fit to nine crossings read by eye from gridded crops (five on Ashby Street, three on Moreland Avenue, and Ponce de Leon x Boulevard); RMS about 35 m, worst 56 m; rotation -0.2 deg. A check crossing (Ponce de Leon x Boulevard) was 28 m off before it was added to the fit.",
+      "points": [
+        {
+          "px": [
+            520,
+            626
+          ],
+          "lonlat": [
+            -84.41747,
+            33.76347
+          ],
+          "at": "Simpson St x Ashby St"
+        },
+        {
+          "px": [
+            520,
+            801
+          ],
+          "lonlat": [
+            -84.41752,
+            33.75662
+          ],
+          "at": "Lena St x Ashby St"
+        },
+        {
+          "px": [
+            520,
+            858
+          ],
+          "lonlat": [
+            -84.41755,
+            33.75472
+          ],
+          "at": "Hunter St x Ashby St"
+        },
+        {
+          "px": [
+            520,
+            1197
+          ],
+          "lonlat": [
+            -84.41765,
+            33.74189
+          ],
+          "at": "Park St x Ashby St"
+        },
+        {
+          "px": [
+            520,
+            1288
+          ],
+          "lonlat": [
+            -84.41772,
+            33.73799
+          ],
+          "at": "Gordon St x Ashby St"
+        },
+        {
+          "px": [
+            1938,
+            603
+          ],
+          "lonlat": [
+            -84.34921,
+            33.76496
+          ],
+          "at": "McLendon Ave x Moreland Ave"
+        },
+        {
+          "px": [
+            1936,
+            862
+          ],
+          "lonlat": [
+            -84.34915,
+            33.75542
+          ],
+          "at": "Hardee St x Moreland Ave"
+        },
+        {
+          "px": [
+            1936,
+            1385
+          ],
+          "lonlat": [
+            -84.3493,
+            33.73411
+          ],
+          "at": "Ormewood Ave x Moreland Ave"
+        },
+        {
+          "px": [
+            1480,
+            373
+          ],
+          "lonlat": [
+            -84.3709,
+            33.77367
+          ],
+          "at": "Ponce de Leon Ave x Boulevard"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-key-map-vol2-1911",
+      "title": "Sanborn key map, volume 2 (northeast Atlanta), 1911",
+      "src": "1907-excelsior/art/sanborn-dupre-excelsior-1911.jpg",
+      "year": 1911,
+      "size": [
+        1600,
+        1874
+      ],
+      "credit": "Sanborn Map Company, key map of volume 2 of the Sanborn Fire Insurance Map from Atlanta, Fulton County, Georgia, 1911, Library of Congress, Geography and Map Division, Sanborn Maps Collection (loc.gov/item/sanborn01378_007). Public domain: published in 1911. The file is named sanborn-dupre-excelsior-1911.jpg and cited in chapters/1907-excelsior/ as sheet 250 with the DuPre inset, but the image is the volume's key map: see the note in data/sources/backdrops.md.",
+      "scale_note": "North-up; about 3.9 m per pixel. Every block carries its Sanborn block number; the excelsior mill is in the blocks near North Avenue and Angier Avenue (210-212).",
+      "georeferenced": "2026-10-27. Affine fit to 21 block-number labels matched to the same labels on the 1917 key plan (itself georeferenced to 17 m), read by eye; RMS 21 m. A block label is not a point on the ground, so accuracy is about 25 m and is no better than the 1917 sheet's.",
+      "points": [
+        {
+          "px": [
+            192,
+            1703
+          ],
+          "lonlat": [
+            -84.38763,
+            33.75656
+          ],
+          "at": "block 151 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            305,
+            1703
+          ],
+          "lonlat": [
+            -84.38289,
+            33.7566
+          ],
+          "at": "block 153 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            375,
+            1703
+          ],
+          "lonlat": [
+            -84.37953,
+            33.75658
+          ],
+          "at": "block 154 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            530,
+            1705
+          ],
+          "lonlat": [
+            -84.37279,
+            33.75634
+          ],
+          "at": "block 157 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            838,
+            1698
+          ],
+          "lonlat": [
+            -84.36022,
+            33.75662
+          ],
+          "at": "block 162 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            950,
+            1620
+          ],
+          "lonlat": [
+            -84.35557,
+            33.75912
+          ],
+          "at": "block 163 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            1044,
+            1547
+          ],
+          "lonlat": [
+            -84.35149,
+            33.76169
+          ],
+          "at": "block 164 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            1065,
+            1398
+          ],
+          "lonlat": [
+            -84.35072,
+            33.76672
+          ],
+          "at": "block 202 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            300,
+            1255
+          ],
+          "lonlat": [
+            -84.38331,
+            33.77205
+          ],
+          "at": "block 219 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            375,
+            1253
+          ],
+          "lonlat": [
+            -84.38007,
+            33.77199
+          ],
+          "at": "block 220 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            450,
+            1219
+          ],
+          "lonlat": [
+            -84.37687,
+            33.77319
+          ],
+          "at": "block 221 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            222,
+            1162
+          ],
+          "lonlat": [
+            -84.38691,
+            33.77522
+          ],
+          "at": "block 225 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            286,
+            1150
+          ],
+          "lonlat": [
+            -84.38394,
+            33.776
+          ],
+          "at": "block 226 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            460,
+            1140
+          ],
+          "lonlat": [
+            -84.37684,
+            33.77592
+          ],
+          "at": "block 227 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            362,
+            1177
+          ],
+          "lonlat": [
+            -84.38045,
+            33.77458
+          ],
+          "at": "block 228 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            560,
+            1147
+          ],
+          "lonlat": [
+            -84.37271,
+            33.77553
+          ],
+          "at": "block 229 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            623,
+            1150
+          ],
+          "lonlat": [
+            -84.36996,
+            33.77522
+          ],
+          "at": "block 230 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            212,
+            900
+          ],
+          "lonlat": [
+            -84.38747,
+            33.78416
+          ],
+          "at": "block 237 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            390,
+            965
+          ],
+          "lonlat": [
+            -84.37959,
+            33.78184
+          ],
+          "at": "block 240 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            340,
+            900
+          ],
+          "lonlat": [
+            -84.38186,
+            33.78403
+          ],
+          "at": "block 241 (matched to the 1917 key plan)"
+        },
+        {
+          "px": [
+            283,
+            900
+          ],
+          "lonlat": [
+            -84.38439,
+            33.78395
+          ],
+          "at": "block 242 (matched to the 1917 key plan)"
+        }
+      ]
+    },
+    {
+      "id": "sanborn-medical-colleges-1899",
+      "title": "Sanborn sheet 49, Atlanta Medical College and the Grady Hospital, 1899",
+      "src": "backdrops/sanborn-1899-sheet-49.jpg",
+      "year": 1899,
+      "size": [
+        1680,
+        1979
+      ],
+      "credit": "Sanborn Map Company, sheet 49 of the Sanborn Fire Insurance Map from Atlanta, Fulton County, Georgia (1899), Library of Congress, Geography and Map Division (loc.gov/item/sanborn01378_005, the 59th image). Public domain: published in 1899; the Library reports its online Sanborn collection free to use and reuse. This is the whole sheet at 25% (the book's chapters/1879-dead-freight/art/sanborn-medical-colleges-1899.jpg is a crop of the same sheet, to the block between College and Jenkins streets).",
+      "scale_note": "About 0.2 m per pixel. The sheet is turned: image-up is about 41 deg east of north (the compass rose is drawn that way), and Butler, Piedmont and Pratt run up and down the page.",
+      "georeferenced": "2026-10-28. Affine fit to five street crossings read off the scan and matched to the 1928 layer: N. Butler with Jenkins-or-Armstrong, College and Bowie; N. Piedmont and Pratt with Jenkins-or-Armstrong. Residual 0.3 m. Three crossings not in the fit (Edgewood x Piedmont, Bowie x Bell, Butler x Gilmer) land within 1-4 m. The sheet's names differ from the 1928 layer's, per the 1903 Atlanta Constitution list: Jenkins (or Armstrong) is Armstrong Street, College is Coca Cola Place (the layer's name), Bowie is Boaz Street, and Gilmer, Pratt, Bell, Butler and Piedmont keep their names.",
+      "points": [
+        {
+          "px": [
+            838,
+            1272
+          ],
+          "lonlat": [
+            -84.38202,
+            33.75274
+          ],
+          "at": "N. Butler x Jenkins or Armstrong"
+        },
+        {
+          "px": [
+            838,
+            568
+          ],
+          "lonlat": [
+            -84.38103,
+            33.75369
+          ],
+          "at": "N. Butler x College (Coca Cola Pl)"
+        },
+        {
+          "px": [
+            838,
+            208
+          ],
+          "lonlat": [
+            -84.38052,
+            33.75417
+          ],
+          "at": "N. Butler x Bowie (Boaz St)"
+        },
+        {
+          "px": [
+            130,
+            1272
+          ],
+          "lonlat": [
+            -84.38316,
+            33.75357
+          ],
+          "at": "N. Piedmont x Jenkins or Armstrong"
+        },
+        {
+          "px": [
+            1570,
+            1272
+          ],
+          "lonlat": [
+            -84.38083,
+            33.75188
+          ],
+          "at": "Pratt x Jenkins or Armstrong"
+        }
+      ]
+    },
+    {
+      "id": "hals-ga-7-brick-site-plan",
+      "title": "Chattahoochee Brick Company site plan, 1907-1961 (HALS GA-7, Figure 2)",
+      "src": "backdrops/hals-ga-7-site-plan-1907-1961.png",
+      "year": 1907,
+      "size": [
+        1287,
+        1583
+      ],
+      "credit": "Detailed Site Plan of the Chattahoochee Brick Company site 1907-1961, Figure 2 of Chattahoochee Brick Company, HALS No. GA-7, Historic American Landscapes Survey, National Park Service (Sarah Kuehn Spencer, July 2021). Taken from the report supplied by the user (the Library of Congress HAER/HALS record ga1190). A National Park Service survey record: confirm its rights statement on the Library of Congress record before print.",
+      "scale_note": "North-up (the north arrow is vertical); 0.625 m per pixel from the printed bar (800 ft = 390 px at 200 dpi). The plan shows the 1907 building and railroad layout (from the 1907 Sanborn map, per the report), the 1907 'location of convict lease labor residences', and the 1950s-1961 features (the temporary cemetery 'as labeled on plant expansion plan, 1961').",
+      "georeferenced": "2026-10-28. North-up, scale from the printed bar, one anchor: the corner of the site boundary where Brick Plant Road NW meets Parrott Avenue NW (the entrance), at Google's landmark pin for the company (33.8081215, -84.4865993). Checked against OSM lines the fit does not use: see data/sources/backdrops.md.",
+      "fit": {
+        "bearingRight": 90,
+        "metresPerPixel": 0.625
+      },
+      "points": [
+        {
+          "px": [
+            1256,
+            873
+          ],
+          "lonlat": [
+            -84.4865993,
+            33.8081215
+          ],
+          "at": "Entrance: Brick Plant Rd NW x Parrott Ave NW (site boundary corner)"
+        }
+      ]
+    }
+  ]
+}

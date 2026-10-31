@@ -1,0 +1,116 @@
+{
+ "name": "setting-guide-gate-city",
+ "chapter": "0003-atlanta-setting-guide",
+ "year": 1911,
+ "title": "",
+ "subtitle": "",
+ "dateline": "",
+ "paper": {
+  "preset": "page",
+  "width": 5.45,
+  "margin": 0.12,
+  "dpi": 300,
+  "height": 5.6
+ },
+ "view": {
+  "center": [
+   -84.37,
+   33.77
+  ],
+  "denominator": 130000,
+  "projection": "local"
+ },
+ "theme": "survey",
+ "furniture": {
+  "title": {
+   "show": false
+  },
+  "legend": {
+   "show": false
+  },
+  "scalebar": {
+   "show": true,
+   "pos": "bottom-right",
+   "box": true
+  },
+  "compass": {
+   "show": true,
+   "pos": "top-right",
+   "size": 20
+  },
+  "border": "single",
+  "graticule": "none",
+  "credits": false
+ },
+ "layers": {
+  "atlanta-streets": {
+   "visible": false
+  },
+  "atlanta-streets-osm": {
+   "visible": false
+  },
+  "railroads-atlanta": {
+   "visible": true,
+   "labels": false
+  },
+  "waterways-atlanta": {
+   "visible": true
+  },
+  "atlanta-limits": {
+   "visible": true
+  },
+  "terrain-atlanta": {
+   "visible": false
+  },
+  "canon-sites": {
+   "visible": false
+  },
+  "ga-places": {
+   "visible": false
+  }
+ },
+ "annotations": [
+  {
+   "type": "label",
+   "lonlat": [
+    -84.39,
+    33.754
+   ],
+   "text": "Atlanta",
+   "style": "district",
+   "halo": true,
+   "size": 11
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.296,
+    33.772
+   ],
+   "text": "Decatur",
+   "style": "place",
+   "halo": true
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.38,
+    33.84
+   ],
+   "text": "Buckhead",
+   "style": "place",
+   "halo": true
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.435,
+    33.707
+   ],
+   "text": "Fort McPherson",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  }
+ ]
+}

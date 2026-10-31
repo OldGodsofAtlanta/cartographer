@@ -1,0 +1,29 @@
+{
+  "name": "cover-background",
+  "year": 1915,
+  "title": "",
+  "subtitle": "",
+  "dateline": "",
+  "paper": { "preset": "page", "width": 8.625, "height": 11.125, "margin": 0, "dpi": 300 },
+  "view": { "center": [-84.37, 33.775], "denominator": 42000, "projection": "local" },
+  "theme": "survey",
+  "furniture": {
+    "title": { "show": false },
+    "legend": { "show": false },
+    "scalebar": { "show": false },
+    "compass": { "show": false },
+    "border": "none",
+    "graticule": "none",
+    "credits": false
+  },
+  "layers": {
+    "atlanta-streets": { "visible": true },
+    "railroads-atlanta": { "visible": true },
+    "waterways-atlanta": { "visible": true },
+    "atlanta-limits": { "visible": true },
+    "terrain-atlanta": { "visible": true },
+    "canon-sites": { "visible": false },
+    "atlanta-blocks-1878": { "visible": false },
+    "atlanta-horsecars-1878": { "visible": false }
+  }
+}

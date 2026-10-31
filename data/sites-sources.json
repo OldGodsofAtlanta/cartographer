@@ -1,0 +1,1267 @@
+{
+  "about": "How each canon site (canon/places.yml id) is located. Anything not listed here has no coordinates and is not drawn. precision: point = the building or spot itself; area = a district, park, campus or the like, located by its centre; town = only the town is located. Methods: nominatim (an OpenStreetMap object, reviewed by hand), intersection (two street names, from the 1928 street layer), midpoint (of two intersections), place (a town in ga-places), lake (a feature of the lakes layer), backdrop (traced from a georeferenced period map: {id, px, read}), canon (stated in the canon text itself). vicinity = the place is only roughly known: radius_m is how far off it might be, confidence is stated (the canon or a source names the spot), inferred (placed from a district, a street or a neighbour) or guess (a bound the canon gives and little else), and fictional marks a place the canon invents (the map labels it as invented). Further methods: near ({site|place|neighborhood|intersection|lonlat, bearing, distance_m, snap}), between (two of those), neighborhood, street, canon (the text of the basis).",
+  "sites": [
+    {
+      "id": "five-points",
+      "label": "Five Points",
+      "precision": "point",
+      "nominatim": "node Five Points neighbourhood, 33.7545,-84.3898",
+      "lonlat": [
+        -84.3898,
+        33.7545
+      ]
+    },
+    {
+      "id": "oakland-cemetery",
+      "label": "Oakland Cemetery",
+      "precision": "area",
+      "nominatim": "way/28912001 (landuse:cemetery)",
+      "lonlat": [
+        -84.3722,
+        33.7487
+      ]
+    },
+    {
+      "id": "union-depot",
+      "label": "Union Depot",
+      "precision": "area",
+      "backdrop": {
+        "id": "sanborn-depot-courthouse-1886",
+        "px": [
+          700,
+          140
+        ],
+        "read": "the middle of the depot's iron train shed, as the 1886 sheet draws it"
+      },
+      "note": "The 1871 depot's shed, between Pryor Street and Central Avenue. It replaces an OpenStreetMap lookup for Underground Atlanta, which is the same block."
+    },
+    {
+      "id": "friendship-baptist-church",
+      "label": "Friendship Baptist",
+      "precision": "point",
+      "intersection": [
+        "Mitchell",
+        "Haynes"
+      ],
+      "note": "The canon puts the church at the southwest corner of Mitchell and Haynes in 1877. OpenStreetMap's present church is about 450 m west (Dr Thomas Winston Cole Jr Way), so the church is not where it stood then."
+    },
+    {
+      "id": "atlanta-city-hall-1885",
+      "label": "City Hall",
+      "precision": "area",
+      "midpoint": [
+        [
+          "Washington",
+          "Hunter"
+        ],
+        [
+          "Washington",
+          "Mitchell"
+        ]
+      ],
+      "note": "The five-acre City Hall lot on Washington Street between Hunter and Mitchell (canon); the point is the middle of that frontage. The 1886 Sanborn sheet (sanborn-depot-courthouse-1886) draws City Hall and the Chamber of Commerce at Pryor and Hunter Streets, about 250 m east-southeast; the canon's 1885 entry gives no address, so the 1877 lot stays."
+    },
+    {
+      "id": "georgia-state-capitol",
+      "label": "State Capitol",
+      "precision": "area",
+      "midpoint": [
+        [
+          "Washington",
+          "Hunter"
+        ],
+        [
+          "Washington",
+          "Mitchell"
+        ]
+      ],
+      "note": "The Capitol (1889) stands on the City Hall lot, which the legislature chose in 1879 (canon)."
+    },
+    {
+      "id": "ebenezer-baptist",
+      "label": "Ebenezer Baptist",
+      "precision": "point",
+      "nominatim": "amenity:place_of_worship, Jackson Street NE",
+      "lonlat": [
+        -84.3742,
+        33.7551
+      ],
+      "note": "OpenStreetMap places the congregation's newer church on Jackson Street; 407 Auburn Avenue (the canon's address) is within about 150 m."
+    },
+    {
+      "id": "bethel-ame",
+      "label": "Big Bethel A.M.E.",
+      "precision": "point",
+      "nominatim": "amenity:place_of_worship, Auburn Avenue NE",
+      "lonlat": [
+        -84.3805,
+        33.7559
+      ]
+    },
+    {
+      "id": "atlanta-daily-world-office",
+      "label": "Atlanta Daily World",
+      "precision": "point",
+      "nominatim": "building:commercial, 145 Auburn Avenue",
+      "lonlat": [
+        -84.3828,
+        33.7554
+      ]
+    },
+    {
+      "id": "fox-theatre",
+      "label": "Fox Theatre",
+      "precision": "point",
+      "nominatim": "amenity:theatre, 660 Peachtree",
+      "lonlat": [
+        -84.3856,
+        33.7726
+      ]
+    },
+    {
+      "id": "atlanta-federal-penitentiary",
+      "label": "Federal Penitentiary",
+      "precision": "area",
+      "nominatim": "amenity:prison, United States Penitentiary Atlanta",
+      "lonlat": [
+        -84.369,
+        33.7105
+      ]
+    },
+    {
+      "id": "fort-mcpherson",
+      "label": "Fort McPherson",
+      "precision": "area",
+      "nominatim": "place:hamlet, Fort McPherson",
+      "lonlat": [
+        -84.435,
+        33.7068
+      ]
+    },
+    {
+      "id": "grant-park",
+      "label": "Grant Park",
+      "precision": "area",
+      "nominatim": "leisure:park",
+      "lonlat": [
+        -84.3709,
+        33.7359
+      ]
+    },
+    {
+      "id": "exposition-grounds",
+      "label": "Exposition grounds",
+      "precision": "area",
+      "nominatim": "leisure:park, Piedmont Park",
+      "lonlat": [
+        -84.3719,
+        33.789
+      ]
+    },
+    {
+      "id": "clara-meer-spillway",
+      "label": "Lake Clara Meer",
+      "precision": "area",
+      "lake": "Lake Clara Meer"
+    },
+    {
+      "id": "grant-field",
+      "label": "Grant Field",
+      "precision": "area",
+      "nominatim": "leisure:stadium, Bobby Dodd Stadium (the same ground)",
+      "lonlat": [
+        -84.393,
+        33.7725
+      ]
+    },
+    {
+      "id": "westview-cemetery",
+      "label": "Westview Cemetery",
+      "precision": "area",
+      "nominatim": "landuse:cemetery",
+      "lonlat": [
+        -84.449,
+        33.7458
+      ]
+    },
+    {
+      "id": "south-view-ground",
+      "label": "South-View Cemetery",
+      "precision": "area",
+      "nominatim": "landuse:cemetery",
+      "lonlat": [
+        -84.3695,
+        33.7019
+      ]
+    },
+    {
+      "id": "west-side-atlanta-university",
+      "label": "Atlanta University",
+      "precision": "area",
+      "nominatim": "place:neighbourhood, Atlanta University Center",
+      "lonlat": [
+        -84.4129,
+        33.7495
+      ]
+    },
+    {
+      "id": "bellwood-prison-camp",
+      "label": "Bellwood quarry",
+      "precision": "area",
+      "nominatim": "landuse:quarry, Bellwood Quarry",
+      "lonlat": [
+        -84.4355,
+        33.7802
+      ]
+    },
+    {
+      "id": "stone-mountain",
+      "label": "Stone Mountain (the mountain)",
+      "precision": "area",
+      "nominatim": "highest ground in the 3DEP elevation grid (1,683 ft; the mountain is 1,686 ft). OpenStreetMap's peak node is about 570 m north of this, so it was not used",
+      "lonlat": [
+        -84.1461,
+        33.8011
+      ]
+    },
+    {
+      "id": "big-ledge",
+      "label": "Arabia Mountain",
+      "precision": "area",
+      "nominatim": "natural:peak, Arabia Mountain (canon: a couple of miles south of Lithonia; this is about 5 km)",
+      "lonlat": [
+        -84.1182,
+        33.6651
+      ]
+    },
+    {
+      "id": "marietta-square",
+      "label": "Marietta Square",
+      "precision": "area",
+      "backdrop": {
+        "id": "sanborn-marietta-square-1885",
+        "px": [
+          1068,
+          830
+        ],
+        "read": "the middle of the Public Square"
+      },
+      "note": "The square itself; the courthouse and jail stood on the blocks around it, with the courthouse on the east side."
+    },
+    {
+      "id": "decatur-square-courthouse",
+      "label": "DeKalb Courthouse",
+      "precision": "point",
+      "backdrop": {
+        "id": "sanborn-decatur-courthouse-1911",
+        "px": [
+          860,
+          1590
+        ],
+        "read": "the middle of the Court House (the 1898 granite building) in Decatur's square"
+      },
+      "note": "The courthouse as the 1911 sheet draws it, five years before the fire."
+    },
+    {
+      "id": "buckhead",
+      "label": "Buckhead",
+      "precision": "area",
+      "nominatim": "place:suburb",
+      "lonlat": [
+        -84.3796,
+        33.8398
+      ]
+    },
+    {
+      "id": "west-end",
+      "label": "West End",
+      "precision": "area",
+      "nominatim": "place:neighbourhood",
+      "lonlat": [
+        -84.4163,
+        33.7382
+      ]
+    },
+    {
+      "id": "inman-park",
+      "label": "Inman Park",
+      "precision": "area",
+      "nominatim": "place:neighbourhood",
+      "lonlat": [
+        -84.3627,
+        33.7576
+      ]
+    },
+    {
+      "id": "ansley-park",
+      "label": "Ansley Park",
+      "precision": "area",
+      "nominatim": "place:neighbourhood",
+      "lonlat": [
+        -84.3811,
+        33.793
+      ]
+    },
+    {
+      "id": "druid-hills",
+      "label": "Druid Hills",
+      "precision": "area",
+      "nominatim": "boundary:census",
+      "lonlat": [
+        -84.3303,
+        33.7833
+      ]
+    },
+    {
+      "id": "summerhill",
+      "label": "Summerhill",
+      "precision": "area",
+      "nominatim": "place:neighbourhood",
+      "lonlat": [
+        -84.3855,
+        33.7368
+      ]
+    },
+    {
+      "id": "pittsburg",
+      "label": "Pittsburg",
+      "precision": "area",
+      "nominatim": "place:neighbourhood, Pittsburgh",
+      "lonlat": [
+        -84.4018,
+        33.7271
+      ]
+    },
+    {
+      "id": "lithia-springs",
+      "label": "Lithia Springs",
+      "precision": "town",
+      "nominatim": "place:town",
+      "lonlat": [
+        -84.6605,
+        33.794
+      ]
+    },
+    {
+      "id": "standing-peachtree",
+      "label": "Standing Peachtree",
+      "precision": "area",
+      "nominatim": "natural:wood, Standing Peachtree Greenspace (canon: where Peachtree Creek meets the Chattahoochee)",
+      "lonlat": [
+        -84.4529,
+        33.8302
+      ]
+    },
+    {
+      "id": "dupre-excelsior-mill",
+      "label": "DuPre's mill",
+      "precision": "point",
+      "intersection": [
+        "North Ave",
+        "Angier"
+      ],
+      "note": "North Avenue at Angier Street (canon)."
+    },
+    {
+      "id": "decatur",
+      "label": "Decatur",
+      "precision": "town",
+      "place": "Decatur"
+    },
+    {
+      "id": "east-point",
+      "label": "East Point",
+      "precision": "town",
+      "place": "East Point"
+    },
+    {
+      "id": "lithonia",
+      "label": "Lithonia",
+      "precision": "town",
+      "place": "Lithonia"
+    },
+    {
+      "id": "stone-mountain-village",
+      "label": "Stone Mountain (village)",
+      "precision": "town",
+      "place": "Stone Mountain"
+    },
+    {
+      "id": "camp-creek",
+      "label": "Camp Creek trestle",
+      "precision": "area",
+      "note": "The canon puts the trestle 'a mile and a half north of McDonough'. This crossing is about 1.1 miles (1.8 km) straight-line north of McDonough's centre, and the present bridge is not necessarily where the 1900 trestle stood: no source I read pins the wreck site. Treat it as the crossing the wreck must have been near.",
+      "lonlat": [
+        -84.15799,
+        33.46326
+      ],
+      "nominatim": "OpenStreetMap way 'Camp Creek Bridge' on the Norfolk Southern line (the old Southern Railway, in operation by 1889 per Atack), where it crosses Camp Creek"
+    },
+    {
+      "id": "camp-gordon",
+      "label": "Camp Gordon",
+      "precision": "town",
+      "place": "Chamblee",
+      "note": "Camp Gordon was at Chamblee; only the town is located."
+    },
+    {
+      "id": "buford",
+      "label": "Buford",
+      "precision": "town",
+      "place": "Buford"
+    },
+    {
+      "id": "lawrenceville",
+      "label": "Lawrenceville",
+      "precision": "town",
+      "place": "Lawrenceville"
+    },
+    {
+      "id": "conyers",
+      "label": "Conyers",
+      "precision": "town",
+      "place": "Conyers"
+    },
+    {
+      "id": "covington-porterdale",
+      "label": "Covington",
+      "precision": "town",
+      "place": "Covington"
+    },
+    {
+      "id": "cumming",
+      "label": "Cumming",
+      "precision": "town",
+      "place": "Cumming"
+    },
+    {
+      "id": "newnan-palmetto",
+      "label": "Newnan",
+      "precision": "town",
+      "place": "Newnan"
+    },
+    {
+      "id": "gainesville-square",
+      "label": "Gainesville",
+      "precision": "town",
+      "place": "Gainesville"
+    },
+    {
+      "id": "ponce-de-leon",
+      "label": "Ponce de Leon Park (ballpark)",
+      "precision": "point",
+      "backdrop": {
+        "id": "sanborn-ponce-de-leon-park-1911",
+        "px": [
+          700,
+          515
+        ],
+        "read": "the inside angle of the Atlanta Base Ball Association's grandstand, north of Ponce de Leon Avenue"
+      },
+      "note": "The ballpark as drawn in 1911. The canon's boating lake (to 1907) and sulfur spring are within about 150 m; the amusement park lies across the avenue to the south."
+    },
+    {
+      "id": "national-pencil-company",
+      "label": "National Pencil Co.",
+      "precision": "point",
+      "backdrop": {
+        "id": "sanborn-national-pencil-company-1911",
+        "px": [
+          785,
+          1386
+        ],
+        "read": "the middle of the factory's frontage on South Forsyth Street (street numbers 37-41)"
+      },
+      "note": "The factory as the 1911 Sanborn sheet draws it. The canon asks that the exact address and 1915 use be confirmed; this fixes the 1911 building, not the street door."
+    },
+    {
+      "id": "fulton-mill",
+      "label": "Fulton Bag and Cotton Mills",
+      "precision": "area",
+      "backdrop": {
+        "id": "sanborn-fulton-bag-mills-1899",
+        "px": [
+          1215,
+          610
+        ],
+        "read": "the middle of the mill complex (bag factory, Mill No. 2, bleachery and waste mill) at Decatur Street and Boulevard"
+      },
+      "note": "The complex as drawn in 1899. Factory Town's company houses (the tenements) lie south and east of it on the same sheet. The 1928 Boulevard centreline sits about 10 m west of the 1899 one, so the position is good to 10-15 m."
+    },
+    {
+      "id": "fulton-county-courthouse",
+      "label": "Fulton County courthouse",
+      "precision": "point",
+      "backdrop": {
+        "id": "sanborn-depot-courthouse-1886",
+        "px": [
+          530,
+          1660
+        ],
+        "read": "the middle of the building marked Court Ho., south of Hunter Street on Pryor"
+      },
+      "note": "The 1883 courthouse (all towers), which the canon says was demolished in 1911; the 1886 sheet is the nearest we have."
+    },
+    {
+      "id": "decatur-lockup",
+      "label": "Decatur jail",
+      "precision": "point",
+      "backdrop": {
+        "id": "sanborn-decatur-jail-1911",
+        "px": [
+          645,
+          725
+        ],
+        "read": "the building marked Jail, on Herring Street between Marshal and McDonough"
+      },
+      "note": "A small brick building off the square, as the canon has it. The sheet is 1911; the canon's lockup is 1908."
+    },
+    {
+      "id": "cooper-pants-factory",
+      "label": "Cooper Pants Factory",
+      "precision": "point",
+      "lonlat": [
+        -83.82708,
+        34.29761
+      ],
+      "nominatim": "the crossing of Broad Street Southwest and Maple Street in OpenStreetMap (data/town-streets.geojson); the canon puts the factory at West Broad and Maple",
+      "note": "The crossing, not the building: no source I read gives the factory's lot, and the street names are today's. Expect it to be within a block."
+    },
+    {
+      "id": "atlanta-medical-college",
+      "label": "Atlanta Medical College",
+      "precision": "point",
+      "backdrop": {
+        "id": "sanborn-medical-colleges-1899",
+        "px": [
+          700,
+          1110
+        ],
+        "read": "the middle of the blue and pink building marked Atlanta Medical College, on the west side of N. Butler Street between Jenkins (or Armstrong) and College Streets"
+      },
+      "note": "The college as the 1899 sheet draws it, across Butler Street from the Grady Hospital (the canon's 1885 entry says 'where Grady Hospital stands now'; by 1899 the hospital was on the east side). Southern Medical College and its dental department stand just north."
+    },
+    {
+      "id": "terminal-station",
+      "label": "Terminal Station",
+      "precision": "area",
+      "intersection": [
+        "Spring",
+        "Mitchell"
+      ],
+      "note": "Spring and Mitchell Streets: the canon gives 75 Spring Street SW, and the 1911 atlas page draws a large hatched building and train shed running north-west along the rail trench from this corner (the point is the corner, not the building; the shed was torn down in 1925)."
+    },
+    {
+      "id": "union-station-1930",
+      "label": "Union Station (1930)",
+      "precision": "area",
+      "lonlat": [
+        -84.39289,
+        33.75496
+      ],
+      "nominatim": "the midpoint of where the rail trench crosses Forsyth Street (-84.39206, 33.75462) and Spring Street (-84.39371, 33.75529) in the OSM rail layer, since the canon puts the station 'over the tracks between Forsyth and Spring Streets'",
+      "note": "Within about 100 m. The 1930 station is not on any sheet in the project (the latest, the 1928 street layer, predates it); no source gives its footprint."
+    },
+    {
+      "id": "loews-grand",
+      "label": "Loew's Grand Theatre",
+      "precision": "area",
+      "intersection": [
+        "Peachtree",
+        "Forsyth"
+      ],
+      "note": "The canon puts it at 'Peachtree and Forsyth Streets (157 Peachtree)': this is that crossing, so the point is the corner, not the theatre."
+    },
+    {
+      "id": "atlanta-municipal-auditorium",
+      "label": "Municipal Auditorium",
+      "precision": "area",
+      "intersection": [
+        "Gilmer",
+        "Courtland"
+      ],
+      "note": "The canon puts it at 'Gilmer and Courtland Streets': the crossing, not the building."
+    },
+    {
+      "id": "jacobs-pharmacy",
+      "label": "Jacobs' Pharmacy",
+      "precision": "area",
+      "intersection": [
+        "Peachtree",
+        "Marietta"
+      ],
+      "note": "The canon puts it at Five Points, 'Peachtree and Marietta': the crossing (Five Points is the junction of Peachtree, Marietta, Decatur and Edgewood), not the shop. The Fourth National Bank is at the same corner in the canon, so the two share a point."
+    },
+    {
+      "id": "fourth-national-bank",
+      "label": "Fourth National Bank",
+      "precision": "area",
+      "intersection": [
+        "Peachtree",
+        "Marietta"
+      ],
+      "note": "The canon puts it at 'Peachtree and Marietta': the crossing, not the building. Shares a point with Jacobs' Pharmacy."
+    },
+    {
+      "id": "morris-brown-college",
+      "label": "Morris Brown College (1880s)",
+      "precision": "area",
+      "intersection": [
+        "Boulevard",
+        "Houston"
+      ],
+      "note": "The canon puts the college 'Boulevard at Houston Street' (where it began in 1885): the crossing. The college's present campus, on the west side, is not this site."
+    },
+    {
+      "id": "atlanta-avenue-sewer-cut",
+      "label": "Atlanta Avenue sewer cut",
+      "precision": "area",
+      "intersection": [
+        "Atlanta",
+        "Martin"
+      ],
+      "note": "The canon says 'Atlanta Avenue near Martin Street': the crossing, a point on a line the canon gives only as 'near'."
+    },
+    {
+      "id": "techwood-homes",
+      "label": "Techwood Homes (Tech Flats)",
+      "precision": "area",
+      "midpoint": [
+        [
+          "Techwood",
+          "Pine"
+        ],
+        [
+          "Techwood",
+          "North"
+        ]
+      ],
+      "note": "The canon's street list for the cleared Flats (Techwood Drive, Pine, Parker, Hunnicutt, Mills): the point is the midpoint of Techwood Drive between Pine Street and North Avenue. An area of about 1 km north to south, not a footprint."
+    },
+    {
+      "id": "university-homes-site",
+      "label": "University Homes (Beaver Slide)",
+      "precision": "area",
+      "midpoint": [
+        [
+          "Parsons",
+          "Elm"
+        ],
+        [
+          "Maher",
+          "Dora"
+        ]
+      ],
+      "note": "The canon's street list for the University Homes site (Parsons, Elm, Maher, Dora, Greensferry, Lawshe): the midpoint of the Parsons and Elm crossing and the Maher and Dora crossing. It lies within about 60 m of the Beaver Slide point in the neighborhoods layer, which comes from Wikipedia's coordinates, so the two independent routes agree."
+    },
+    {
+      "id": "atlanta-city-stockade",
+      "label": "City Stockade",
+      "precision": "point",
+      "lonlat": [
+        -84.36189,
+        33.74162
+      ],
+      "nominatim": "OpenStreetMap building at 750 Glenwood Avenue SE (the City of Atlanta's historic-preservation page gives 750 Glenwood; the NPS gives 760, whose OSM node is about 100 m south-west)",
+      "note": "Today's address and building, not necessarily the stockade's: the stockade was built from 1896 on land bought in 1863 for a city cemetery and closed in 1924 (atlantaga.gov, 'The Atlanta Stockade'; NPS). About 500 m east of Glenwood and Boulevard, which agrees with the canon's 'east of Grant Park'. Check against the Sanborn sheets before print; none in the project covers it."
+    },
+    {
+      "id": "imperial-palace",
+      "label": "Klan Imperial Palace",
+      "precision": "area",
+      "lonlat": [
+        -84.38694,
+        33.82806
+      ],
+      "nominatim": "coordinates of the Cathedral of Christ the King, 2699 Peachtree Road, from Wikipedia: the Klan's 'Imperial Palace', a Greek Revival mansion, stood on the property the diocese later bought (Wikipedia 'Cathedral of Christ the King (Atlanta)', citing Barnard 2009 and Smith 2006)",
+      "note": "The property, not the mansion. Wikipedia gives no separate address for the Klan's headquarters."
+    },
+    {
+      "id": "chattahoochee-yard",
+      "label": "Chattahoochee Brick Co.",
+      "precision": "area",
+      "lonlat": [
+        -84.490475,
+        33.809103
+      ],
+      "nominatim": "the centre of the site stated in the National Park Service's Historic American Landscapes Survey report, Chattahoochee Brick Company, HALS No. GA-7 ('33.809103, -84.490475 (Center of the Chattahoochee Brick Company site, Google Maps, WGS84)'); the report is in sources/ in this repository",
+      "note": "An 80-acre site; the point is its centre. The report places the 1907 building and railroad layout (from the 1907 Sanborn map) west of the centre and the 1907 convict-lease residences about 20 m from it; see the backdrop 'hals-ga-7-brick-site-plan' for the plan. The estimate made earlier from a Google Maps view (33.8093, -84.4895) was 90 m from this. The site is bounded by the Chattahoochee River (north), the CSX line (east), I-285 and Proctor Creek (west) and Parrott Avenue NW (south), and the entrance is at Brick Plant Road and Parrott Avenue. All the original buildings burned on December 2, 1900 and were rebuilt within a year; the plan shows the post-fire layout of 1907."
+    },
+    {
+      "id": "cone-street-english-house",
+      "label": "English house, Cone Street",
+      "precision": "area",
+      "midpoint": [
+        [
+          "Cone",
+          "Marietta"
+        ],
+        [
+          "Cone",
+          "Walton"
+        ]
+      ],
+      "note": "James W. English's house stood at 40 Cone Street in the Fairlie-Poplar neighborhood, 'situated close to the financial center because Mrs. English wanted her husband to be able to come home for all three meals' (HALS GA-7, citing Garrett, Atlanta and Environs, 1954, and the English vertical file at the Atlanta History Center). Cone Street is about 100 m long between Marietta and Walton Streets; the point is its middle, because the 1900s house numbers are not known."
+    },
+    {
+      "id": "decatur-street",
+      "label": "Decatur Street",
+      "precision": "vicinity",
+      "radius_m": 300,
+      "confidence": "inferred",
+      "intersection": [
+        "Decatur",
+        "Pryor"
+      ],
+      "canon": "a representative reach of the street where the chapters set Broyles's court, the Rosens' shop and the police station, near Pryor Street; the street runs the length of the downtown ring"
+    },
+    {
+      "id": "peachtree-street",
+      "label": "Peachtree Street",
+      "precision": "vicinity",
+      "radius_m": 450,
+      "confidence": "inferred",
+      "intersection": [
+        "Peachtree",
+        "Cain"
+      ],
+      "canon": "a representative downtown reach near Cain Street; the street itself runs the length of the map"
+    },
+    {
+      "id": "marietta-street",
+      "label": "Marietta Street",
+      "precision": "vicinity",
+      "radius_m": 300,
+      "confidence": "inferred",
+      "intersection": [
+        "Marietta",
+        "Forsyth"
+      ],
+      "canon": "Pemberton's office at 107 Marietta Street is near Forsyth Street; the point is that block"
+    },
+    {
+      "id": "houston-street",
+      "label": "Houston Street",
+      "precision": "vicinity",
+      "radius_m": 120,
+      "confidence": "stated",
+      "intersection": [
+        "Houston",
+        "Boulevard"
+      ],
+      "canon": "the canon sets the 1917 scene at Houston Street and Boulevard"
+    },
+    {
+      "id": "auburn-avenue",
+      "label": "Auburn Avenue",
+      "precision": "vicinity",
+      "radius_m": 300,
+      "confidence": "inferred",
+      "intersection": [
+        "Auburn",
+        "Butler"
+      ],
+      "canon": "Big Bethel, Wheat Street Baptist and the Odd Fellows block are along the avenue; the point is Auburn and Butler, the commercial heart"
+    },
+    {
+      "id": "wheat-street",
+      "label": "Wheat Street (east side)",
+      "precision": "vicinity",
+      "radius_m": 120,
+      "confidence": "stated",
+      "intersection": [
+        "Auburn",
+        "Fort"
+      ],
+      "canon": "the canon sets Wheat Street Baptist at Auburn and Fort; Wheat Street is Auburn Avenue's name east of Jackson until 1893"
+    },
+    {
+      "id": "fort-street",
+      "label": "Fort Street",
+      "precision": "vicinity",
+      "radius_m": 150,
+      "confidence": "stated",
+      "midpoint": [
+        [
+          "Fort",
+          "Decatur"
+        ],
+        [
+          "Fort",
+          "Auburn"
+        ]
+      ],
+      "canon": "the Grady storehouse stood on Fort Street north of Decatur; the point is the stretch between Decatur Street and Auburn Avenue"
+    },
+    {
+      "id": "hanover-street",
+      "label": "Hanover Street",
+      "precision": "vicinity",
+      "radius_m": 250,
+      "confidence": "inferred",
+      "street": "Hanover St SE",
+      "canon": "the middle of Hanover Street in Reynoldstown, by the Seaboard line; the 1911 house number (24) is not located"
+    },
+    {
+      "id": "brownsville",
+      "label": "Brownsville",
+      "precision": "vicinity",
+      "radius_m": 600,
+      "confidence": "inferred",
+      "neighborhood": "Brownsville",
+      "canon": "the neighbourhood centre in the Black neighborhoods layer"
+    },
+    {
+      "id": "shermantown",
+      "label": "Shermantown",
+      "precision": "vicinity",
+      "radius_m": 400,
+      "confidence": "inferred",
+      "neighborhood": "Shermantown",
+      "canon": "the neighbourhood centre in the Black neighborhoods layer (the canon puts it east of Oakland Cemetery; the Setting Guide's location differs)"
+    },
+    {
+      "id": "buttermilk-bottom-low-ground",
+      "label": "Buttermilk Bottom",
+      "precision": "vicinity",
+      "radius_m": 450,
+      "confidence": "inferred",
+      "neighborhood": "Buttermilk Bottom",
+      "canon": "the neighbourhood centre in the Black neighborhoods layer, in the low ground of Clear Creek"
+    },
+    {
+      "id": "zion-hill-baptist",
+      "label": "Zion Hill Baptist",
+      "precision": "vicinity",
+      "radius_m": 500,
+      "confidence": "inferred",
+      "neighborhood": "Vine City",
+      "canon": "the canon says only Vine City; the point is the Vine City centre in the Black neighborhoods layer"
+    },
+    {
+      "id": "belt-line-bottoms",
+      "label": "Belt Line bottoms",
+      "precision": "vicinity",
+      "radius_m": 800,
+      "confidence": "guess",
+      "between": [
+        {
+          "site": "pittsburg"
+        },
+        {
+          "site": "west-end"
+        }
+      ],
+      "canon": "midway between Pittsburg and West End, the canon's two bounds"
+    },
+    {
+      "id": "midtown-north-side",
+      "label": "North side (Midtown)",
+      "precision": "vicinity",
+      "radius_m": 700,
+      "confidence": "inferred",
+      "intersection": [
+        "Peachtree",
+        "10th"
+      ],
+      "canon": "Peachtree between Eighth and Twelfth Streets, as the canon describes it; the point is Peachtree and Tenth"
+    },
+    {
+      "id": "beacon-hill-decatur",
+      "label": "Beacon Hill (Decatur)",
+      "precision": "vicinity",
+      "radius_m": 350,
+      "confidence": "inferred",
+      "near": {
+        "site": "decatur-square-courthouse",
+        "bearing": 215,
+        "distance_m": 450
+      },
+      "canon": "south-west of Decatur square, about where Atlanta Avenue and Marshall Street meet; offset taken from the Decatur square site"
+    },
+    {
+      "id": "decatur-cemetery-pardues-dairy",
+      "label": "Decatur Cemetery",
+      "precision": "vicinity",
+      "radius_m": 400,
+      "confidence": "inferred",
+      "nominatim": "Decatur Cemetery, 299 Bell Street (cemetery). The canon entry also covers Pardue's dairy, which is invented and which the chapter puts a few miles out; only the real cemetery is marked",
+      "lonlat": [
+        -84.29199,
+        33.78042
+      ]
+    },
+    {
+      "id": "hargroves-rooms",
+      "label": "Hargrove's rooms",
+      "precision": "vicinity",
+      "radius_m": 150,
+      "confidence": "stated",
+      "fictional": true,
+      "near": {
+        "site": "atlanta-federal-penitentiary",
+        "snap": "Mcdonough"
+      },
+      "canon": "the canon puts it across McDonough Boulevard from the prison reservation; the point is the boulevard nearest the penitentiary"
+    },
+    {
+      "id": "aunt-sabras-steam-laundry",
+      "label": "Aunt Sabra's laundry",
+      "precision": "vicinity",
+      "radius_m": 300,
+      "confidence": "stated",
+      "fictional": true,
+      "near": {
+        "site": "atlanta-federal-penitentiary",
+        "bearing": 200,
+        "distance_m": 250,
+        "snap": "Mcdonough"
+      },
+      "canon": "two blocks from the prison gate, which the canon puts on McDonough Boulevard; placed about 250 m along the boulevard from the penitentiary (the direction is a guess); the ring is the two blocks"
+    },
+    {
+      "id": "greater-mercy-ame",
+      "label": "Greater Mercy AME",
+      "precision": "vicinity",
+      "radius_m": 1500,
+      "confidence": "guess",
+      "fictional": true,
+      "near": {
+        "site": "atlanta-federal-penitentiary"
+      },
+      "canon": "the canon says only 'southeast Atlanta'; the ring is centred on the penitentiary, where the chapter is set"
+    },
+    {
+      "id": "fenn-ice-and-coal",
+      "label": "Fenn Ice and Coal",
+      "precision": "vicinity",
+      "radius_m": 500,
+      "confidence": "stated",
+      "fictional": true,
+      "near": {
+        "site": "union-station-1930"
+      },
+      "canon": "a few blocks from the new Union Station, in the rail gulch"
+    },
+    {
+      "id": "marlowe-hotel",
+      "label": "Marlowe Hotel",
+      "precision": "vicinity",
+      "radius_m": 300,
+      "confidence": "stated",
+      "fictional": true,
+      "intersection": [
+        "Peachtree",
+        "Ellis"
+      ],
+      "canon": "Peachtree, a few blocks north of Five Points; the point is Peachtree and Ellis"
+    },
+    {
+      "id": "culbreths-livery",
+      "label": "Culbreth's livery",
+      "precision": "vicinity",
+      "radius_m": 200,
+      "confidence": "inferred",
+      "fictional": true,
+      "intersection": [
+        "Decatur",
+        "Central"
+      ],
+      "canon": "Decatur Street downtown; the point is near Central Avenue"
+    },
+    {
+      "id": "butler-and-slaters",
+      "label": "Butler and Slater's",
+      "precision": "vicinity",
+      "radius_m": 250,
+      "confidence": "inferred",
+      "intersection": [
+        "Auburn",
+        "Jackson"
+      ],
+      "canon": "Wheat Street, east side; the point is Auburn and Jackson"
+    },
+    {
+      "id": "steele-cottage",
+      "label": "Carrie Steele's cottage",
+      "precision": "vicinity",
+      "radius_m": 350,
+      "confidence": "inferred",
+      "intersection": [
+        "Auburn",
+        "Boulevard"
+      ],
+      "canon": "Wheat Street, east side; the point is Auburn and Boulevard"
+    },
+    {
+      "id": "pettaway-street",
+      "label": "Pettaway Street",
+      "precision": "vicinity",
+      "radius_m": 700,
+      "confidence": "guess",
+      "fictional": true,
+      "intersection": [
+        "Auburn",
+        "Randolph"
+      ],
+      "canon": "the canon says only 'the east side'; the ring is the Auburn Avenue east end"
+    },
+    {
+      "id": "crowell-house",
+      "label": "Crowell house",
+      "precision": "vicinity",
+      "radius_m": 300,
+      "confidence": "stated",
+      "fictional": true,
+      "midpoint": [
+        [
+          "Ponce de Leon",
+          "Peachtree"
+        ],
+        [
+          "Ponce de Leon",
+          "Piedmont"
+        ]
+      ],
+      "canon": "Ponce de Leon Avenue east of Peachtree; the point is the stretch between Peachtree and Piedmont"
+    },
+    {
+      "id": "ashby-house",
+      "label": "Ashby house",
+      "precision": "vicinity",
+      "radius_m": 500,
+      "confidence": "inferred",
+      "fictional": true,
+      "near": {
+        "site": "inman-park"
+      },
+      "canon": "Inman Park; the point is the neighbourhood's centre"
+    },
+    {
+      "id": "tidwells-lane",
+      "label": "Tidwell's lane",
+      "precision": "vicinity",
+      "radius_m": 250,
+      "confidence": "stated",
+      "fictional": true,
+      "near": {
+        "site": "south-view-ground",
+        "snap": "Jonesboro Rd"
+      },
+      "canon": "Jonesboro Road beside South-View; the point is the road nearest the cemetery"
+    },
+    {
+      "id": "summerhill-church-hall-1915",
+      "label": "Summerhill church hall",
+      "precision": "vicinity",
+      "radius_m": 400,
+      "confidence": "inferred",
+      "fictional": true,
+      "neighborhood": "Summerhill",
+      "canon": "Summerhill; the point is the neighbourhood centre in the Black neighborhoods layer"
+    },
+    {
+      "id": "mount-hebron-hall",
+      "label": "Mount Hebron Hall",
+      "precision": "vicinity",
+      "radius_m": 400,
+      "confidence": "inferred",
+      "fictional": true,
+      "neighborhood": "Summerhill",
+      "canon": "Summerhill; may be the same hall as the 1915 church hall, so the same point"
+    },
+    {
+      "id": "rehoboth-baptist-church",
+      "label": "Rehoboth Baptist",
+      "precision": "vicinity",
+      "radius_m": 300,
+      "confidence": "inferred",
+      "intersection": [
+        "Georgia Ave",
+        "Fraser"
+      ],
+      "canon": "Summerhill; the point is Georgia Avenue and Fraser Street"
+    },
+    {
+      "id": "quarantine-houses",
+      "label": "Quarantine houses",
+      "precision": "vicinity",
+      "radius_m": 700,
+      "confidence": "inferred",
+      "fictional": true,
+      "canon": "Walnut Street SW and Ella Street SW, which the 1928 layer shows about 1 km apart and not meeting; the ring spans both, and the 1898 street names may differ. The lot is invented",
+      "between": [
+        {
+          "lonlat": [
+            -84.40846,
+            33.75432
+          ]
+        },
+        {
+          "lonlat": [
+            -84.40886,
+            33.74444
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iron-spring",
+      "label": "Iron Spring",
+      "precision": "vicinity",
+      "radius_m": 600,
+      "confidence": "guess",
+      "fictional": true,
+      "neighborhood": "Summerhill",
+      "canon": "a hollow in Summerhill, at the head of a branch of Intrenchment Creek; the ring is the neighbourhood"
+    },
+    {
+      "id": "lee-undertaking-parlor",
+      "label": "Lee's undertaking parlor",
+      "precision": "vicinity",
+      "radius_m": 800,
+      "confidence": "guess",
+      "fictional": true,
+      "intersection": [
+        "Auburn",
+        "Hilliard"
+      ],
+      "canon": "the canon says only 'Atlanta'; the ring is Auburn Avenue, where Black undertakers kept their parlors"
+    },
+    {
+      "id": "tax-collectors-office-1877",
+      "label": "Tax collector's office",
+      "precision": "vicinity",
+      "radius_m": 100,
+      "confidence": "stated",
+      "intersection": [
+        "Alabama",
+        "Pryor"
+      ],
+      "canon": "5 East Alabama Street (1878 directory); the point is Alabama and Pryor, the east end of the block"
+    },
+    {
+      "id": "atlanta-city-hall-council-chamber",
+      "label": "City Hall, council chamber",
+      "precision": "vicinity",
+      "radius_m": 120,
+      "confidence": "inferred",
+      "intersection": [
+        "Mitchell",
+        "Pryor"
+      ],
+      "canon": "the City Hall of 1909 stood at Mitchell and Pryor Streets"
+    },
+    {
+      "id": "prison-commission-office",
+      "label": "Prison Commission office",
+      "precision": "vicinity",
+      "radius_m": 150,
+      "confidence": "inferred",
+      "fictional": true,
+      "near": {
+        "site": "georgia-state-capitol"
+      },
+      "canon": "the canon calls the State Capitol the likeliest building"
+    },
+    {
+      "id": "hazel-street-1919",
+      "label": "Hazel Street",
+      "precision": "vicinity",
+      "radius_m": 600,
+      "confidence": "guess",
+      "fictional": true,
+      "near": {
+        "site": "fort-mcpherson",
+        "bearing": 270,
+        "distance_m": 700
+      },
+      "canon": "west of Campbellton Road, on the cleared site of the war prison barracks; offset taken from Fort McPherson"
+    },
+    {
+      "id": "roswell-road-churchyard",
+      "label": "Roswell Road churchyard",
+      "precision": "vicinity",
+      "radius_m": 2500,
+      "confidence": "guess",
+      "near": {
+        "site": "marietta-square",
+        "bearing": 85,
+        "distance_m": 12900
+      },
+      "canon": "eight miles east of Marietta along the Roswell road: 12.9 km east of Marietta square"
+    },
+    {
+      "id": "lower-ferry-landing",
+      "label": "Strothers' lower ferry",
+      "precision": "vicinity",
+      "radius_m": 3000,
+      "confidence": "guess",
+      "near": {
+        "site": "marietta-square",
+        "bearing": 85,
+        "distance_m": 14500
+      },
+      "canon": "on the Roswell road reach of the Chattahoochee, a mile or so past the churchyard"
+    },
+    {
+      "id": "indian-springs",
+      "label": "Indian Springs",
+      "precision": "vicinity",
+      "radius_m": 1200,
+      "confidence": "stated",
+      "nominatim": "Indian Springs State Park, Butts County (park)",
+      "lonlat": [
+        -83.9265,
+        33.2477
+      ]
+    },
+    {
+      "id": "camp-gordon-norcross-range",
+      "label": "Norcross rifle range",
+      "precision": "vicinity",
+      "radius_m": 3000,
+      "confidence": "inferred",
+      "place": "Norcross",
+      "canon": "the canon puts the range at Norcross, seven miles from the camp; the camp itself is the Camp Gordon site"
+    },
+    {
+      "id": "candler-field",
+      "label": "Candler Field",
+      "precision": "vicinity",
+      "radius_m": 1300,
+      "confidence": "inferred",
+      "lonlat": [
+        -84.4345,
+        33.6525
+      ],
+      "canon": "the 1909 speedway tract on Virginia Avenue in Hapeville (the canon); the ring is the field's rough extent in 1941"
+    },
+    {
+      "id": "the-hammock",
+      "label": "The Hammock",
+      "precision": "vicinity",
+      "radius_m": 400,
+      "confidence": "guess",
+      "fictional": true,
+      "lonlat": [
+        -84.4495,
+        33.6535
+      ],
+      "canon": "the western edge of Candler Field, beside East Point's Black community"
+    },
+    {
+      "id": "the-seep",
+      "label": "The Seep",
+      "precision": "vicinity",
+      "radius_m": 250,
+      "confidence": "guess",
+      "fictional": true,
+      "lonlat": [
+        -84.4465,
+        33.6615
+      ],
+      "canon": "the north-west corner of Candler Field, between Hapeville's Virginia Avenue culvert and East Point's field"
+    }
+  ]
+}

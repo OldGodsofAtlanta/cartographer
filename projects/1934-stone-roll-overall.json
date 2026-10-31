@@ -1,0 +1,71 @@
+{
+  "name": "1934-stone-roll-overall",
+  "chapter": "1934-stone-roll",
+  "year": 1934,
+  "month": 12,
+  "day": 11,
+  "title": "Stone Roll",
+  "subtitle": "",
+  "dateline": "December 1934",
+  "paper": {
+    "preset": "page",
+    "width": 10.875,
+    "height": 8.375,
+    "margin": 0.45,
+    "dpi": 200
+  },
+  "view": {
+    "bounds": [
+      -84.442,
+      33.7394,
+      -84.365,
+      33.7888
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-right",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-left"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "hidden": [
+    "black-neighborhoods:darktown"
+  ]
+}

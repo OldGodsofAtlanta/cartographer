@@ -1,0 +1,128 @@
+{
+ "name": "setting-guide-fourth-ward",
+ "chapter": "0003-atlanta-setting-guide",
+ "year": 1911,
+ "title": "",
+ "subtitle": "",
+ "dateline": "",
+ "paper": {
+  "preset": "page",
+  "width": 3.6,
+  "height": 2.9,
+  "margin": 0,
+  "dpi": 300
+ },
+ "view": {
+  "center": [
+   -84.374,
+   33.7545
+  ],
+  "denominator": 19000,
+  "projection": "local"
+ },
+ "theme": "survey",
+ "furniture": {
+  "title": {
+   "show": false
+  },
+  "legend": {
+   "show": false
+  },
+  "scalebar": {
+   "show": false
+  },
+  "compass": {
+   "show": false
+  },
+  "border": "none",
+  "graticule": "none",
+  "credits": false
+ },
+ "layers": {
+  "atlanta-streets": {
+   "visible": true,
+   "labels": false
+  },
+  "railroads-atlanta": {
+   "visible": true,
+   "labels": false
+  },
+  "waterways-atlanta": {
+   "visible": false
+  },
+  "atlanta-limits": {
+   "visible": false
+  },
+  "canon-sites": {
+   "visible": false
+  }
+ },
+ "annotations": [
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.38,
+    33.756
+   ],
+   "text": "Big Bethel",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.374,
+    33.755
+   ],
+   "text": "Ebenezer",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.372,
+    33.759
+   ],
+   "text": "Morris Brown",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.369,
+    33.751
+   ],
+   "text": "Fulton Mills",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  },
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.372,
+    33.7485
+   ],
+   "text": "Oakland Cemetery",
+   "style": "building",
+   "symbol": "square",
+   "halo": true
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.38,
+    33.7575
+   ],
+   "text": "Auburn Ave.",
+   "style": "street",
+   "halo": true,
+   "size": 5.5
+  }
+ ]
+}

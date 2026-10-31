@@ -1,0 +1,72 @@
+{
+  "name": "1915-second-hearing-overall",
+  "chapter": "1915-second-hearing",
+  "year": 1915,
+  "month": 8,
+  "day": 18,
+  "title": "Second Hearing",
+  "subtitle": "",
+  "dateline": "August 1915",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -84.4011,
+      33.7302,
+      -84.3735,
+      33.76
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": false
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": false
+    },
+    "atlanta-horsecars-1878": {
+      "visible": false
+    }
+  },
+  "hidden": []
+}

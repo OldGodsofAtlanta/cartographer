@@ -1,0 +1,78 @@
+{
+  "name": "1898-pest-wagon-overall",
+  "chapter": "1898-pest-wagon",
+  "year": 1898,
+  "month": 1,
+  "day": 24,
+  "title": "Pest Wagon",
+  "subtitle": "",
+  "dateline": "January 1898",
+  "paper": {
+    "preset": "custom",
+    "width": 10.875,
+    "height": 8.375,
+    "margin": 0.45,
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -84.420305,
+      33.741665,
+      -84.355735,
+      33.763515
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "atlanta-streets": {
+      "visible": true
+    },
+    "atlanta-blocks-1878": {
+      "visible": false
+    },
+    "atlanta-horsecars-1878": {
+      "visible": false
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "hidden": [
+    "black-neighborhoods:auburn",
+    "black-neighborhoods:darktown"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "chapter": "1907-fill-dirt",
+  "year": 1907,
+  "month": 5,
+  "day": 23,
+  "title": "Ponce de Leon Park",
+  "subtitle": "The Springs, the Lake and the Ballpark",
+  "dateline": "May 1907",
+  "view": {
+    "center": [
+      -84.36566,
+      33.77276
+    ],
+    "denominator": 2200,
+    "projection": "local"
+  },
+  "paper": {
+    "preset": "block"
+  },
+  "backdrops": [
+    {
+      "id": "sanborn-ponce-de-leon-park-1911",
+      "opacity": 0.95,
+      "guide": false
+    }
+  ],
+  "layers": {
+    "canon-sites": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true,
+      "anyScale": true
+    },
+    "atlanta-streets": {
+      "visible": false
+    },
+    "railroads-atlanta": {
+      "visible": false
+    },
+    "atlanta-limits": {
+      "visible": false
+    }
+  },
+  "furniture": {
+    "legend": {
+      "show": false
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    }
+  },
+  "name": "fill-dirt-1907"
+}

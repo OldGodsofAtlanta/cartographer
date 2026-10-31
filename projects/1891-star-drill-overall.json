@@ -1,0 +1,75 @@
+{
+  "name": "1891-star-drill-overall",
+  "chapter": "1891-star-drill",
+  "year": 1891,
+  "month": 4,
+  "day": 25,
+  "title": "Lithonia",
+  "subtitle": "Star Drill",
+  "dateline": "1891",
+  "paper": {
+    "preset": "page"
+  },
+  "view": {
+    "center": [
+      -84.1122,
+      33.6891
+    ],
+    "denominator": 27500,
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "town-streets": {
+      "visible": true,
+      "undated": true,
+      "labels": false
+    },
+    "town-railroads": {
+      "visible": true
+    },
+    "town-waterways": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": false
+    },
+    "railroads-atlanta": {
+      "visible": false
+    },
+    "waterways-atlanta": {
+      "visible": false
+    },
+    "atlanta-limits": {
+      "visible": false
+    },
+    "railroads-historical": {
+      "visible": true,
+      "anyScale": true,
+      "labels": false
+    },
+    "terrain-lithonia": {
+      "visible": true
+    }
+  },
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 20
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    }
+  },
+  "hidden": []
+}

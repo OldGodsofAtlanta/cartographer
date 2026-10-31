@@ -1,0 +1,70 @@
+{
+  "name": "1907-excelsior-overall",
+  "chapter": "1907-excelsior",
+  "year": 1907,
+  "month": 4,
+  "day": 18,
+  "title": "Excelsior",
+  "subtitle": "",
+  "dateline": "April 1907",
+  "paper": {
+    "preset": "page",
+    "width": 10.875,
+    "height": 8.375
+  },
+  "view": {
+    "bounds": [
+      -84.3983,
+      33.748,
+      -84.3576,
+      33.7741
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": true
+    }
+  },
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "hidden": [
+    "black-neighborhoods:buttermilk-bottom",
+    "black-neighborhoods:darktown"
+  ]
+}

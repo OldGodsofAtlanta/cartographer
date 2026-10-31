@@ -1,0 +1,85 @@
+{
+ "name": "setting-guide-black-atlanta",
+ "chapter": "0003-atlanta-setting-guide",
+ "year": 1906,
+ "title": "",
+ "subtitle": "",
+ "dateline": "",
+ "paper": {
+  "preset": "page",
+  "width": 5.45,
+  "margin": 0.12,
+  "dpi": 300,
+  "height": 4.6
+ },
+ "view": {
+  "center": [
+   -84.385,
+   33.742
+  ],
+  "denominator": 60000,
+  "projection": "local"
+ },
+ "theme": "survey",
+ "furniture": {
+  "title": {
+   "show": false
+  },
+  "legend": {
+   "show": false
+  },
+  "scalebar": {
+   "show": true,
+   "pos": "bottom-left",
+   "box": true
+  },
+  "compass": {
+   "show": true,
+   "pos": "top-right",
+   "size": 20
+  },
+  "border": "single",
+  "graticule": "none",
+  "credits": false
+ },
+ "layers": {
+  "black-neighborhoods": {
+   "visible": true
+  },
+  "atlanta-streets": {
+   "visible": false
+  },
+  "canon-sites": {
+   "visible": false
+  },
+  "atlanta-limits": {
+   "visible": true
+  },
+  "railroads-atlanta": {
+   "visible": true,
+   "labels": false
+  },
+  "waterways-atlanta": {
+   "visible": true
+  },
+  "ga-places": {
+   "visible": false
+  }
+ },
+ "annotations": [
+  {
+   "type": "marker",
+   "lonlat": [
+    -84.372,
+    33.759
+   ],
+   "text": "Morris Brown",
+   "style": "building",
+   "symbol": "cross",
+   "halo": true
+  }
+ ],
+ "hidden": [
+  "black-neighborhoods:Darktown"
+ ]
+}

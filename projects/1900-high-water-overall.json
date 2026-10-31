@@ -1,0 +1,70 @@
+{
+  "name": "1900-high-water-overall",
+  "chapter": "1900-high-water",
+  "year": 1900,
+  "month": 6,
+  "day": 24,
+  "title": "McDonough",
+  "subtitle": "High Water",
+  "dateline": "June 1900",
+  "paper": {
+    "preset": "page"
+  },
+  "view": {
+    "bounds": [
+      -84.16695,
+      33.4393,
+      -84.142,
+      33.4663
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "town-streets": {
+      "visible": true,
+      "undated": true,
+      "labels": false
+    },
+    "town-railroads": {
+      "visible": true
+    },
+    "town-waterways": {
+      "visible": true
+    },
+    "terrain-mcdonough": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": false
+    },
+    "railroads-atlanta": {
+      "visible": false
+    },
+    "waterways-atlanta": {
+      "visible": false
+    },
+    "atlanta-limits": {
+      "visible": false
+    },
+    "railroads-historical": {
+      "visible": true,
+      "anyScale": true,
+      "labels": false
+    }
+  },
+  "furniture": {
+    "legend": {
+      "show": true,
+      "pos": "bottom-left"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    }
+  },
+  "hidden": []
+}

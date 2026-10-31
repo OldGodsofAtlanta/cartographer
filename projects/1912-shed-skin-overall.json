@@ -1,0 +1,67 @@
+{
+  "name": "1912-shed-skin-overall",
+  "chapter": "1912-shed-skin",
+  "year": 1912,
+  "month": 1,
+  "day": 16,
+  "title": "Fort McPherson",
+  "subtitle": "Shed Skin",
+  "dateline": "January 1912",
+  "paper": {
+    "preset": "page",
+    "width": 10.875,
+    "height": 8.375,
+    "margin": 0.45,
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -84.47,
+      33.6847,
+      -84.4,
+      33.7297
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true,
+      "snapshot": 1928
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "hidden": []
+}

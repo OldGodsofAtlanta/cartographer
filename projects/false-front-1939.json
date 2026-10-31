@@ -1,0 +1,4 @@
+{"name":"false-front-1939","chapter":"1939-false-front","year":1939,"month":12,"day":15,"title":"Downtown Atlanta","subtitle":"Premiere Week","dateline":"December 1939",
+ "paper":{"preset":"page"},"view":{"center":[-84.3870,33.7550],"denominator":9000,"projection":"local"},"style":{"streetMode":"double"},
+ "layers":{"canon-sites":{"visible":true},"atlanta-streets":{"visible":true,"labels":true},"railroads-atlanta":{"visible":true},"atlanta-limits":{"visible":false},"waterways-atlanta":{"visible":false}},
+ "furniture":{"legend":{"show":true,"pos":"bottom-right"},"compass":{"show":true,"pos":"top-right"}}}

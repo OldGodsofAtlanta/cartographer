@@ -1,0 +1,81 @@
+{
+  "name": "1919-slab-song-overall",
+  "chapter": "1919-slab-song",
+  "year": 1919,
+  "month": 11,
+  "day": 14,
+  "title": "Southwest Atlanta",
+  "subtitle": "Slab Song",
+  "dateline": "November 14, 1919",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 200
+  },
+  "view": {
+    "bounds": [
+      -84.452,
+      33.6938,
+      -84.427,
+      33.7198
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true,
+      "snapshot": 1928
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "annotations": [
+    {
+      "id": "fort-mcpherson",
+      "type": "label",
+      "lonlat": [
+        -84.435,
+        33.7068
+      ],
+      "text": "Fort McPherson\n(the war prison camp)",
+      "style": "district",
+      "size": 8,
+      "halo": true
+    }
+  ],
+  "hidden": []
+}

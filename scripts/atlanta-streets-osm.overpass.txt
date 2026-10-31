@@ -1,0 +1,3 @@
+[out:json][timeout:300];
+way["highway"~"^(trunk|primary|secondary|tertiary|unclassified|residential)$"]["name"](33.62,-84.52,33.86,-84.28);
+out geom;

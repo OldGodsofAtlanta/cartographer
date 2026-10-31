@@ -1,0 +1,421 @@
+{
+  "about": "The layers Cartographer can draw, bottom to top by z. render: land | counties | limits | waterLine | waterArea | street | rail | place | outline. scaleRange [min, max] is the scale denominator range a layer draws at unless a map sets it to any scale. undated: hide keeps features whose date_quality is unknown off the map until switched on. See README.md.",
+  "layers": [
+    {
+      "id": "states",
+      "title": "States",
+      "group": "Georgia",
+      "file": "states.geojson",
+      "render": "land",
+      "z": 0,
+      "visible": true,
+      "highlight": [
+        "Georgia"
+      ],
+      "scaleRange": [
+        300000,
+        null
+      ],
+      "attribution": "State lines: U.S. Census Bureau"
+    },
+    {
+      "id": "ga-counties-historical",
+      "title": "Counties on the map date",
+      "group": "Georgia",
+      "file": "ga-counties-historical.geojson",
+      "render": "counties",
+      "historical": true,
+      "z": 10,
+      "visible": true,
+      "scaleRange": [
+        60000,
+        null
+      ],
+      "attribution": "County lines: Newberry Library, Atlas of Historical County Boundaries (CC BY-NC-SA)"
+    },
+    {
+      "id": "ga-counties-modern",
+      "title": "Counties, present-day lines",
+      "group": "Georgia",
+      "file": "georgia-counties.json",
+      "render": "counties",
+      "z": 11,
+      "visible": false,
+      "start": 1932,
+      "attribution": "County lines: U.S. Census Bureau TIGER"
+    },
+    {
+      "id": "lakes",
+      "title": "Lakes and reservoirs",
+      "group": "Water",
+      "file": "lakes.geojson",
+      "render": "waterArea",
+      "z": 20,
+      "visible": true,
+      "undated": "hide",
+      "attribution": "Lakes: © OpenStreetMap contributors (ODbL); dam dates: USACE National Inventory of Dams"
+    },
+    {
+      "id": "waterways-georgia",
+      "title": "Rivers, statewide",
+      "group": "Water",
+      "file": "waterways-georgia.geojson",
+      "render": "waterLine",
+      "z": 25,
+      "visible": true,
+      "scaleRange": [
+        300000,
+        null
+      ],
+      "attribution": "Rivers: © OpenStreetMap contributors (ODbL)",
+      "undated": "hide"
+    },
+    {
+      "id": "waterways-atlanta",
+      "title": "Rivers and creeks, Atlanta",
+      "group": "Water",
+      "file": "waterways-atlanta.geojson",
+      "render": "waterLine",
+      "z": 26,
+      "visible": true,
+      "scaleRange": [
+        0,
+        300000
+      ],
+      "attribution": "Creeks: © OpenStreetMap contributors (ODbL)",
+      "undated": "hide"
+    },
+    {
+      "id": "atlanta-streets",
+      "title": "Streets, 1878, 1911 or 1928 survey",
+      "group": "Atlanta",
+      "render": "street",
+      "snapshots": [
+        {
+          "year": 1878,
+          "file": "atlanta-streets-1878.geojson",
+          "labels": false
+        },
+        {
+          "year": 1911,
+          "file": "atlanta-streets-1911.geojson"
+        },
+        {
+          "year": 1928,
+          "file": "atlanta-streets-1928.geojson"
+        }
+      ],
+      "z": 40,
+      "visible": true,
+      "abbreviate": true,
+      "scaleRange": [
+        0,
+        120000
+      ],
+      "attribution": "Streets: Emory Center for Digital Scholarship, OpenWorld Atlanta (1928) and Atlanta 1878",
+      "source": "atlanta-streets-1911.md"
+    },
+    {
+      "id": "atlanta-streets-osm",
+      "title": "Streets, OpenStreetMap",
+      "group": "Atlanta",
+      "file": "atlanta-streets-osm.geojson",
+      "render": "street",
+      "z": 41,
+      "visible": false,
+      "undated": "hide",
+      "abbreviate": true,
+      "scaleRange": [
+        0,
+        120000
+      ],
+      "attribution": "Streets: © OpenStreetMap contributors (ODbL)"
+    },
+    {
+      "id": "railroads-historical",
+      "title": "Railroads, statewide",
+      "group": "Railroads",
+      "file": "railroads-historical.geojson",
+      "render": "rail",
+      "z": 50,
+      "visible": true,
+      "labels": false,
+      "scaleRange": [
+        150000,
+        null
+      ],
+      "attribution": "Railroads: Jeremy Atack, Historical GIS Database of U.S. Railroads 1826–1911"
+    },
+    {
+      "id": "railroads-atlanta",
+      "title": "Railroads and yards, Atlanta",
+      "group": "Railroads",
+      "file": "railroads-atlanta.geojson",
+      "render": "rail",
+      "z": 51,
+      "visible": true,
+      "labels": false,
+      "undated": "hide",
+      "scaleRange": [
+        0,
+        150000
+      ],
+      "attribution": "Track: © OpenStreetMap contributors (ODbL)"
+    },
+    {
+      "id": "atlanta-limits",
+      "title": "Atlanta city limits",
+      "group": "Atlanta",
+      "file": "atlanta-limits.geojson",
+      "render": "limits",
+      "z": 55,
+      "visible": true,
+      "labelText": "City Limits",
+      "scaleRange": [
+        0,
+        600000
+      ],
+      "attribution": "City limits: Emory Center for Digital Scholarship, OpenWorld Atlanta"
+    },
+    {
+      "id": "ga-places",
+      "title": "Cities and towns",
+      "group": "Georgia",
+      "file": "ga-places.geojson",
+      "render": "place",
+      "z": 60,
+      "visible": true,
+      "attribution": "Towns: U.S. Census Bureau"
+    },
+    {
+      "id": "atlanta-blocks-1878",
+      "title": "City blocks, 1878 survey",
+      "group": "Atlanta",
+      "render": "blocks",
+      "z": 38,
+      "visible": true,
+      "scaleRange": [
+        0,
+        120000
+      ],
+      "attribution": "1878 blocks: Emory Center for Digital Scholarship, Atlanta 1878",
+      "snapshots": [
+        {
+          "year": 1878,
+          "file": "atlanta-blocks-1878.geojson",
+          "within": 25
+        }
+      ],
+      "source": "atlanta-1878.md"
+    },
+    {
+      "id": "atlanta-horsecars-1878",
+      "title": "Horsecar lines, 1878",
+      "group": "Atlanta",
+      "render": "tram",
+      "z": 45,
+      "visible": false,
+      "labels": false,
+      "scaleRange": [
+        0,
+        120000
+      ],
+      "attribution": "1878 horsecar routes: Emory Center for Digital Scholarship, Atlanta 1878",
+      "snapshots": [
+        {
+          "year": 1878,
+          "file": "atlanta-horsecars-1878.geojson",
+          "within": 5
+        }
+      ],
+      "source": "atlanta-1878.md"
+    },
+    {
+      "id": "atlanta-streetcars-1924",
+      "title": "Streetcar lines, 1924",
+      "group": "Atlanta",
+      "render": "tram",
+      "z": 46,
+      "visible": false,
+      "labels": false,
+      "scaleRange": [
+        0,
+        200000
+      ],
+      "attribution": "1924 streetcar routes: Emory Center for Digital Scholarship",
+      "snapshots": [
+        {
+          "year": 1924,
+          "file": "atlanta-streetcars-1924.geojson",
+          "within": 5
+        }
+      ]
+    },
+    {
+      "id": "canon-sites",
+      "title": "Places in the adventures",
+      "group": "Atlanta",
+      "file": "canon-sites.geojson",
+      "render": "site",
+      "z": 70,
+      "visible": false,
+      "source": "canon-sites.md",
+      "attribution": "Sites located from the book's canon, OpenStreetMap and the Census Gazetteer"
+    },
+    {
+      "id": "terrain-georgia",
+      "title": "Contours, statewide (200 ft)",
+      "group": "Terrain",
+      "file": "terrain-georgia.geojson",
+      "render": "contour",
+      "z": 12,
+      "visible": false,
+      "source": "terrain.md",
+      "scaleRange": [
+        600000,
+        null
+      ],
+      "attribution": "Elevation: USGS 3D Elevation Program (modern ground)"
+    },
+    {
+      "id": "terrain-atlanta",
+      "title": "Contours, Atlanta region (20 ft)",
+      "group": "Terrain",
+      "file": "terrain-atlanta.geojson",
+      "render": "contour",
+      "z": 12,
+      "visible": false,
+      "source": "terrain.md",
+      "scaleRange": [
+        30000,
+        600000
+      ],
+      "attribution": "Elevation: USGS 3D Elevation Program (modern ground)"
+    },
+    {
+      "id": "terrain-city",
+      "title": "Contours, city (10 ft)",
+      "group": "Terrain",
+      "file": "terrain-city.geojson",
+      "render": "contour",
+      "z": 12,
+      "visible": false,
+      "source": "terrain.md",
+      "scaleRange": [
+        0,
+        30000
+      ],
+      "attribution": "Elevation: USGS 3D Elevation Program (modern ground)"
+    },
+    {
+      "id": "black-neighborhoods",
+      "title": "Black neighborhoods (labelled at their centres)",
+      "group": "Atlanta",
+      "file": "black-neighborhoods.geojson",
+      "render": "district",
+      "z": 65,
+      "visible": false,
+      "undated": "hide",
+      "scaleRange": [
+        0,
+        400000
+      ],
+      "source": "black-neighborhoods.md",
+      "attribution": "Neighborhoods: sources cited in the Atlanta setting guide"
+    },
+    {
+      "id": "town-streets",
+      "title": "Streets, town cores (present-day pattern)",
+      "group": "Towns",
+      "file": "town-streets.geojson",
+      "render": "street",
+      "z": 42,
+      "visible": false,
+      "undated": "hide",
+      "abbreviate": true,
+      "scaleRange": [
+        0,
+        120000
+      ],
+      "source": "towns.md",
+      "attribution": "Streets: present-day pattern, © OpenStreetMap contributors (ODbL)"
+    },
+    {
+      "id": "town-railroads",
+      "title": "Railroads, towns",
+      "group": "Towns",
+      "file": "town-railroads.geojson",
+      "render": "rail",
+      "z": 52,
+      "visible": false,
+      "undated": "hide",
+      "labels": false,
+      "scaleRange": [
+        0,
+        150000
+      ],
+      "source": "towns.md",
+      "attribution": "Track: © OpenStreetMap contributors (ODbL); dates matched to Jeremy Atack's railroad database"
+    },
+    {
+      "id": "town-waterways",
+      "title": "Creeks and rivers, towns",
+      "group": "Towns",
+      "file": "town-waterways.geojson",
+      "render": "waterLine",
+      "z": 27,
+      "visible": false,
+      "scaleRange": [
+        0,
+        150000
+      ],
+      "source": "towns.md",
+      "attribution": "Creeks: © OpenStreetMap contributors (ODbL)"
+    },
+    {
+      "id": "terrain-mcdonough",
+      "title": "Contours, Mcdonough (10 ft)",
+      "group": "Terrain",
+      "file": "terrain-mcdonough.geojson",
+      "render": "contour",
+      "z": 12,
+      "visible": false,
+      "source": "terrain.md",
+      "scaleRange": [
+        0,
+        60000
+      ],
+      "attribution": "Elevation: USGS 3D Elevation Program (modern ground)"
+    },
+    {
+      "id": "terrain-gainesville",
+      "title": "Contours, Gainesville (10 ft)",
+      "group": "Terrain",
+      "file": "terrain-gainesville.geojson",
+      "render": "contour",
+      "z": 12,
+      "visible": false,
+      "source": "terrain.md",
+      "scaleRange": [
+        0,
+        60000
+      ],
+      "attribution": "Elevation: USGS 3D Elevation Program (modern ground)"
+    },
+    {
+      "id": "terrain-lithonia",
+      "title": "Contours, Lithonia (10 ft)",
+      "group": "Terrain",
+      "file": "terrain-lithonia.geojson",
+      "render": "contour",
+      "z": 12,
+      "visible": false,
+      "source": "terrain.md",
+      "scaleRange": [
+        0,
+        60000
+      ],
+      "attribution": "Elevation: USGS 3D Elevation Program (modern ground)"
+    }
+  ]
+}

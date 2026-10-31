@@ -1,0 +1,67 @@
+{
+  "name": "star-drill-1891",
+  "chapter": "1891-star-drill",
+  "year": 1891,
+  "month": 7,
+  "day": 1,
+  "title": "Lithonia, Georgia",
+  "subtitle": "DeKalb County, on the Georgia Railroad",
+  "dateline": "1891",
+  "paper": {
+    "preset": "page"
+  },
+  "view": {
+    "center": [
+      -84.1052,
+      33.7123
+    ],
+    "denominator": 14000,
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "town-streets": {
+      "visible": true,
+      "undated": true
+    },
+    "town-railroads": {
+      "visible": true
+    },
+    "town-waterways": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": false
+    },
+    "railroads-atlanta": {
+      "visible": false
+    },
+    "waterways-atlanta": {
+      "visible": false
+    },
+    "atlanta-limits": {
+      "visible": false
+    },
+    "railroads-historical": {
+      "visible": true,
+      "anyScale": true,
+      "labels": false
+    },
+    "terrain-lithonia": {
+      "visible": true
+    }
+  },
+  "furniture": {
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    }
+  }
+}

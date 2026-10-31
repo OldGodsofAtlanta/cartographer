@@ -1,0 +1,64 @@
+{
+  "name": "marietta-1879",
+  "chapter": "1879-dead-freight",
+  "year": 1879,
+  "month": 12,
+  "day": 24,
+  "title": "Marietta, Georgia",
+  "subtitle": "The Public Square and the Western & Atlantic",
+  "dateline": "December 1879",
+  "paper": {
+    "preset": "page"
+  },
+  "view": {
+    "center": [
+      -84.5497,
+      33.9527
+    ],
+    "denominator": 14000,
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "town-streets": {
+      "visible": true,
+      "undated": true
+    },
+    "town-railroads": {
+      "visible": true
+    },
+    "town-waterways": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": false
+    },
+    "railroads-atlanta": {
+      "visible": false
+    },
+    "waterways-atlanta": {
+      "visible": false
+    },
+    "atlanta-limits": {
+      "visible": false
+    },
+    "railroads-historical": {
+      "visible": true,
+      "anyScale": true,
+      "labels": false
+    }
+  },
+  "furniture": {
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    }
+  }
+}

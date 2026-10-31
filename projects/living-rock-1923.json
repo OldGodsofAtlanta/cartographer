@@ -1,0 +1,44 @@
+{
+  "name": "living-rock-1923",
+  "chapter": "1923-living-rock",
+  "year": 1923,
+  "month": 10,
+  "day": 31,
+  "title": "Stone Mountain",
+  "subtitle": "DeKalb County, Georgia",
+  "dateline": "1923",
+  "paper": {
+    "preset": "page"
+  },
+  "view": {
+    "center": [
+      -84.158,
+      33.805
+    ],
+    "denominator": 42000,
+    "projection": "local"
+  },
+  "layers": {
+    "terrain-atlanta": {
+      "visible": true
+    },
+    "terrain-city": {
+      "visible": false
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": false
+    },
+    "atlanta-limits": {
+      "visible": false
+    }
+  },
+  "furniture": {
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    }
+  }
+}

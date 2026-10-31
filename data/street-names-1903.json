@@ -1,0 +1,1593 @@
+{
+ "about": "Streets whose names had changed by Oct. 17, 1903, from a list Forrest Adair gave Atlanta's council street committee: 'about 225' streets, each with the name it carried on that date and the names it formerly had. Source: 'Many Streets Get New Names,' Atlanta Constitution, Oct. 17, 1903, p. unknown (a scan supplied by the user; the newspaper is public domain). No change is dated: each entry says only that the former names were out of use by Oct. 1903. Most streets list several former names with no order. A street's name in 1903 was the current one, but the same name may appear twice for different stretches (Smith, Hunter, North, Peachtree, Edgewood, Auburn, Bell). Transcribed by eye; see transcription_note.",
+ "source": "Atlanta Constitution, 1903-10-17",
+ "transcribed": "2026-10-28",
+ "entries": [
+  {
+   "name_1903": "Abbott street",
+   "former": [
+    "D'Alvigny street"
+   ]
+  },
+  {
+   "name_1903": "North avenue",
+   "former": [
+    "Emma street"
+   ]
+  },
+  {
+   "name_1903": "Lindsay street",
+   "former": [
+    "Norrall street"
+   ]
+  },
+  {
+   "name_1903": "Drew street",
+   "former": [
+    "Oliver street"
+   ]
+  },
+  {
+   "name_1903": "English avenue",
+   "former": [
+    "Milledge avenue",
+    "Riley street"
+   ]
+  },
+  {
+   "name_1903": "Raine avenue",
+   "former": [
+    "Franklin street"
+   ]
+  },
+  {
+   "name_1903": "Julian street",
+   "former": [
+    "Jackson street"
+   ]
+  },
+  {
+   "name_1903": "Travis street",
+   "former": [
+    "Wilson street"
+   ]
+  },
+  {
+   "name_1903": "Elm street",
+   "former": [
+    "Goddard street",
+    "Elsie street"
+   ],
+   "transcription_note": "reading uncertain"
+  },
+  {
+   "name_1903": "Chestnut street",
+   "former": [
+    "Travis street"
+   ]
+  },
+  {
+   "name_1903": "Lucile avenue",
+   "former": [
+    "Porter avenue",
+    "Pearl street"
+   ]
+  },
+  {
+   "name_1903": "Oak street",
+   "former": [
+    "Amos street"
+   ]
+  },
+  {
+   "name_1903": "Rossmer street",
+   "former": [
+    "Alexander street"
+   ]
+  },
+  {
+   "name_1903": "Culberson street",
+   "former": [
+    "Pearl street"
+   ]
+  },
+  {
+   "name_1903": "Gordon street",
+   "former": [
+    "Villa Rica road"
+   ]
+  },
+  {
+   "name_1903": "Oglethorpe avenue",
+   "former": [
+    "Baugh street"
+   ]
+  },
+  {
+   "name_1903": "Grady place",
+   "former": [
+    "Jean street"
+   ]
+  },
+  {
+   "name_1903": "Whitehall street",
+   "former": [
+    "Railroad avenue",
+    "Peachtree street"
+   ]
+  },
+  {
+   "name_1903": "McPherson avenue",
+   "former": [
+    "Murphy street"
+   ]
+  },
+  {
+   "name_1903": "Mitchell street",
+   "former": [
+    "Gray street",
+    "Stockton street"
+   ]
+  },
+  {
+   "name_1903": "Parsons street",
+   "former": [
+    "South street"
+   ]
+  },
+  {
+   "name_1903": "Fair street",
+   "former": [
+    "Stephens street",
+    "Holcombe street"
+   ]
+  },
+  {
+   "name_1903": "Boaz street",
+   "former": [
+    "Bowie street"
+   ]
+  },
+  {
+   "name_1903": "Brown street",
+   "former": [
+    "Broomhead street"
+   ]
+  },
+  {
+   "name_1903": "Ficken street",
+   "former": [
+    "Battle street"
+   ]
+  },
+  {
+   "name_1903": "Tyler street",
+   "former": [
+    "Henry street"
+   ]
+  },
+  {
+   "name_1903": "Thurmond street",
+   "former": [
+    "Spencer street",
+    "Turman",
+    "Brickyard street"
+   ]
+  },
+  {
+   "name_1903": "Carter street",
+   "former": [
+    "Jack, Jett and Caster streets"
+   ]
+  },
+  {
+   "name_1903": "Hunter street",
+   "former": [
+    "Mayson & Turner's ferry road",
+    "Battle Hill avenue"
+   ]
+  },
+  {
+   "name_1903": "Ashby street",
+   "former": [
+    "Fairground street"
+   ]
+  },
+  {
+   "name_1903": "Granger street",
+   "former": [
+    "Herbert street"
+   ]
+  },
+  {
+   "name_1903": "Sunset avenue",
+   "former": [
+    "Arthur street",
+    "Elm street"
+   ]
+  },
+  {
+   "name_1903": "Burckel street",
+   "former": [
+    "Beasel street"
+   ]
+  },
+  {
+   "name_1903": "Humphries street",
+   "former": [
+    "Sumter street"
+   ]
+  },
+  {
+   "name_1903": "Smith street",
+   "former": [
+    "Gate City street"
+   ]
+  },
+  {
+   "name_1903": "Ira street",
+   "former": [
+    "Crowell street",
+    "Haven street"
+   ]
+  },
+  {
+   "name_1903": "Stewart avenue",
+   "former": [
+    "Vine",
+    "Humphries",
+    "Kreis streets",
+    "New Whitehall road",
+    "Ocmulgee"
+   ]
+  },
+  {
+   "name_1903": "Hobson avenue",
+   "former": [
+    "Phillips street"
+   ]
+  },
+  {
+   "name_1903": "York avenue",
+   "former": [
+    "Irwin street"
+   ]
+  },
+  {
+   "name_1903": "Cherry street",
+   "former": [
+    "Mathews street"
+   ]
+  },
+  {
+   "name_1903": "Evans street",
+   "former": [
+    "Blanche",
+    "Garner streets"
+   ]
+  },
+  {
+   "name_1903": "Benjamin street",
+   "former": [
+    "James street"
+   ]
+  },
+  {
+   "name_1903": "West End avenue",
+   "former": [
+    "Thrasher street"
+   ]
+  },
+  {
+   "name_1903": "Park street",
+   "former": [
+    "Salter street"
+   ]
+  },
+  {
+   "name_1903": "Georgia avenue",
+   "former": [
+    "Andrews",
+    "Bass",
+    "Anderson",
+    "Sharp streets"
+   ]
+  },
+  {
+   "name_1903": "Dodd avenue",
+   "former": [
+    "Dora avenue",
+    "Dodd street"
+   ]
+  },
+  {
+   "name_1903": "Love street",
+   "former": [
+    "Lane street"
+   ]
+  },
+  {
+   "name_1903": "Atlanta avenue",
+   "former": [
+    "Gardner",
+    "Park avenue",
+    "Cottingham",
+    "Harden and Montgomery streets",
+    "Benning"
+   ]
+  },
+  {
+   "name_1903": "Ormond street",
+   "former": [
+    "Orman",
+    "Ormewood streets"
+   ]
+  },
+  {
+   "name_1903": "Doane street",
+   "former": [
+    "Davis",
+    "Dorne",
+    "Daniel streets"
+   ]
+  },
+  {
+   "name_1903": "Formwalt street",
+   "former": [
+    "Pulliam",
+    "Fourteenth streets"
+   ]
+  },
+  {
+   "name_1903": "Pryor street",
+   "former": [
+    "Depot streets",
+    "Line street"
+   ]
+  },
+  {
+   "name_1903": "Central avenue",
+   "former": [
+    "Bass",
+    "Loyd",
+    "Lott streets"
+   ]
+  },
+  {
+   "name_1903": "Pulliam street",
+   "former": [
+    "Sullivan",
+    "Loyd streets"
+   ]
+  },
+  {
+   "name_1903": "Washington street",
+   "former": [
+    "Collins street"
+   ]
+  },
+  {
+   "name_1903": "Capitol avenue",
+   "former": [
+    "McDonough street"
+   ]
+  },
+  {
+   "name_1903": "Sixth street",
+   "former": [
+    "Seventh street"
+   ]
+  },
+  {
+   "name_1903": "Fifth street",
+   "former": [
+    "Sixth",
+    "Moore and Hill streets"
+   ]
+  },
+  {
+   "name_1903": "Spring street",
+   "former": [
+    "Pear street"
+   ]
+  },
+  {
+   "name_1903": "Fourth street",
+   "former": [
+    "Keith street"
+   ]
+  },
+  {
+   "name_1903": "Marietta street",
+   "former": [
+    "Montgomery",
+    "Ferry road",
+    "Payne street"
+   ]
+  },
+  {
+   "name_1903": "Tifton street",
+   "former": [
+    "South street"
+   ]
+  },
+  {
+   "name_1903": "Berne street",
+   "former": [
+    "Little Switzerland ave."
+   ]
+  },
+  {
+   "name_1903": "Ormewood avenue",
+   "former": [
+    "Park avenue"
+   ]
+  },
+  {
+   "name_1903": "Cloverdale street",
+   "former": [
+    "Robinson avenue"
+   ]
+  },
+  {
+   "name_1903": "Rawlins street",
+   "former": [
+    "Herren",
+    "Dora streets"
+   ]
+  },
+  {
+   "name_1903": "McCreary street",
+   "former": [
+    "McCrary street"
+   ]
+  },
+  {
+   "name_1903": "University avenue",
+   "former": [
+    "South street or avenue",
+    "Oakland avenue"
+   ]
+  },
+  {
+   "name_1903": "Ridge street",
+   "former": [
+    "East Pryor and McDaniel streets"
+   ]
+  },
+  {
+   "name_1903": "McDonough street",
+   "former": [
+    "Ridge avenue"
+   ]
+  },
+  {
+   "name_1903": "Fortress avenue",
+   "former": [
+    "Tudor street"
+   ]
+  },
+  {
+   "name_1903": "Crew street",
+   "former": [
+    "Morris avenue",
+    "Ann street",
+    "South avenue"
+   ]
+  },
+  {
+   "name_1903": "Pavilion street",
+   "former": [
+    "Anderson street"
+   ]
+  },
+  {
+   "name_1903": "Bass street",
+   "former": [
+    "Love street"
+   ]
+  },
+  {
+   "name_1903": "South avenue",
+   "former": [
+    "George street"
+   ]
+  },
+  {
+   "name_1903": "Kent street",
+   "former": [
+    "New street"
+   ]
+  },
+  {
+   "name_1903": "Park avenue",
+   "former": [
+    "Dabney street"
+   ]
+  },
+  {
+   "name_1903": "Austin avenue",
+   "former": [
+    "Moreland avenue"
+   ]
+  },
+  {
+   "name_1903": "Lawshe street",
+   "former": [
+    "Dallas street"
+   ]
+  },
+  {
+   "name_1903": "Emerson street",
+   "former": [
+    "Sycamore street"
+   ]
+  },
+  {
+   "name_1903": "Meredith street",
+   "former": [
+    "May street"
+   ]
+  },
+  {
+   "name_1903": "Woodward avenue",
+   "former": [
+    "Chatham street and Jones"
+   ]
+  },
+  {
+   "name_1903": "Kolb street",
+   "former": [
+    "Old Flat Shoals road"
+   ]
+  },
+  {
+   "name_1903": "New Flat Shoals road",
+   "former": [
+    "Glynn",
+    "Glenn streets"
+   ]
+  },
+  {
+   "name_1903": "Wylie street",
+   "former": [
+    "Tennelle",
+    "Wyly",
+    "Lee",
+    "Hulsey streets",
+    "Flat Shoals road"
+   ]
+  },
+  {
+   "name_1903": "Marcus street",
+   "former": [
+    "Wallace street"
+   ]
+  },
+  {
+   "name_1903": "Kirkwood avenue",
+   "former": [
+    "Waterhouse street"
+   ]
+  },
+  {
+   "name_1903": "Harold street",
+   "former": [
+    "Jefferson street"
+   ]
+  },
+  {
+   "name_1903": "Gaskell street",
+   "former": [
+    "Elswald",
+    "East Hunter streets"
+   ]
+  },
+  {
+   "name_1903": "Factory street",
+   "former": [
+    "Borne",
+    "Seavy streets"
+   ],
+   "transcription_note": "printed \"Boulevard Factory street, formerly Borne, Seavy streets\": \"Boulevard\" may be a stray word or part of the previous entry"
+  },
+  {
+   "name_1903": "Cornelia streets",
+   "former": [
+    "Lane",
+    "Love streets"
+   ]
+  },
+  {
+   "name_1903": "Ella street",
+   "former": [
+    "Elner",
+    "Ellen streets"
+   ]
+  },
+  {
+   "name_1903": "Gunby street",
+   "former": [
+    "Wilson street"
+   ]
+  },
+  {
+   "name_1903": "Berean avenue",
+   "former": [
+    "Mills",
+    "Langford",
+    "Badger streets"
+   ]
+  },
+  {
+   "name_1903": "Powell street",
+   "former": [
+    "Cameron avenue",
+    "Borne street"
+   ]
+  },
+  {
+   "name_1903": "Estoria street",
+   "former": [
+    "New street"
+   ]
+  },
+  {
+   "name_1903": "South Delta place",
+   "former": [
+    "Oak",
+    "Lee",
+    "Wylie",
+    "Hulsey streets"
+   ]
+  },
+  {
+   "name_1903": "Williams mill road",
+   "former": [
+    "Distillery",
+    "Durand",
+    "Decatur roads"
+   ]
+  },
+  {
+   "name_1903": "Copenhill avenue",
+   "former": [
+    "Haygood avenue"
+   ]
+  },
+  {
+   "name_1903": "Lake avenue",
+   "former": [
+    "Forrest avenue",
+    "Forrest street",
+    "Decatur turnpike"
+   ]
+  },
+  {
+   "name_1903": "Euclid avenue",
+   "former": [
+    "Turnpike road",
+    "Atlanta and Stone Mountain pike road"
+   ]
+  },
+  {
+   "name_1903": "Augusta avenue",
+   "former": [
+    "Ponce de Leon avenue",
+    "Love street"
+   ]
+  },
+  {
+   "name_1903": "Smith street",
+   "former": [
+    "Stephens",
+    "South",
+    "Simpson",
+    "Gate City",
+    "Newman streets"
+   ]
+  },
+  {
+   "name_1903": "McDaniel street",
+   "former": [
+    "McDonough street"
+   ]
+  },
+  {
+   "name_1903": "Windsor street",
+   "former": [
+    "McDonough",
+    "Weser",
+    "Nelson streets"
+   ]
+  },
+  {
+   "name_1903": "East avenue",
+   "former": [
+    "Morris street"
+   ]
+  },
+  {
+   "name_1903": "Kendall street",
+   "former": [
+    "Mangum",
+    "Mayson",
+    "Morgan streets"
+   ]
+  },
+  {
+   "name_1903": "Shelton street",
+   "former": [
+    "Mayson street",
+    "Shelton alley"
+   ]
+  },
+  {
+   "name_1903": "Highland avenue",
+   "former": [
+    "East Harris street",
+    "East Hightower avenue"
+   ]
+  },
+  {
+   "name_1903": "Houston street",
+   "former": [
+    "Randolph street"
+   ]
+  },
+  {
+   "name_1903": "Ashland avenue",
+   "former": [
+    "General Gordon",
+    "Gordon avenue"
+   ]
+  },
+  {
+   "name_1903": "Auburn avenue",
+   "former": [
+    "Wheat street"
+   ]
+  },
+  {
+   "name_1903": "Edgewood avenue",
+   "former": [
+    "Foster",
+    "Forest streets"
+   ]
+  },
+  {
+   "name_1903": "Gospero street",
+   "former": [
+    "Gospero",
+    "Glaspero streets"
+   ]
+  },
+  {
+   "name_1903": "Randolph street",
+   "former": [
+    "Calloway street",
+    "Martins alley"
+   ]
+  },
+  {
+   "name_1903": "Fortune street",
+   "former": [
+    "Fortress",
+    "Fontaine streets"
+   ]
+  },
+  {
+   "name_1903": "Sampson street",
+   "former": [
+    "Simpson",
+    "Fontaine streets"
+   ]
+  },
+  {
+   "name_1903": "Krog street",
+   "former": [
+    "Wallace street"
+   ]
+  },
+  {
+   "name_1903": "Waddell street",
+   "former": [
+    "Wolfes avenue"
+   ]
+  },
+  {
+   "name_1903": "Hale street",
+   "former": [
+    "Joel Hurt",
+    "Oglethorpe streets"
+   ]
+  },
+  {
+   "name_1903": "Nelson street",
+   "former": [
+    "Bridge street"
+   ]
+  },
+  {
+   "name_1903": "Walker street",
+   "former": [
+    "Hayden",
+    "Collier",
+    "New Whitehall streets"
+   ]
+  },
+  {
+   "name_1903": "Bradberry street",
+   "former": [
+    "Wilkins alley"
+   ]
+  },
+  {
+   "name_1903": "Peters street",
+   "former": [
+    "Old Whitehall street",
+    "Newman"
+   ],
+   "transcription_note": "reading uncertain"
+  },
+  {
+   "name_1903": "Tattnall",
+   "former": [
+    "Nelson Ferry road",
+    "Trebussey street"
+   ]
+  },
+  {
+   "name_1903": "Larkin street",
+   "former": [
+    "Davis street"
+   ]
+  },
+  {
+   "name_1903": "Whitehall street",
+   "former": [
+    "Mitchell",
+    "Franklin streets"
+   ]
+  },
+  {
+   "name_1903": "Orange street",
+   "former": [
+    "Quarry street",
+    "Cozarts alley"
+   ]
+  },
+  {
+   "name_1903": "Rawson street",
+   "former": [
+    "High street",
+    "Faiths alley"
+   ]
+  },
+  {
+   "name_1903": "Richardson street",
+   "former": [
+    "Henry",
+    "Richmond streets"
+   ]
+  },
+  {
+   "name_1903": "Crumley street",
+   "former": [
+    "Connalley street",
+    "Mobbs alley"
+   ]
+  },
+  {
+   "name_1903": "Gregg street",
+   "former": [
+    "Brown's alley"
+   ]
+  },
+  {
+   "name_1903": "Hood street",
+   "former": [
+    "Windsor street"
+   ]
+  },
+  {
+   "name_1903": "Spruce street",
+   "former": [
+    "Magazine street"
+   ]
+  },
+  {
+   "name_1903": "Foundry street",
+   "former": [
+    "Mechanic",
+    "King streets"
+   ]
+  },
+  {
+   "name_1903": "Magnolia street",
+   "former": [
+    "Mangum",
+    "Gabbott",
+    "Magazine",
+    "Foundry and West Cain streets"
+   ]
+  },
+  {
+   "name_1903": "Rhodes street",
+   "former": [
+    "Richards street"
+   ]
+  },
+  {
+   "name_1903": "Hunter street",
+   "former": [
+    "Green",
+    "Greer",
+    "Glenn and Cobb streets"
+   ]
+  },
+  {
+   "name_1903": "Vine street",
+   "former": [
+    "Price",
+    "Erin streets"
+   ]
+  },
+  {
+   "name_1903": "Maple street",
+   "former": [
+    "Lambert",
+    "Mobley",
+    "Vine and Holland"
+   ]
+  },
+  {
+   "name_1903": "Lowe street",
+   "former": [
+    "Porter",
+    "Proctor",
+    "Loyd",
+    "Rock",
+    "Love",
+    "Howe",
+    "Law",
+    "Back streets"
+   ]
+  },
+  {
+   "name_1903": "Davis street",
+   "former": [
+    "Chattahoochee",
+    "Larkin",
+    "Rock",
+    "Delay",
+    "Front streets"
+   ]
+  },
+  {
+   "name_1903": "Elliott street",
+   "former": [
+    "Elbert",
+    "Ellis",
+    "Fowler streets"
+   ]
+  },
+  {
+   "name_1903": "Haynes street",
+   "former": [
+    "Manning",
+    "Harris",
+    "Hayes",
+    "Booths alley",
+    "Hayden",
+    "Markham",
+    "Stewart streets"
+   ]
+  },
+  {
+   "name_1903": "High street",
+   "former": [
+    "East Parsons street"
+   ]
+  },
+  {
+   "name_1903": "Chapel street",
+   "former": [
+    "Racetrack",
+    "Atherson",
+    "Greensferry road"
+   ]
+  },
+  {
+   "name_1903": "Bartow street",
+   "former": [
+    "Foundry alley"
+   ]
+  },
+  {
+   "name_1903": "Forsyth street",
+   "former": [
+    "Wadley",
+    "Gilbert streets"
+   ]
+  },
+  {
+   "name_1903": "Broad street",
+   "former": [
+    "Market",
+    "Bridge street"
+   ]
+  },
+  {
+   "name_1903": "Harris street",
+   "former": [
+    "Howard street"
+   ]
+  },
+  {
+   "name_1903": "Baltimore place",
+   "former": [
+    "Hunnicutt avenue"
+   ]
+  },
+  {
+   "name_1903": "Price street",
+   "former": [
+    "Jones street"
+   ]
+  },
+  {
+   "name_1903": "Mills street",
+   "former": [
+    "Hunnicutt street"
+   ]
+  },
+  {
+   "name_1903": "Powers street",
+   "former": [
+    "Tannery street"
+   ]
+  },
+  {
+   "name_1903": "Fowler street",
+   "former": [
+    "Fulton street"
+   ]
+  },
+  {
+   "name_1903": "Orme street",
+   "former": [
+    "Eliza street"
+   ]
+  },
+  {
+   "name_1903": "Walnut street",
+   "former": [
+    "Green street"
+   ]
+  },
+  {
+   "name_1903": "Simpson street",
+   "former": [
+    "Henry street"
+   ]
+  },
+  {
+   "name_1903": "Henry street",
+   "former": [
+    "Ella",
+    "Tyler",
+    "Ellaby",
+    "Rock streets"
+   ]
+  },
+  {
+   "name_1903": "Rock street",
+   "former": [
+    "Beck",
+    "Racetrack streets"
+   ]
+  },
+  {
+   "name_1903": "Mayes street",
+   "former": [
+    "Delay",
+    "Brickyard",
+    "Doray streets"
+   ]
+  },
+  {
+   "name_1903": "Decatur street",
+   "former": [
+    "Marietta",
+    "Pearce",
+    "Shipley streets"
+   ]
+  },
+  {
+   "name_1903": "Wall street",
+   "former": [
+    "Railroad street"
+   ]
+  },
+  {
+   "name_1903": "Waverly place",
+   "former": [
+    "New street"
+   ]
+  },
+  {
+   "name_1903": "Trinity avenue",
+   "former": [
+    "Peters street"
+   ]
+  },
+  {
+   "name_1903": "Brotherton street",
+   "former": [
+    "Branch alley"
+   ]
+  },
+  {
+   "name_1903": "Capitol place",
+   "former": [
+    "Crew street"
+   ]
+  },
+  {
+   "name_1903": "Spencer avenue",
+   "former": [
+    "Thompson street",
+    "Madison avenue"
+   ]
+  },
+  {
+   "name_1903": "Peachtree street",
+   "former": [
+    "Whitehall street"
+   ]
+  },
+  {
+   "name_1903": "Capitol square",
+   "former": [
+    "Mitchell street"
+   ]
+  },
+  {
+   "name_1903": "Poplar street",
+   "former": [
+    "Grubb street"
+   ]
+  },
+  {
+   "name_1903": "Luckie street",
+   "former": [
+    "Grubb",
+    "Miller streets"
+   ]
+  },
+  {
+   "name_1903": "Earl street",
+   "former": [
+    "Harris",
+    "Latimer streets"
+   ]
+  },
+  {
+   "name_1903": "Warren place",
+   "former": [
+    "Perkins",
+    "Barnes streets"
+   ]
+  },
+  {
+   "name_1903": "Gilmer street",
+   "former": [
+    "Taylor",
+    "Filmore streets"
+   ]
+  },
+  {
+   "name_1903": "Central place",
+   "former": [
+    "Butler street"
+   ]
+  },
+  {
+   "name_1903": "Courtland avenue",
+   "former": [
+    "Collins street"
+   ]
+  },
+  {
+   "name_1903": "Piedmont avenue",
+   "former": [
+    "Calhoun",
+    "Catherine streets"
+   ]
+  },
+  {
+   "name_1903": "Frazier street",
+   "former": [
+    "Cravens alley"
+   ]
+  },
+  {
+   "name_1903": "King street",
+   "former": [
+    "Foundry street"
+   ]
+  },
+  {
+   "name_1903": "Moore street",
+   "former": [
+    "Henry",
+    "Haynes",
+    "Pine streets"
+   ]
+  },
+  {
+   "name_1903": "Bell street",
+   "former": [
+    "Hill street"
+   ]
+  },
+  {
+   "name_1903": "Eugenia street",
+   "former": [
+    "Clarks street"
+   ]
+  },
+  {
+   "name_1903": "Pine street",
+   "former": [
+    "Line street"
+   ]
+  },
+  {
+   "name_1903": "Currier street",
+   "former": [
+    "Spring street"
+   ]
+  },
+  {
+   "name_1903": "Forrest avenue",
+   "former": [
+    "Oslin",
+    "Austin",
+    "Dorsey streets"
+   ]
+  },
+  {
+   "name_1903": "West Peachtree street",
+   "former": [
+    "Luckie",
+    "Dahlonega streets",
+    "Payne alley"
+   ]
+  },
+  {
+   "name_1903": "Alexander street",
+   "former": [
+    "Tanyard",
+    "Clark",
+    "Cedar",
+    "Peters streets"
+   ]
+  },
+  {
+   "name_1903": "Peachtree street",
+   "former": [
+    "Ivy",
+    "Oak streets"
+   ]
+  },
+  {
+   "name_1903": "Butler street",
+   "former": [
+    "Ripley street"
+   ]
+  },
+  {
+   "name_1903": "Edgewood avenue",
+   "former": [
+    "Foster",
+    "Trout",
+    "Pitts",
+    "Line streets"
+   ]
+  },
+  {
+   "name_1903": "Auburn avenue",
+   "former": [
+    "Wheat street"
+   ]
+  },
+  {
+   "name_1903": "Bell street",
+   "former": [
+    "Valentine street"
+   ]
+  },
+  {
+   "name_1903": "Vernon place",
+   "former": [
+    "Chestnut street"
+   ]
+  },
+  {
+   "name_1903": "Tanner street",
+   "former": [
+    "Pratt",
+    "Fair streets"
+   ]
+  },
+  {
+   "name_1903": "College street",
+   "former": [
+    "Coca-Cola place"
+   ]
+  },
+  {
+   "name_1903": "Armstrong street",
+   "former": [
+    "Walnut",
+    "Jenkins streets"
+   ]
+  },
+  {
+   "name_1903": "Angier avenue",
+   "former": [
+    "Brumby",
+    "Nolan streets"
+   ]
+  },
+  {
+   "name_1903": "Rice street",
+   "former": [
+    "Spring street"
+   ]
+  },
+  {
+   "name_1903": "Chestnut avenue",
+   "former": [
+    "East avenue",
+    "Morris street"
+   ]
+  },
+  {
+   "name_1903": "Nutting street",
+   "former": [
+    "Pearl street"
+   ]
+  },
+  {
+   "name_1903": "Jackson street",
+   "former": [
+    "North",
+    "Randolph",
+    "Chase",
+    "Antoinette",
+    "Julian streets"
+   ]
+  },
+  {
+   "name_1903": "Boulevard",
+   "former": [
+    "Rolling Mill",
+    "Burnham",
+    "Jefferson",
+    "Foundry streets",
+    "East",
+    "Pittman avenues",
+    "Borne",
+    "Factory streets"
+   ]
+  },
+  {
+   "name_1903": "Eighth street",
+   "former": [
+    "Walker street"
+   ]
+  },
+  {
+   "name_1903": "Ponce de Leon avenue",
+   "former": [
+    "Ponce de Leon circle"
+   ]
+  },
+  {
+   "name_1903": "Burnham road",
+   "former": [
+    "Pittman avenue",
+    "Rolling Mill street"
+   ]
+  },
+  {
+   "name_1903": "North avenue",
+   "former": [
+    "Peters",
+    "Lane",
+    "Johnson",
+    "Emma",
+    "Holmes streets"
+   ]
+  },
+  {
+   "name_1903": "Linden avenue",
+   "former": [
+    "Fulton",
+    "Ravine",
+    "Mayer",
+    "Cox streets"
+   ]
+  },
+  {
+   "name_1903": "Merretts avenue",
+   "former": [
+    "Dairy",
+    "Mills",
+    "Glazier streets"
+   ]
+  },
+  {
+   "name_1903": "Oakland avenue",
+   "former": [
+    "Elmore",
+    "Gullatt",
+    "Stonewall streets"
+   ]
+  },
+  {
+   "name_1903": "Yonge street",
+   "former": [
+    "Krogs",
+    "New street"
+   ]
+  },
+  {
+   "name_1903": "Fitzgerald street",
+   "former": [
+    "Goodhue street"
+   ]
+  },
+  {
+   "name_1903": "Howell street",
+   "former": [
+    "Buices",
+    "Buses alley",
+    "Bass street",
+    "Howland avenue"
+   ]
+  },
+  {
+   "name_1903": "Cain street",
+   "former": [
+    "Willoughby street"
+   ]
+  },
+  {
+   "name_1903": "Fort street",
+   "former": [
+    "Tanyard",
+    "Wooding streets"
+   ]
+  },
+  {
+   "name_1903": "Hilliard street",
+   "former": [
+    "Floyd",
+    "Loyd",
+    "Boyd",
+    "Young",
+    "Washington",
+    "Randolph",
+    "Packard",
+    "Madison streets"
+   ]
+  },
+  {
+   "name_1903": "Hogue street",
+   "former": [
+    "Pegg street"
+   ]
+  },
+  {
+   "name_1903": "Glennwood avenue",
+   "former": [
+    "Glynwood avenue"
+   ]
+  },
+  {
+   "name_1903": "Nemo street",
+   "former": [
+    "Orleans street"
+   ]
+  },
+  {
+   "name_1903": "Milledge avenue",
+   "former": [
+    "Hansell",
+    "Dabney street"
+   ]
+  },
+  {
+   "name_1903": "Cherokee avenue",
+   "former": [
+    "Thomas street"
+   ]
+  },
+  {
+   "name_1903": "Loomis avenue",
+   "former": [],
+   "transcription_note": "the line is half-obscured in the scan: \"Loomis avenue, formerly Loom[is?]...\""
+  },
+  {
+   "name_1903": "Gartrell street",
+   "former": [
+    "Chamberlin"
+   ],
+   "transcription_note": "reading uncertain"
+  },
+  {
+   "name_1903": "Horton street",
+   "former": [
+    "Houghton street"
+   ]
+  },
+  {
+   "name_1903": "George street",
+   "former": [
+    "Gray street"
+   ]
+  },
+  {
+   "name_1903": "Columbus avenue",
+   "former": [
+    "Mule street"
+   ]
+  },
+  {
+   "name_1903": "West avenue",
+   "former": [
+    "Rhodes street"
+   ]
+  },
+  {
+   "name_1903": "Carnegie place",
+   "former": [
+    "Church street"
+   ]
+  },
+  {
+   "name_1903": "East Peachtree terrace",
+   "former": [
+    "Courtland street"
+   ]
+  },
+  {
+   "name_1903": "West Peachtree terrace",
+   "former": [
+    "Powers street"
+   ]
+  },
+  {
+   "name_1903": "Bynum street",
+   "former": [
+    "Parks street"
+   ]
+  },
+  {
+   "name_1903": "Newport avenue",
+   "former": [
+    "Milledge avenue"
+   ]
+  },
+  {
+   "name_1903": "D'Alvigny street",
+   "former": [
+    "Abbott street"
+   ]
+  }
+ ]
+}

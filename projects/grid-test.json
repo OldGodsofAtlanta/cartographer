@@ -1,0 +1,4 @@
+{"name":"grid-test","year":1906,"title":"Downtown Atlanta","subtitle":"Street grid test","dateline":"1906","paper":{"preset":"custom","width":9,"height":6.5,"margin":0.3},
+ "view":{"center":[-84.3830,33.7545],"denominator":6500,"projection":"local"},"style":{"streetMode":"double"},
+ "layers":{"atlanta-streets":{"visible":true,"labels":true},"atlanta-blocks-1878":{"visible":false},"railroads-atlanta":{"visible":false},"waterways-atlanta":{"visible":false},"atlanta-limits":{"visible":false},"lakes":{"visible":false}},
+ "furniture":{"legend":{"show":false},"compass":{"show":false},"scalebar":{"show":false},"title":{"show":false},"credits":false}}

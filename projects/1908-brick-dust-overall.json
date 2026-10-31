@@ -1,0 +1,81 @@
+{
+  "name": "1908-brick-dust-overall",
+  "chapter": "1908-brick-dust",
+  "year": 1908,
+  "month": 9,
+  "day": 11,
+  "title": "Brick Dust",
+  "subtitle": "",
+  "dateline": "September 1908",
+  "paper": {
+    "preset": "page",
+    "width": 10.875,
+    "height": 8.375
+  },
+  "view": {
+    "bounds": [
+      -84.5197,
+      33.6983,
+      -84.2666,
+      33.8603
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": false
+    },
+    "ga-places": {
+      "visible": true
+    },
+    "town-streets": {
+      "visible": true,
+      "undated": true,
+      "labels": false
+    },
+    "town-railroads": {
+      "visible": true
+    },
+    "town-waterways": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-right",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-left"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "hidden": []
+}

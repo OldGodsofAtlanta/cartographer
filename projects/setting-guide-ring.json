@@ -1,0 +1,73 @@
+{
+ "name": "setting-guide-ring",
+ "chapter": "0003-atlanta-setting-guide",
+ "year": 1911,
+ "title": "",
+ "subtitle": "",
+ "dateline": "",
+ "paper": {
+  "preset": "page",
+  "width": 5.45,
+  "margin": 0.12,
+  "dpi": 300,
+  "height": 6.2
+ },
+ "view": {
+  "center": [
+   -84.33,
+   33.8
+  ],
+  "denominator": 800000,
+  "projection": "local"
+ },
+ "theme": "survey",
+ "furniture": {
+  "title": {
+   "show": false
+  },
+  "legend": {
+   "show": false
+  },
+  "scalebar": {
+   "show": true,
+   "pos": "bottom-left",
+   "box": true
+  },
+  "compass": {
+   "show": true,
+   "pos": "top-right",
+   "size": 20
+  },
+  "border": "single",
+  "graticule": "none",
+  "credits": false
+ },
+ "layers": {
+  "states": {
+   "visible": true
+  },
+  "ga-counties-historical": {
+   "visible": true
+  },
+  "waterways-georgia": {
+   "visible": true
+  },
+  "railroads-historical": {
+   "visible": true,
+   "labels": false
+  },
+  "ga-places": {
+   "visible": true
+  },
+  "terrain-georgia": {
+   "visible": true
+  },
+  "atlanta-limits": {
+   "visible": true
+  },
+  "canon-sites": {
+   "visible": false
+  }
+ },
+ "annotations": []
+}

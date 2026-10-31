@@ -1,0 +1,61 @@
+{
+  "name": "1916-still-pending-overall",
+  "chapter": "1916-still-pending",
+  "year": 1916,
+  "month": 9,
+  "day": 12,
+  "title": "Decatur",
+  "subtitle": "Still Pending",
+  "dateline": "September 1916",
+  "paper": {
+    "preset": "page"
+  },
+  "view": {
+    "bounds": [
+      -84.3053,
+      33.7662,
+      -84.2854,
+      33.7863
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "layers": {
+    "town-streets": {
+      "visible": true,
+      "undated": true,
+      "labels": false
+    },
+    "town-railroads": {
+      "visible": true
+    },
+    "town-waterways": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-right",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-left"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "hidden": []
+}

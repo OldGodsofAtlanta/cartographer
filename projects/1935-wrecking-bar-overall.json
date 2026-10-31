@@ -1,0 +1,74 @@
+{
+  "name": "1935-wrecking-bar-overall",
+  "chapter": "1935-wrecking-bar",
+  "year": 1935,
+  "month": 11,
+  "day": 29,
+  "title": "Wrecking Bar",
+  "subtitle": "",
+  "dateline": "November 1935",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 200
+  },
+  "view": {
+    "bounds": [
+      -84.41934,
+      33.73186,
+      -84.37991,
+      33.77449
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "hidden": [
+    "black-neighborhoods:atlanta-university",
+    "black-neighborhoods:beaver-slide",
+    "black-neighborhoods:darktown",
+    "black-neighborhoods:summerhill"
+  ]
+}

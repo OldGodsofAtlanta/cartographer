@@ -1,0 +1,223 @@
+{
+ "name": "setting-guide-neighborhoods",
+ "chapter": "0003-atlanta-setting-guide",
+ "year": 1911,
+ "title": "",
+ "subtitle": "",
+ "dateline": "",
+ "paper": {
+  "preset": "page",
+  "width": 5.45,
+  "margin": 0.12,
+  "dpi": 300,
+  "height": 7.0
+ },
+ "view": {
+  "center": [
+   -84.35,
+   33.78
+  ],
+  "denominator": 100000,
+  "projection": "local"
+ },
+ "theme": "survey",
+ "furniture": {
+  "title": {
+   "show": false
+  },
+  "legend": {
+   "show": false
+  },
+  "scalebar": {
+   "show": true,
+   "pos": "bottom-left",
+   "box": true
+  },
+  "compass": {
+   "show": true,
+   "pos": "top-right",
+   "size": 20
+  },
+  "border": "single",
+  "graticule": "none",
+  "credits": false
+ },
+ "layers": {
+  "atlanta-streets": {
+   "visible": true,
+   "labels": false
+  },
+  "railroads-atlanta": {
+   "visible": true,
+   "labels": false
+  },
+  "waterways-atlanta": {
+   "visible": true
+  },
+  "atlanta-limits": {
+   "visible": true
+  },
+  "terrain-atlanta": {
+   "visible": true
+  },
+  "canon-sites": {
+   "visible": false
+  }
+ },
+ "annotations": [
+  {
+   "type": "label",
+   "lonlat": [
+    -84.392,
+    33.752
+   ],
+   "text": "Downtown",
+   "style": "place",
+   "halo": true,
+   "size": 7
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.376,
+    33.763
+   ],
+   "text": "Old Fourth Ward",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.362,
+    33.745
+   ],
+   "text": "Cabbagetown",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.386,
+    33.782
+   ],
+   "text": "Midtown",
+   "style": "place",
+   "halo": true,
+   "size": 7
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.376,
+    33.796
+   ],
+   "text": "Ansley Park",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.325,
+    33.788
+   ],
+   "text": "Druid Hills",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.38,
+    33.84
+   ],
+   "text": "Buckhead",
+   "style": "place",
+   "halo": true,
+   "size": 7
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.411,
+    33.735
+   ],
+   "text": "West End",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.384,
+    33.735
+   ],
+   "text": "Summerhill",
+   "style": "place",
+   "halo": true,
+   "size": 5
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.407,
+    33.724
+   ],
+   "text": "Pittsburg",
+   "style": "place",
+   "halo": true,
+   "size": 5
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.412,
+    33.758
+   ],
+   "text": "West Side",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.382,
+    33.712
+   ],
+   "text": "Brownsville",
+   "style": "place",
+   "halo": true,
+   "size": 6
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.301,
+    33.776
+   ],
+   "text": "Decatur",
+   "style": "place",
+   "halo": true,
+   "size": 7
+  },
+  {
+   "type": "label",
+   "lonlat": [
+    -84.4,
+    33.742
+   ],
+   "text": "Mechanicsville",
+   "style": "place",
+   "halo": true,
+   "size": 5
+  }
+ ]
+}

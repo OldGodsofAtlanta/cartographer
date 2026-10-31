@@ -1,0 +1,81 @@
+{
+  "name": "1918-fifty-feet-overall",
+  "chapter": "1918-fifty-feet",
+  "year": 1918,
+  "month": 10,
+  "day": 11,
+  "title": "Fifty Feet",
+  "subtitle": "",
+  "dateline": "October 1918",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -84.415,
+      33.7107,
+      -84.1416,
+      34.0066
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "ga-counties-historical": {
+      "visible": true
+    },
+    "ga-places": {
+      "visible": true
+    },
+    "black-neighborhoods": {
+      "visible": true
+    },
+    "terrain-atlanta": {
+      "visible": false
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "hidden": [
+    "black-neighborhoods:auburn",
+    "black-neighborhoods:darktown"
+  ]
+}

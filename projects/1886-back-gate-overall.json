@@ -1,0 +1,69 @@
+{
+  "name": "1886-back-gate-overall",
+  "chapter": "1886-back-gate",
+  "year": 1886,
+  "month": 12,
+  "day": 6,
+  "title": "South-View Cemetery",
+  "subtitle": "Back Gate",
+  "dateline": "December 1886",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -84.4182,
+      33.6893,
+      -84.3506,
+      33.7623
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-right",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-left"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-left"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-right",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-streets": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "terrain-atlanta": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "hidden": []
+}

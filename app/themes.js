@@ -1,0 +1,111 @@
+// Colour themes. Each is a set of inks on a paper, plus how hard the sheet has aged.
+// Sampled from the period maps in chapters/*/art: the 1911 atlas page (brown-black ink on cream),
+// the Sanborn sheets (pink, yellow, blue and olive washes), and paper that has gone to tobacco at the edges.
+
+export const THEMES = {
+  survey: {
+    name: 'Yellowed survey',
+    paper: '#e8d8ae',
+    ink: '#33281d',
+    inkSoft: '#6e5b43',
+    water: '#c3c9a8',
+    waterInk: '#46636a',
+    land: '#ecdcb0',
+    landOther: '#e2d1a3',
+    sea: '#c9ccaa',
+    street: '#33281d',
+    streetFill: '#efe2bd',
+    rail: '#2a2018',
+    limits: '#8a3324',
+    contour: '#86653c',
+    annotation: '#7a2418',
+    tints: ['#e2b9a2', '#e6cf82', '#bec597', '#b4c4b4'],
+    effects: { age: 0.7, grain: 0.55, foxing: 0.45, inkBleed: 0.6, folds: 0 },
+    overlayBlend: 'multiply',
+  },
+  sanborn: {
+    name: 'Sanborn wash',
+    paper: '#f1ebdb',
+    ink: '#2b2926',
+    inkSoft: '#5b5650',
+    water: '#a9cdd9',
+    waterInk: '#3f6f86',
+    land: '#f3eddc',
+    landOther: '#ebe4d1',
+    sea: '#b4d2db',
+    street: '#2b2926',
+    streetFill: '#f6f1e3',
+    rail: '#232120',
+    limits: '#c0352b',
+    contour: '#96805f',
+    annotation: '#c0352b',
+    tints: ['#efb7b9', '#f0df87', '#a9cd8f', '#a6cbe0'],
+    effects: { age: 0.3, grain: 0.35, foxing: 0.15, inkBleed: 0.35, folds: 0 },
+    overlayBlend: 'multiply',
+  },
+  atlas: {
+    name: 'Plain atlas ink',
+    paper: '#f2ead6',
+    ink: '#221d18',
+    inkSoft: '#4f463b',
+    water: '#f2ead6',
+    waterInk: '#221d18',
+    land: '#f2ead6',
+    landOther: '#f2ead6',
+    sea: '#f2ead6',
+    street: '#221d18',
+    streetFill: '#f2ead6',
+    rail: '#221d18',
+    limits: '#221d18',
+    contour: '#6e5b43',
+    annotation: '#221d18',
+    tints: null,
+    effects: { age: 0.2, grain: 0.3, foxing: 0, inkBleed: 0.4, folds: 0 },
+    overlayBlend: 'multiply',
+  },
+  blueprint: {
+    name: 'Blueprint',
+    paper: '#1d4a78',
+    ink: '#eef3f5',
+    inkSoft: '#c4d4e0',
+    water: '#2a5a8a',
+    waterInk: '#dfeaf2',
+    land: '#1d4a78',
+    landOther: '#1a4470',
+    sea: '#16406b',
+    street: '#eef3f5',
+    streetFill: '#1d4a78',
+    rail: '#eef3f5',
+    limits: '#f2e6b8',
+    contour: '#8fb4d4',
+    annotation: '#f2e6b8',
+    tints: null,
+    effects: { age: 0.25, grain: 0.4, foxing: 0, inkBleed: 0.3, folds: 0 },
+    overlayBlend: 'multiply',
+  },
+};
+
+// The colour keys a project may override, in the order the Style panel shows them.
+export const COLOR_KEYS = [
+  ['paper', 'Paper'],
+  ['ink', 'Ink'],
+  ['inkSoft', 'Faint ink'],
+  ['land', 'Land'],
+  ['landOther', 'Other states'],
+  ['sea', 'Sea'],
+  ['water', 'Water'],
+  ['waterInk', 'Water ink'],
+  ['streetFill', 'Street fill'],
+  ['rail', 'Railroad'],
+  ['limits', 'City limits'],
+  ['contour', 'Contours'],
+  ['annotation', 'Notes'],
+];
+
+export function resolveTheme(project) {
+  const base = THEMES[project.theme] || THEMES.survey;
+  const t = { ...base, ...(project.colors || {}) };
+  t.tints = project.colors?.tints || base.tints;
+  t.effects = { ...base.effects, ...(project.effects || {}) };
+  return t;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "drain-tile-1941",
+  "chapter": "1941-drain-tile",
+  "year": 1941,
+  "month": 12,
+  "day": 5,
+  "title": "Hapeville and the Head of the Flint",
+  "subtitle": "Fulton and Clayton Counties, Georgia",
+  "dateline": "December 1941",
+  "paper": { "preset": "page", "width": 8.375, "height": 10.875, "margin": 0.45, "dpi": 300 },
+  "view": { "center": [-84.425, 33.652], "denominator": 30000, "projection": "local" },
+  "theme": "survey",
+  "furniture": {
+    "title": { "show": true, "pos": "top-left", "box": true, "size": 16 },
+    "legend": { "show": true, "pos": "bottom-right" },
+    "compass": { "show": true, "pos": "top-right" },
+    "scalebar": { "show": true, "pos": "bottom-left", "box": true }
+  },
+  "layers": { "ga-counties-historical": { "anyScale": true } }
+}

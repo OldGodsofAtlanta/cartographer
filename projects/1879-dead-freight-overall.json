@@ -1,0 +1,95 @@
+{
+  "name": "1879-dead-freight-overall",
+  "chapter": "1879-dead-freight",
+  "year": 1879,
+  "month": 12,
+  "day": 22,
+  "title": "Dead Freight",
+  "subtitle": "",
+  "dateline": "December 1879",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 200
+  },
+  "view": {
+    "bounds": [
+      -84.5763,
+      33.7163,
+      -84.3456,
+      33.9966
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-left"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "ga-counties-historical": {
+      "visible": true
+    },
+    "ga-places": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "atlanta-limits": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true
+    },
+    "atlanta-blocks-1878": {
+      "visible": true
+    },
+    "atlanta-horsecars-1878": {
+      "visible": false
+    },
+    "black-neighborhoods": {
+      "visible": false
+    },
+    "town-streets": {
+      "visible": true,
+      "undated": true,
+      "labels": false
+    },
+    "town-railroads": {
+      "visible": true
+    },
+    "town-waterways": {
+      "visible": true
+    },
+    "railroads-historical": {
+      "visible": false
+    },
+    "canon-sites": {
+      "visible": true
+    }
+  },
+  "hidden": []
+}

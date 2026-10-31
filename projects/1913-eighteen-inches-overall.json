@@ -1,0 +1,67 @@
+{
+  "name": "1913-eighteen-inches-overall",
+  "chapter": "1913-eighteen-inches",
+  "year": 1913,
+  "month": 5,
+  "day": 23,
+  "title": "Atlanta Federal Penitentiary",
+  "subtitle": "Eighteen Inches",
+  "dateline": "May 1913",
+  "paper": {
+    "preset": "page",
+    "width": 8.375,
+    "height": 10.875,
+    "margin": 0.45,
+    "dpi": 300
+  },
+  "view": {
+    "bounds": [
+      -84.382,
+      33.6965,
+      -84.356,
+      33.7245
+    ],
+    "projection": "local"
+  },
+  "theme": "survey",
+  "furniture": {
+    "title": {
+      "show": true,
+      "pos": "top-left",
+      "box": true,
+      "size": 18
+    },
+    "legend": {
+      "show": true,
+      "pos": "bottom-right"
+    },
+    "compass": {
+      "show": true,
+      "pos": "top-right"
+    },
+    "scalebar": {
+      "show": true,
+      "pos": "bottom-left",
+      "box": true
+    }
+  },
+  "layers": {
+    "atlanta-limits": {
+      "visible": true
+    },
+    "railroads-atlanta": {
+      "visible": true
+    },
+    "waterways-atlanta": {
+      "visible": true
+    },
+    "canon-sites": {
+      "visible": true
+    },
+    "atlanta-streets": {
+      "visible": true,
+      "snapshot": 1928
+    }
+  },
+  "hidden": []
+}

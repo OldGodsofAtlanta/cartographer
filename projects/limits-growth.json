@@ -1,0 +1,17 @@
+{
+  "name": "limits-growth",
+  "year": 1911,
+  "title": "The Growth of Atlanta",
+  "subtitle": "The City Limits as They Stood",
+  "dateline": "1911",
+  "paper": { "preset": "page" },
+  "view": { "center": [-84.385, 33.755], "denominator": 80000, "projection": "local" },
+  "layers": {
+    "atlanta-limits": { "visible": true, "anyScale": true },
+    "atlanta-streets": { "visible": false },
+    "atlanta-streets-osm": { "visible": false },
+    "railroads-atlanta": { "visible": true },
+    "canon-sites": { "visible": false }
+  },
+  "furniture": { "legend": { "show": true, "pos": "bottom-right" } }
+}
