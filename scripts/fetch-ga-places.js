@@ -28,7 +28,7 @@ async function download(url, file, isJson = false) {
   if (existsSync(file)) return readFileSync(file, 'utf8');
   mkdirSync(RAW, { recursive: true });
   const res = await fetch(url, { headers: { 'User-Agent': UA } });
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
+  if (!res.ok) { warn(`${res.status} ${url}`); return null; }
   const text = await res.text();
   writeFileSync(file, text);
   if (isJson) JSON.parse(text);
@@ -198,7 +198,7 @@ async function wikiBatch(titles, cacheName) {
   if (existsSync(file)) return JSON.parse(readFileSync(file, 'utf8'));
   const url = `${API}?action=query&prop=revisions|coordinates&rvprop=content&rvslots=main&titles=${encodeURIComponent(titles.join('|'))}&format=json&formatversion=2&redirects=1`;
   const res = await fetch(url, { headers: { 'User-Agent': UA } });
-  if (!res.ok) throw new Error(`${res.status} wiki batch ${cacheName}`);
+  if (!res.ok) { warn(`${res.status} wiki batch ${cacheName}`); return null; }
   const json = await res.json();
   writeFileSync(file, JSON.stringify(json));
   await sleep(1000);
@@ -211,6 +211,7 @@ async function fetchArticles(titles, prefix) {
   for (let b = 0; b < titles.length; b += 50) {
     const chunk = titles.slice(b, b + 50);
     const json = await wikiBatch(chunk, `${prefix}-${String(b / 50 + 1).padStart(2, '0')}.json`);
+    if (!json) continue;
     const q = json.query || {};
     const link = new Map();
     for (const n of [...(q.normalized || []), ...(q.redirects || [])]) link.set(n.from, n.to);
@@ -299,10 +300,12 @@ const DEFUNCT_SEATS = [
 
 async function main() {
   const gaz = await download(GAZ_URL, join(RAW, 'gazetteer_place_13.txt'));
+  if (!gaz) { warn('gazetteer download failed, aborting'); process.exit(0); }
   const countiesJson = await download(
     `${API}?action=parse&page=${COUNTIES_PAGE}&prop=wikitext&format=json&formatversion=2`,
     join(RAW, 'counties-list.json'), true,
   );
+  if (!countiesJson) { warn('counties download failed, aborting'); process.exit(0); }
   const countiesWiki = JSON.parse(countiesJson).parse.wikitext;
   const seats = parseSeats(countiesWiki);
   const counties = new Set(seats.map((s) => s.county));

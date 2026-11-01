@@ -652,10 +652,12 @@ function renderLayerList() {
     kids.push(el('h3', {}, g));
     for (const l of [...layers].sort((a, b) => (b.z ?? 0) - (a.z ?? 0))) {
       const cfg = (project.layers[l.id] ||= {});
+      const unavailable = last?.missing?.includes(l.id);
+      if (unavailable) cfg.visible = false; // data isn't there: don't leave the switch stuck on
       const on = cfg.visible ?? l.visible ?? false;
       const drawn = layerOn(l, project, d);
       let note = '';
-      if (last?.missing?.includes(l.id)) note = 'file missing';
+      if (unavailable) note = 'data not available';
       else if (on && !drawn) note = 'not at this scale';
       else if (on && !cfg.anyYear && ((l.start != null && project.year < l.start) || (l.end != null && project.year >= l.end))) note = `${l.start ?? ''}–${l.end ?? ''} only`;
       else if (drawn && last?.stats?.[l.id] != null) note = `${last.stats[l.id].toLocaleString('en-US')}`;
@@ -664,18 +666,20 @@ function renderLayerList() {
         if (!snap) note = 'no survey near this year';
         else if (snap.year !== project.year) note += ` · ${snap.year} survey`;
       }
-      const opts = [
-        check('labels', cfg.labels ?? layerSnapshot(l, project.year)?.labels ?? l.labels ?? true, (v) => ((cfg.labels = v), changed(0))),
-        check('any scale', cfg.anyScale, (v) => ((cfg.anyScale = v), changed(0))),
-      ];
-      if (l.undated === 'hide') opts.push(check('undated', cfg.undated, (v) => ((cfg.undated = v), changed(0))));
-      if (l.start != null || l.end != null) opts.push(check('any year', cfg.anyYear, (v) => ((cfg.anyYear = v), changed(0))));
-      if (l.render === 'counties') opts.push(check('wash', cfg.tint ?? project.style.countyTints, (v) => ((cfg.tint = v), changed(0))));
+      const opts = unavailable
+        ? []
+        : [
+            check('labels', cfg.labels ?? layerSnapshot(l, project.year)?.labels ?? l.labels ?? true, (v) => ((cfg.labels = v), changed(0))),
+            check('any scale', cfg.anyScale, (v) => ((cfg.anyScale = v), changed(0))),
+          ];
+      if (!unavailable && l.undated === 'hide') opts.push(check('undated', cfg.undated, (v) => ((cfg.undated = v), changed(0))));
+      if (!unavailable && (l.start != null || l.end != null)) opts.push(check('any year', cfg.anyYear, (v) => ((cfg.anyYear = v), changed(0))));
+      if (!unavailable && l.render === 'counties') opts.push(check('wash', cfg.tint ?? project.style.countyTints, (v) => ((cfg.tint = v), changed(0))));
       kids.push(
         el(
           'div',
-          { class: `layer${on ? '' : ' off'}`, title: l.attribution || '' },
-          el('label', { class: 'check' }, el('input', { type: 'checkbox', checked: on, onchange: (e) => ((cfg.visible = e.target.checked), changed(0)) }), l.title),
+          { class: `layer${unavailable ? ' unavailable' : on ? '' : ' off'}`, title: l.attribution || '' },
+          el('label', { class: 'check' }, el('input', { type: 'checkbox', checked: on, disabled: unavailable, onchange: (e) => ((cfg.visible = e.target.checked), changed(0)) }), l.title),
           el('span', { class: 'note' }, note),
           on ? el('div', { class: 'opts' }, opts) : null,
         ),

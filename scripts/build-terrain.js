@@ -44,7 +44,7 @@ async function fetchGrid(name, a) {
   if (!existsSync(file)) {
     const url = `${SERVICE}?bbox=${a.bbox.join(',')}&bboxSR=4326&size=${cols},${rows}&imageSR=4326&format=tiff&pixelType=F32&interpolation=RSP_BilinearInterpolation&f=image`;
     const res = await fetch(url, { headers: { 'User-Agent': 'OldGodsCartographer/0.1 (aaboyles@gmail.com)' } });
-    if (!res.ok) throw new Error(`${name}: HTTP ${res.status}`);
+    if (!res.ok) { console.warn(`${name}: HTTP ${res.status} — skipping`); return null; }
     await writeFile(file, Buffer.from(await res.arrayBuffer()));
     console.log(`  fetched ${name} ${cols}×${rows} (${((await stat(file)).size / 1e6).toFixed(1)} MB)`);
   }
@@ -191,6 +191,7 @@ for (const name of names) {
   const a = AREAS[name];
   if (!a) throw new Error(`unknown area "${name}" (georgia, atlanta, city, all)`);
   const g = await fetchGrid(name, a);
+  if (!g) continue;
   const fc = build(name, a, readTiff(await readFile(g.file)));
   const raw = join(RAW, `terrain-${name}-full.geojson`);
   await writeFile(raw, JSON.stringify(fc));

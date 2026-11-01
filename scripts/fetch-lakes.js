@@ -40,14 +40,16 @@ async function overpass(query, label) {
         await sleep(45000);
         continue;
       }
-      throw new Error(`${label}: HTTP ${res.status} from ${url}`);
+      console.warn(`${label}: HTTP ${res.status} from ${url}, giving up`);
+      return [];
     } catch (e) {
       if (String(e).includes('HTTP')) throw e;
       console.error(`${label}: ${e.message}, waiting`);
       await sleep(30000);
     }
   }
-  throw new Error(`${label}: gave up`);
+  console.warn(`${label}: gave up`);
+  return [];
 }
 
 const bb = (b) => `(${b.join(',')})`;
@@ -75,7 +77,7 @@ async function download() {
   }
   if (!existsSync(NID_FILE)) {
     const res = await fetch(NID_URL, { headers: { 'User-Agent': UA } });
-    if (!res.ok) throw new Error(`NID HTTP ${res.status}`);
+    if (!res.ok) { console.warn(`NID HTTP ${res.status}`); return; }
     writeFileSync(NID_FILE, Buffer.from(await res.arrayBuffer()));
     console.error('NID export saved');
   }
