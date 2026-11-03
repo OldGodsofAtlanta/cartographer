@@ -129,4 +129,4 @@ done
 
 echo
 echo "Ran $ran step(s). Checking the layers against the contract:"
-node scripts/check-data.js | tail -15
+node scripts/check-data.js
