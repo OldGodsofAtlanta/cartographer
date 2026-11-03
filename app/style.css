@@ -1,17 +1,17 @@
 /* Cartographer's editor. The map sheet itself is styled entirely by SVG attributes, so that what you
    see is what exports; this file only dresses the controls around it. */
 
-@font-face { font-family: "IM Fell Great Primer SC"; src: url("/fonts/im-fell-great-primer-sc-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
-@font-face { font-family: "IM Fell English"; src: url("/fonts/im-fell-english-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
-@font-face { font-family: "IM Fell English"; src: url("/fonts/im-fell-english-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; }
-@font-face { font-family: "Spectral"; src: url("/fonts/spectral-latin-300-normal.woff2") format("woff2"); font-weight: 300; font-style: normal; }
-@font-face { font-family: "Spectral"; src: url("/fonts/spectral-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
-@font-face { font-family: "Spectral"; src: url("/fonts/spectral-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; }
-@font-face { font-family: "Spectral"; src: url("/fonts/spectral-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; }
-@font-face { font-family: "Spectral"; src: url("/fonts/spectral-latin-300-italic.woff2") format("woff2"); font-weight: 300; font-style: italic; }
-@font-face { font-family: "Spectral"; src: url("/fonts/spectral-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; }
-@font-face { font-family: "Spectral"; src: url("/fonts/spectral-latin-700-italic.woff2") format("woff2"); font-weight: 700; font-style: italic; }
-@font-face { font-family: "Special Elite"; src: url("/fonts/special-elite-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "IM Fell Great Primer SC"; src: url("../fonts/im-fell-great-primer-sc-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "IM Fell English"; src: url("../fonts/im-fell-english-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "IM Fell English"; src: url("../fonts/im-fell-english-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Spectral"; src: url("../fonts/spectral-latin-300-normal.woff2") format("woff2"); font-weight: 300; font-style: normal; }
+@font-face { font-family: "Spectral"; src: url("../fonts/spectral-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "Spectral"; src: url("../fonts/spectral-latin-600-normal.woff2") format("woff2"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "Spectral"; src: url("../fonts/spectral-latin-700-normal.woff2") format("woff2"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "Spectral"; src: url("../fonts/spectral-latin-300-italic.woff2") format("woff2"); font-weight: 300; font-style: italic; }
+@font-face { font-family: "Spectral"; src: url("../fonts/spectral-latin-400-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Spectral"; src: url("../fonts/spectral-latin-700-italic.woff2") format("woff2"); font-weight: 700; font-style: italic; }
+@font-face { font-family: "Special Elite"; src: url("../fonts/special-elite-latin-400-normal.woff2") format("woff2"); font-weight: 400; font-style: normal; }
 
 :root {
   --paper: #ebdfd4;

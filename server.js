@@ -6,9 +6,9 @@
 
 import { createServer } from 'node:http';
 import { readFile, writeFile, readdir, mkdir, stat } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
 import { join, resolve, extname, sep, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { chapterList } from './lib/chapters.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..');
@@ -32,7 +32,7 @@ const TYPES = {
 const MOUNTS = [
   ['/vendor/d3.js', join(HERE, 'node_modules/d3/dist/d3.min.js')],
   ['/vendor/topojson.js', join(HERE, 'node_modules/topojson-client/dist/topojson-client.min.js')],
-  ['/fonts/', join(ROOT, 'design/vendor/fonts/')],
+  ['/fonts/', join(HERE, 'fonts/')],
   ['/data/', join(HERE, 'data/')],
   ['/backdrops/', join(HERE, 'backdrops/')],
   ['/app/', join(HERE, 'app/')],
@@ -60,21 +60,9 @@ async function serveFile(res, path) {
   }
 }
 
-// Chapter presets for the app: id, title, era (year), dates, from book.yml and each _chapter.yml.
-export async function chapters() {
-  const book = await readFile(join(ROOT, 'book.yml'), 'utf8');
-  const ids = [...book.matchAll(/^\s+- id:\s*(\S+)/gm)].map((m) => m[1]);
-  const out = [];
-  for (const id of ids) {
-    const file = join(ROOT, 'chapters', id, '_chapter.yml');
-    if (!existsSync(file)) continue;
-    const y = await readFile(file, 'utf8');
-    const field = (k) => (y.match(new RegExp(`^${k}:\\s*(.+)$`, 'm')) || [])[1]?.replace(/\s+#.*$/, '').trim();
-    const kind = field('kind');
-    if (kind !== 'adventure') continue;
-    out.push({ id, title: field('title'), era: Number(field('era')) || null, dates: field('dates') || '' });
-  }
-  return out;
+// Chapter presets for the app, read from the book beside this folder (see lib/chapters.js).
+export function chapters() {
+  return chapterList(ROOT);
 }
 
 async function body(req, limit = 5e6) {

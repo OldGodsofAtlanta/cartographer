@@ -33,13 +33,15 @@ jobs:
         uses: actions/checkout@v4
       - name: Fetch data
         run: bash scripts/fetch-data.sh
+      - name: Build site
+        run: node scripts/build-site.js
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          # Only the staged site: not the raw downloads, node_modules or exports
+          path: '_site'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5

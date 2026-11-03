@@ -22,3 +22,6 @@ node_modules/
 /data/terrain-*.geojson
 /data/town-*.geojson
 /data/waterways-*.geojson
+
+# The GitHub Pages site, built by scripts/build-site.js in the deploy workflow.
+/_site/

@@ -4,7 +4,7 @@
     {
       "id": "sanborn-key-plan-1917",
       "title": "Sanborn key plan, 1917 (burned district)",
-      "src": "1917-hot-ash/art/sanborn-key-plan-1917.jpg",
+      "src": "backdrops/sanborn-key-plan-1917.jpg",
       "year": 1917,
       "credit": "Sanborn Map Co., key plan of volumes 2 and 4 'showing territory destroyed by fire, May 21st, 1917' (May 31, 1917), University of Georgia Libraries, Digital Library of Georgia (dlg_sanb_atlanta-1917). Public domain: published in 1917. Rights basis recorded in chapters/1917-hot-ash/ sources.",
       "scale_note": "1000 feet to one inch on the sheet; about 2.3 m per pixel as scanned.",
@@ -107,7 +107,7 @@
     {
       "id": "sanborn-ponce-de-leon-park-1911",
       "title": "Sanborn sheet 231, Ponce de Leon Park, 1911",
-      "src": "1907-fill-dirt/art/sanborn-ponce-de-leon-park-1911.jpg",
+      "src": "backdrops/sanborn-ponce-de-leon-park-1911.jpg",
       "year": 1911,
       "size": [
         1713,
@@ -148,7 +148,7 @@
     {
       "id": "sanborn-national-pencil-company-1911",
       "title": "Sanborn sheet 9, South Forsyth and Hunter, 1911 (National Pencil Co.)",
-      "src": "1915-second-hearing/art/sanborn-national-pencil-company-1911.jpg",
+      "src": "backdrops/sanborn-national-pencil-company-1911.jpg",
       "year": 1911,
       "size": [
         1931,
@@ -178,7 +178,7 @@
     {
       "id": "sanborn-fulton-bag-mills-1899",
       "title": "Sanborn sheet 61, Fulton Bag and Cotton Mills, 1899",
-      "src": "1897-sad-iron/art/sanborn-fulton-bag-mills-1899.jpg",
+      "src": "backdrops/sanborn-fulton-bag-mills-1899.jpg",
       "year": 1899,
       "size": [
         1696,
@@ -208,7 +208,7 @@
     {
       "id": "sanborn-auburn-avenue-1899",
       "title": "Sanborn sheet 46, Auburn Avenue and the Fourth Ward, 1899",
-      "src": "1898-pest-wagon/art/sanborn-auburn-avenue-1899.jpg",
+      "src": "backdrops/sanborn-auburn-avenue-1899.jpg",
       "year": 1899,
       "size": [
         1701,
@@ -300,7 +300,7 @@
     {
       "id": "sanborn-depot-courthouse-1886",
       "title": "Sanborn sheet, Union Depot shed and the courthouse block, 1886",
-      "src": "1888-claim-check/art/sanborn-depot-courthouse-1886.jpg",
+      "src": "backdrops/sanborn-depot-courthouse-1886.jpg",
       "year": 1886,
       "size": [
         1217,
@@ -359,7 +359,7 @@
     {
       "id": "sanborn-fulton-cotton-spinning-1886",
       "title": "Sanborn sheet 29, Fulton Cotton Spinning Co., 1886",
-      "src": "1885-bell-wire/art/sanborn-fulton-cotton-spinning-1886.jpg",
+      "src": "backdrops/sanborn-fulton-cotton-spinning-1886.jpg",
       "year": 1886,
       "size": [
         1522,
@@ -421,7 +421,7 @@
     {
       "id": "sanborn-marietta-square-1885",
       "title": "Sanborn sheet 1, Marietta public square, 1885",
-      "src": "1879-dead-freight/art/sanborn-marietta-square-1885.jpg",
+      "src": "backdrops/sanborn-marietta-square-1885.jpg",
       "year": 1885,
       "size": [
         1900,
@@ -472,7 +472,7 @@
     {
       "id": "sanborn-expo-plan-1895",
       "title": "Sanborn-Perris plan of Piedmont Park for the Cotton States Exposition, 1895",
-      "src": "1895-fair-ground/art/sanborn-expo-plan-1895.jpg",
+      "src": "backdrops/sanborn-expo-plan-1895.jpg",
       "year": 1895,
       "size": [
         1855,
@@ -523,7 +523,7 @@
     {
       "id": "sanborn-decatur-jail-1911",
       "title": "Sanborn sheet 5, Decatur (the jail), 1911",
-      "src": "1908-brick-dust/art/sanborn-decatur-jail-1911.jpg",
+      "src": "backdrops/sanborn-decatur-jail-1911.jpg",
       "year": 1911,
       "size": [
         1602,
@@ -596,7 +596,7 @@
     {
       "id": "sanborn-decatur-courthouse-1911",
       "title": "Sanborn sheet 2, Decatur courthouse square, 1911",
-      "src": "1916-still-pending/art/sanborn-decatur-courthouse-1911.jpg",
+      "src": "backdrops/sanborn-decatur-courthouse-1911.jpg",
       "year": 1911,
       "size": [
         1602,
@@ -658,7 +658,7 @@
     {
       "id": "atlas-atlanta-1911",
       "title": "Atlas map of Atlanta, 1911 (city scale)",
-      "src": "1911-coal-oil/art/atlas-atlanta-1911.jpg",
+      "src": "backdrops/atlas-atlanta-1911.jpg",
       "year": 1911,
       "size": [
         2200,
@@ -772,7 +772,7 @@
     {
       "id": "sanborn-key-map-vol2-1911",
       "title": "Sanborn key map, volume 2 (northeast Atlanta), 1911",
-      "src": "1907-excelsior/art/sanborn-dupre-excelsior-1911.jpg",
+      "src": "backdrops/sanborn-dupre-excelsior-1911.jpg",
       "year": 1911,
       "size": [
         1600,

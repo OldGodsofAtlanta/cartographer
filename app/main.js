@@ -381,14 +381,12 @@ function renderControls() {
 
 function projectSection() {
   const list = el('select', { id: 'project-list' }, el('option', { value: '' }, 'Open a saved map…'));
-  fetch('api/projects')
-    .then((r) => r.json())
-    .then((names) => names.forEach((n) => list.append(el('option', { value: n }, n))))
-    .catch(() => {});
+  getJSON('api/projects', 'data/projects.json').then((names) => names?.forEach((n) => list.append(el('option', { value: n }, n))));
   list.addEventListener('change', async () => {
     if (!list.value) return;
-    const r = await fetch(`api/projects/${list.value}`);
-    project = normalise(await r.json());
+    const next = await getJSON(`api/projects/${list.value}`, `projects/${list.value}.json`);
+    if (!next) return;
+    project = normalise(next);
     selected = null;
     inspected = null;
     renderControls();
@@ -900,16 +898,28 @@ $('#display-scale').addEventListener('change', (e) => {
 const observer = new MutationObserver(() => enableAnnotationDrag());
 observer.observe(svgEl, { childList: true });
 
+// The local server answers the first URL; on a static site (GitHub Pages) that fails and the second, a file
+// the build puts beside the app, answers instead.
+async function getJSON(...urls) {
+  for (const url of urls) {
+    try {
+      const r = await fetch(url);
+      if (r.ok) return await r.json();
+    } catch {
+      /* try the next */
+    }
+  }
+  return null;
+}
+
 async function start() {
   await Promise.all(FACES.map(([family, weight, style]) => document.fonts.load(`${style} ${weight} 12px "${family}"`))).catch(() => {});
   catalog = await loadCatalog();
-  chapters = await fetch('api/chapters')
-    .then((r) => r.json())
-    .catch(() => []);
+  chapters = (await getJSON('api/chapters', 'data/chapters.json')) || [];
   const named = params.get('project');
   if (named) {
-    const r = await fetch(`api/projects/${named}`);
-    if (r.ok) project = normalise(await r.json());
+    const saved = await getJSON(`api/projects/${named}`, `projects/${named}.json`);
+    if (saved) project = normalise(saved);
   } else {
     try {
       const saved = localStorage.getItem('cartographer:last');
