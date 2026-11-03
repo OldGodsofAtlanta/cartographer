@@ -8,8 +8,8 @@
 #   scripts/fetch-data.sh --force         run the steps even when their output exists (cached downloads are reused)
 #   scripts/fetch-data.sh --refresh       as --force, and download again: raw files for the steps are deleted first
 #
-# Raw downloads go to sources/raw/ and the built layers to data/. Neither is committed (see .gitignore). What is
-# committed in data/ is what the project wrote or inferred: catalog.json, backdrops.json, the sites and
+# Raw downloads go to sources/raw/ and are not committed. The built layers go to data/ and are committed as
+# snapshots, so the deploy workflow does not run this. Also committed, and written or inferred here: catalog.json, backdrops.json, the sites and
 # neighbourhood sources and their layers, the 1878 and 1911 street layers, the street-name tables, georgia-counties.json,
 # us-states.json (their source wasn't recorded) and the notes in data/sources/.
 #

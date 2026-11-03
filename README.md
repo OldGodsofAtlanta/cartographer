@@ -12,7 +12,7 @@ npm install          # once: d3, topojson-client, and mapshaper for the fetch sc
 npm start            # http://localhost:5177
 ```
 
-The map layers built from external sources (and their downloads) are not committed. On a fresh checkout run `scripts/fetch-data.sh` first; `data/README.md` says what it fetches and what is committed.
+The map layers built from external sources are committed as snapshots in `data/`, so a fresh checkout works without downloading anything. Their raw downloads are not committed; to rebuild the layers run `scripts/fetch-data.sh`, and `data/README.md` says what it fetches.
 
 The server binds to localhost only. It serves the app, the data, and the design system's fonts from `../design/vendor/fonts/`, and saves maps to `projects/`.
 

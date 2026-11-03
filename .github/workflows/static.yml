@@ -31,8 +31,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Fetch data
-        run: bash scripts/fetch-data.sh
       - name: Build site
         run: node scripts/build-site.js
       - name: Setup Pages
